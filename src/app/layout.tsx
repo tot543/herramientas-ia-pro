@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   title: "Mejores Herramientas de IA para Profesionales | 2026",
   description: "Descubre el mejor directorio de herramientas de Inteligencia Artificial. Automatiza tu trabajo, genera contenido y aumenta tu productividad con las mejores IAs del mercado.",
   keywords: ["herramientas IA", "inteligencia artificial", "automatización", "productividad", "software IA"],
-  metadataBase: new URL("https://herramientas-ia-pro.vercel.app"),
+  metadataBase: new URL("https://midirectorioia.com"),
   openGraph: {
     type: "website",
     locale: siteConfig.siteLocale,

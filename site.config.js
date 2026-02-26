@@ -5,7 +5,7 @@
 const siteConfig = {
     // Información básica del sitio
     siteName: "HerramientasIA Pro",
-    siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://herramientasiapro.com",
+    siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://midirectorioia.com",
     siteDescription:
         "Comparativas y reseñas de herramientas de IA para creadores de contenido. Encuentra la mejor herramienta para tu flujo de trabajo.",
     siteKeywords:

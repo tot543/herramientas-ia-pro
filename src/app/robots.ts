@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
             userAgent: '*',
             allow: '/',
         },
-        sitemap: 'https://herramientas-ia-pro.vercel.app/sitemap.xml',
+        sitemap: 'https://midirectorioia.com/sitemap.xml',
     };
 }

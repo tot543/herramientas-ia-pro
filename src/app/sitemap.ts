@@ -5,31 +5,31 @@ export const dynamic = 'force-static';
 export default function sitemap(): MetadataRoute.Sitemap {
     return [
         {
-            url: 'https://herramientas-ia-pro.vercel.app',
+            url: 'https://midirectorioia.com',
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 1,
         },
         {
-            url: 'https://herramientas-ia-pro.vercel.app/alternativas',
+            url: 'https://midirectorioia.com/alternativas',
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 0.8,
         },
         {
-            url: 'https://herramientas-ia-pro.vercel.app/mejores',
+            url: 'https://midirectorioia.com/mejores',
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 0.8,
         },
         {
-            url: 'https://herramientas-ia-pro.vercel.app/comparativas',
+            url: 'https://midirectorioia.com/comparativas',
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 0.8,
         },
         {
-            url: 'https://herramientas-ia-pro.vercel.app/aviso-afiliados',
+            url: 'https://midirectorioia.com/aviso-afiliados',
             lastModified: new Date(),
             changeFrequency: 'monthly',
             priority: 0.3,
