@@ -32,9 +32,13 @@ export const metadata: Metadata = {
     locale: siteConfig.siteLocale,
     siteName: siteConfig.siteName,
   },
+}
   robots: {
     index: true,
     follow: true,
+  },
+  verification: {
+    google: "ZC13geA6C0ignM30NLkcATpK7rDqjSW8rR15JCmzzhc",
   },
 };
 
