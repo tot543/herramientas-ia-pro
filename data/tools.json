@@ -1,0 +1,1161 @@
+[
+  {
+    "tool_id": "runway-ml",
+    "nombre": "Runway",
+    "categoria": "ia-para-video",
+    "caso_uso": "generacion-video",
+    "precio_desde": "12",
+    "modelo_pagos": "mensual",
+    "idioma": "en",
+    "nivel_usuario": "avanzado",
+    "url_oficial": "https://runwayml.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/runway-ml",
+    "pros": [
+      "Generación de video líder - Control de cámara avanzado - Edición profesional"
+    ],
+    "contras": [
+      "Curva de aprendizaje empinada - Créditos caros"
+    ],
+    "mejor_para": "Artistas y cineastas experimentados"
+  },
+  {
+    "tool_id": "heygen",
+    "nombre": "HeyGen",
+    "categoria": "ia-para-video",
+    "caso_uso": "avatares-ia",
+    "precio_desde": "24",
+    "modelo_pagos": "mensual",
+    "idioma": "es",
+    "nivel_usuario": "intermedio",
+    "url_oficial": "https://heygen.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/heygen",
+    "pros": [
+      "Realismo impresionante - Traducción de video - Personalización de avatares"
+    ],
+    "contras": [
+      "Costo por crédito elevado - Tiempos de renderizado"
+    ],
+    "mejor_para": "Marketing y ventas"
+  },
+  {
+    "tool_id": "synthesia",
+    "nombre": "Synthesia",
+    "categoria": "ia-para-video",
+    "caso_uso": "avatares-ia",
+    "precio_desde": "22",
+    "modelo_pagos": "mensual",
+    "idioma": "es",
+    "nivel_usuario": "intermedio",
+    "url_oficial": "https://synthesia.io",
+    "url_afiliado": "https://tu-enlace-aqui.com/synthesia",
+    "pros": [
+      "Líder en avatares corporativos - Más de 120 idiomas - API potente"
+    ],
+    "contras": [
+      "Voces a veces algo robóticas - Precio para equipos alto"
+    ],
+    "mejor_para": "Formación corporativa y tutoriales"
+  },
+  {
+    "tool_id": "pika-art",
+    "nombre": "Pika",
+    "categoria": "ia-para-video",
+    "caso_uso": "generacion-video",
+    "precio_desde": "0",
+    "modelo_pagos": "gratis-y-mensual",
+    "idioma": "en",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://pika.art",
+    "url_afiliado": "https://tu-enlace-aqui.com/pika-art",
+    "pros": [
+      "Estilo cinematográfico - Muy fácil de usar - Animación de alta calidad"
+    ],
+    "contras": [
+      "Menos control que Runway - Versión gratuita limitada"
+    ],
+    "mejor_para": "Creadores de redes sociales"
+  },
+  {
+    "tool_id": "invideo-ai",
+    "nombre": "InVideo AI",
+    "categoria": "ia-para-video",
+    "caso_uso": "creacion-desde-texto",
+    "precio_desde": "0",
+    "modelo_pagos": "mensual",
+    "idioma": "es",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://invideo.io",
+    "url_afiliado": "https://tu-enlace-aqui.com/invideo-ai",
+    "pros": [
+      "Generación instantánea desde texto - Millones de recursos premium - Editor intuitivo"
+    ],
+    "contras": [
+      "Voz en off a veces genérica - Limitaciones en plan gratis"
+    ],
+    "mejor_para": "YouTube y creadores de contenido"
+  },
+  {
+    "tool_id": "descript",
+    "nombre": "Descript",
+    "categoria": "ia-para-video",
+    "caso_uso": "edicion-por-texto",
+    "precio_desde": "12",
+    "modelo_pagos": "mensual",
+    "idioma": "en",
+    "nivel_usuario": "intermedio",
+    "url_oficial": "https://descript.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/descript",
+    "pros": [
+      "Edita video editando texto - Clonación de voz - Eliminador de relleno"
+    ],
+    "contras": [
+      "Requiere app de escritorio - Curva de aprendizaje inicial"
+    ],
+    "mejor_para": "Podcasters y editores de video"
+  },
+  {
+    "tool_id": "capcut",
+    "nombre": "CapCut",
+    "categoria": "ia-para-video",
+    "caso_uso": "edicion-movil",
+    "precio_desde": "0",
+    "modelo_pagos": "gratis-y-mensual",
+    "idioma": "es",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://capcut.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/capcut",
+    "pros": [
+      "Funciones IA gratuitas increíbles - Muy intuitivo - Tendencias virales"
+    ],
+    "contras": [
+      "Privacidad de datos - Herramientas pro requieren pago"
+    ],
+    "mejor_para": "TikTok y Reels"
+  },
+  {
+    "tool_id": "pictory",
+    "nombre": "Pictory",
+    "categoria": "ia-para-video",
+    "caso_uso": "contenido-para-redes",
+    "precio_desde": "19",
+    "modelo_pagos": "mensual",
+    "idioma": "en",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://pictory.ai",
+    "url_afiliado": "https://tu-enlace-aqui.com/pictory",
+    "pros": [
+      "Resumen automático de blogs en video - Extracción de clips virales - Subtítulos automáticos"
+    ],
+    "contras": [
+      "Stock de videos limitado en plan base - Traducción básica"
+    ],
+    "mejor_para": "Bloggers y marketing de contenidos"
+  },
+  {
+    "tool_id": "fliki",
+    "nombre": "Fliki",
+    "categoria": "ia-para-video",
+    "caso_uso": "voz-a-video",
+    "precio_desde": "21",
+    "modelo_pagos": "mensual",
+    "idioma": "es",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://fliki.ai",
+    "url_afiliado": "https://tu-enlace-aqui.com/fliki",
+    "pros": [
+      "Voces ultra realistas - Clonación de voz en segundos - Multitud de idiomas"
+    ],
+    "contras": [
+      "Personalización visual limitada - Créditos de voz limitados"
+    ],
+    "mejor_para": "Creadores de YouTube automáticos"
+  },
+  {
+    "tool_id": "veed-io",
+    "nombre": "VEED.io",
+    "categoria": "ia-para-video",
+    "caso_uso": "edicion-web",
+    "precio_desde": "18",
+    "modelo_pagos": "mensual",
+    "idioma": "es",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://veed.io",
+    "url_afiliado": "https://tu-enlace-aqui.com/veed-io",
+    "pros": [
+      "Editor 100% online - Subtítulos automáticos perfectos - Herramientas de marca"
+    ],
+    "contras": [
+      "Renderizado lento en proyectos grandes - Plan gratis limitado"
+    ],
+    "mejor_para": "Redes sociales corporativas"
+  },
+  {
+    "tool_id": "opus-clip",
+    "nombre": "OpusClip",
+    "categoria": "ia-para-video",
+    "caso_uso": "ia-para-shorts",
+    "precio_desde": "0",
+    "modelo_pagos": "mensual",
+    "idioma": "en",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://opus.pro",
+    "url_afiliado": "https://tu-enlace-aqui.com/opus-clip",
+    "pros": [
+      "Convierte videos largos en shorts virales - Puntuación de viralidad IA - Reencuadre automático"
+    ],
+    "contras": [
+      "Específico para videos cortos - Traducción limitada"
+    ],
+    "mejor_para": "YouTubers y Streamers"
+  },
+  {
+    "tool_id": "elai-io",
+    "nombre": "Elai.io",
+    "categoria": "ia-para-video",
+    "caso_uso": "avatares-ia",
+    "precio_desde": "23",
+    "modelo_pagos": "mensual",
+    "idioma": "es",
+    "nivel_usuario": "intermedio",
+    "url_oficial": "https://elai.io",
+    "url_afiliado": "https://tu-enlace-aqui.com/elai-io",
+    "pros": [
+      "Avatares personalizados desde selfie - Integración L&D - Generación de scripts"
+    ],
+    "contras": [
+      "Menos avatares que Synthesia - Interfaz mejorable"
+    ],
+    "mejor_para": "E-learning y formación"
+  },
+  {
+    "tool_id": "colossyan",
+    "nombre": "Colossyan",
+    "categoria": "ia-para-video",
+    "caso_uso": "formacion-corporativa",
+    "precio_desde": "28",
+    "modelo_pagos": "mensual",
+    "idioma": "es",
+    "nivel_usuario": "intermedio",
+    "url_oficial": "https://colossyan.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/colossyan",
+    "pros": [
+      "Cambio de humor en avatares - Excelente para formación - Entorno interactivo"
+    ],
+    "contras": [
+      "Precio por minuto alto - Menos popularidad"
+    ],
+    "mejor_para": "Recursos Humanos y Formación"
+  },
+  {
+    "tool_id": "deepbrain-ai",
+    "nombre": "DeepBrain AI",
+    "categoria": "ia-para-video",
+    "caso_uso": "avatares-ia",
+    "precio_desde": "30",
+    "modelo_pagos": "mensual",
+    "idioma": "en",
+    "nivel_usuario": "avanzado",
+    "url_oficial": "https://deepbrain.io",
+    "url_afiliado": "https://tu-enlace-aqui.com/deepbrain-ai",
+    "pros": [
+      "Avatares foto realistas - Conversación en tiempo real - Kioscos IA"
+    ],
+    "contras": [
+      "Configuración compleja - Costo elevado"
+    ],
+    "mejor_para": "Servicio al cliente y Retail"
+  },
+  {
+    "tool_id": "luma-dream",
+    "nombre": "Luma Dream Machine",
+    "categoria": "ia-para-video",
+    "caso_uso": "generacion-video",
+    "precio_desde": "0",
+    "modelo_pagos": "gratis-y-mensual",
+    "idioma": "en",
+    "nivel_usuario": "intermedio",
+    "url_oficial": "https://lumalabs.ai",
+    "url_afiliado": "https://tu-enlace-aqui.com/luma-dream",
+    "pros": [
+      "Realismo físico superior - Generación rápida - Entendimiento del mundo"
+    ],
+    "contras": [
+      "Pocos controles manuales - Versión gratuita limitada"
+    ],
+    "mejor_para": "VFX y experimentación visual"
+  },
+  {
+    "tool_id": "kaiber-ai",
+    "nombre": "Kaiber",
+    "categoria": "ia-para-video",
+    "caso_uso": "generacion-artistica",
+    "precio_desde": "15",
+    "modelo_pagos": "mensual",
+    "idioma": "en",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://kaiber.ai",
+    "url_afiliado": "https://tu-enlace-aqui.com/kaiber-ai",
+    "pros": [
+      "Estilos artísticos únicos - Animación de audio - Control de movimiento"
+    ],
+    "contras": [
+      "Específico para estilos artísticos - No para realismo"
+    ],
+    "mejor_para": "Músicos y creadores visuales"
+  },
+  {
+    "tool_id": "filmora",
+    "nombre": "Filmora",
+    "categoria": "ia-para-video",
+    "caso_uso": "edicion-escritorio",
+    "precio_desde": "49",
+    "modelo_pagos": "unico",
+    "idioma": "es",
+    "nivel_usuario": "intermedio",
+    "url_oficial": "https://filmora.wondershare.net",
+    "url_afiliado": "https://tu-enlace-aqui.com/filmora",
+    "pros": [
+      "Mejora de audio IA - Eliminación de fondos - Máscaras inteligentes"
+    ],
+    "contras": [
+      "Requiere instalación - Paquetes de efectos extra"
+    ],
+    "mejor_para": "Editores de video semi-profesionales"
+  },
+  {
+    "tool_id": "clipchamp",
+    "nombre": "Clipchamp",
+    "categoria": "ia-para-video",
+    "caso_uso": "edicion-basica",
+    "precio_desde": "0",
+    "modelo_pagos": "gratis-y-mensual",
+    "idioma": "es",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://clipchamp.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/clipchamp",
+    "pros": [
+      "Integrado en Windows - Plantillas gratuitas - Voces de Azure"
+    ],
+    "contras": [
+      "Funciones avanzadas limitadas - Exportación lenta"
+    ],
+    "mejor_para": "Principiantes y pequeñas empresas"
+  },
+  {
+    "tool_id": "vidyo-ai",
+    "nombre": "Vidyo.ai",
+    "categoria": "ia-para-video",
+    "caso_uso": "ia-para-reels",
+    "precio_desde": "0",
+    "modelo_pagos": "mensual",
+    "idioma": "en",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://vidyo.ai",
+    "url_afiliado": "https://tu-enlace-aqui.com/vidyo-ai",
+    "pros": [
+      "Detección automática de clips - Subtítulos con emojis - Multi-plataforma"
+    ],
+    "contras": [
+      "Enfoque exclusivo en redes sociales - Interfaz densa"
+    ],
+    "mejor_para": "Creadores de contenido social"
+  },
+  {
+    "tool_id": "simplified",
+    "nombre": "Simplified",
+    "categoria": "ia-para-video",
+    "caso_uso": "marketing-multimodal",
+    "precio_desde": "11",
+    "modelo_pagos": "mensual",
+    "idioma": "es",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://simplified.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/simplified",
+    "pros": [
+      "Editor de video y diseño en uno - Generación de subtítulos - Precios competitivos"
+    ],
+    "contras": [
+      "No tan potente como Premiere o CapCut - Multitud de herramientas"
+    ],
+    "mejor_para": "Emprendedores y CM"
+  },
+  {
+    "tool_id": "jasper-ai",
+    "nombre": "Jasper",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "copywriting-marketing",
+    "precio_desde": "39",
+    "modelo_pagos": "mensual",
+    "idioma": "es",
+    "nivel_usuario": "intermedio",
+    "url_oficial": "https://jasper.ai",
+    "url_afiliado": "https://tu-enlace-aqui.com/jasper-ai",
+    "pros": [
+      "Plantillas avanzadas - Voz de marca personalizable - Integraciones con SurferSEO"
+    ],
+    "contras": [
+      "Precio alto para novatos - Requiere supervisión"
+    ],
+    "mejor_para": "Equipos de marketing y agencias"
+  },
+  {
+    "tool_id": "copy-ai",
+    "nombre": "Copy.ai",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "copywriting-general",
+    "precio_desde": "36",
+    "modelo_pagos": "mensual",
+    "idioma": "es",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://copy.ai",
+    "url_afiliado": "https://tu-enlace-aqui.com/copy-ai",
+    "pros": [
+      "Fácil de usar - Plan gratis generoso - Workflows automatizados"
+    ],
+    "contras": [
+      "Menos control SEO que Jasper - Versatilidad limitada"
+    ],
+    "mejor_para": "Redactores y startups"
+  },
+  {
+    "tool_id": "writesonic",
+    "nombre": "Writesonic",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "contenido-seo",
+    "precio_desde": "16",
+    "modelo_pagos": "mensual",
+    "idioma": "es",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://writesonic.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/writesonic",
+    "pros": [
+      "Chatsonic integrado - Generación de artículos largos - Factcheck IA"
+    ],
+    "contras": [
+      "Calidad variable en textos largos - Interfaz cambiante"
+    ],
+    "mejor_para": "Bloggers que necesitan volumen"
+  },
+  {
+    "tool_id": "rytr",
+    "nombre": "Rytr",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "escritura-rapida",
+    "precio_desde": "9",
+    "modelo_pagos": "mensual",
+    "idioma": "es",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://rytr.me",
+    "url_afiliado": "https://tu-enlace-aqui.com/rytr",
+    "pros": [
+      "Plan gratis muy útil - Extremadamente barato - 40+ plantillas"
+    ],
+    "contras": [
+      "Calidad inferior en textos complejos - Límite de caracteres"
+    ],
+    "mejor_para": "Freelancers con presupuesto ajustado"
+  },
+  {
+    "tool_id": "notion-ai",
+    "nombre": "Notion AI",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "productividad-escritura",
+    "precio_desde": "10",
+    "modelo_pagos": "mensual",
+    "idioma": "es",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://notion.so",
+    "url_afiliado": "https://tu-enlace-aqui.com/notion-ai",
+    "pros": [
+      "Integrado en tu workspace existente - Resumen y reescritura - Colaboración en equipo"
+    ],
+    "contras": [
+      "Solo útil si ya usas Notion - No es un escritor dedicado"
+    ],
+    "mejor_para": "Equipos que usan Notion para gestión"
+  },
+  {
+    "tool_id": "grammarly",
+    "nombre": "Grammarly",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "correccion-estilo",
+    "precio_desde": "12",
+    "modelo_pagos": "mensual",
+    "idioma": "en",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://grammarly.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/grammarly",
+    "pros": [
+      "Corrección gramatical impecable - Tono y estilo - Extensión de navegador"
+    ],
+    "contras": [
+      "Enfocado en inglés - No genera contenido desde cero"
+    ],
+    "mejor_para": "Escritores en inglés y profesionales bilingües"
+  },
+  {
+    "tool_id": "frase-io",
+    "nombre": "Frase",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "contenido-seo",
+    "precio_desde": "15",
+    "modelo_pagos": "mensual",
+    "idioma": "en",
+    "nivel_usuario": "intermedio",
+    "url_oficial": "https://frase.io",
+    "url_afiliado": "https://tu-enlace-aqui.com/frase-io",
+    "pros": [
+      "Briefings SEO automáticos - Análisis de competencia SERP - Editor optimizado"
+    ],
+    "contras": [
+      "Interfaz algo confusa al principio - Soporte limitado"
+    ],
+    "mejor_para": "Redactores SEO y marketers de contenido"
+  },
+  {
+    "tool_id": "sudowrite",
+    "nombre": "Sudowrite",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "escritura-creativa",
+    "precio_desde": "10",
+    "modelo_pagos": "mensual",
+    "idioma": "en",
+    "nivel_usuario": "intermedio",
+    "url_oficial": "https://sudowrite.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/sudowrite",
+    "pros": [
+      "Diseñado para ficción - Expansión de escenas - Tono narrativo"
+    ],
+    "contras": [
+      "Solo para ficción y creatividad - En inglés"
+    ],
+    "mejor_para": "Novelistas y escritores de ficción"
+  },
+  {
+    "tool_id": "wordtune",
+    "nombre": "Wordtune",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "reescritura-mejora",
+    "precio_desde": "10",
+    "modelo_pagos": "mensual",
+    "idioma": "en",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://wordtune.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/wordtune",
+    "pros": [
+      "Reescritura instantánea - Cambio de tono en un clic - Extensión Chrome"
+    ],
+    "contras": [
+      "Enfocado en reescribir no en generar - Mejor en inglés"
+    ],
+    "mejor_para": "Profesionales que mejoran borradores"
+  },
+  {
+    "tool_id": "koala-writer",
+    "nombre": "Koala Writer",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "articulos-seo",
+    "precio_desde": "9",
+    "modelo_pagos": "mensual",
+    "idioma": "en",
+    "nivel_usuario": "intermedio",
+    "url_oficial": "https://koala.sh",
+    "url_afiliado": "https://tu-enlace-aqui.com/koala-writer",
+    "pros": [
+      "Artículos SEO de 1 clic - Integración con GPT-4 - Amazon reviews"
+    ],
+    "contras": [
+      "Interfaz minimalista - Sin editor visual avanzado"
+    ],
+    "mejor_para": "Bloggers de nicho y afiliados"
+  },
+  {
+    "tool_id": "anyword",
+    "nombre": "Anyword",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "copywriting-datos",
+    "precio_desde": "24",
+    "modelo_pagos": "mensual",
+    "idioma": "en",
+    "nivel_usuario": "avanzado",
+    "url_oficial": "https://anyword.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/anyword",
+    "pros": [
+      "Predicción de rendimiento de copy - A/B testing IA - Análisis de audiencia"
+    ],
+    "contras": [
+      "Precio elevado - Curva de aprendizaje media"
+    ],
+    "mejor_para": "Growth marketers y equipos de performance"
+  },
+  {
+    "tool_id": "peppertype",
+    "nombre": "Peppertype",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "contenido-rapido",
+    "precio_desde": "25",
+    "modelo_pagos": "mensual",
+    "idioma": "en",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://peppertype.ai",
+    "url_afiliado": "https://tu-enlace-aqui.com/peppertype",
+    "pros": [
+      "Generación rápida - Auditoría de contenido - Colaboración en equipo"
+    ],
+    "contras": [
+      "Menor comunidad - Menos integraciones que Jasper"
+    ],
+    "mejor_para": "Equipos pequeños de contenido"
+  },
+  {
+    "tool_id": "longshot-ai",
+    "nombre": "LongShot AI",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "fact-checking",
+    "precio_desde": "19",
+    "modelo_pagos": "mensual",
+    "idioma": "en",
+    "nivel_usuario": "intermedio",
+    "url_oficial": "https://longshot.ai",
+    "url_afiliado": "https://tu-enlace-aqui.com/longshot-ai",
+    "pros": [
+      "Verificación de hechos integrada - Contenido actualizado - Workflows SEO"
+    ],
+    "contras": [
+      "Interfaz mejorable - Base de usuarios menor"
+    ],
+    "mejor_para": "Periodistas y redactores de contenido factual"
+  },
+  {
+    "tool_id": "neuronwriter",
+    "nombre": "NeuronWriter",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "optimizacion-seo",
+    "precio_desde": "19",
+    "modelo_pagos": "mensual",
+    "idioma": "es",
+    "nivel_usuario": "intermedio",
+    "url_oficial": "https://neuronwriter.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/neuronwriter",
+    "pros": [
+      "Análisis NLP semántico - Planificador de contenidos - Precio competitivo"
+    ],
+    "contras": [
+      "Menos conocido internacionalmente - UI densa"
+    ],
+    "mejor_para": "SEOs y redactores técnicos"
+  },
+  {
+    "tool_id": "scalenut",
+    "nombre": "Scalenut",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "seo-y-contenido",
+    "precio_desde": "39",
+    "modelo_pagos": "mensual",
+    "idioma": "en",
+    "nivel_usuario": "intermedio",
+    "url_oficial": "https://scalenut.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/scalenut",
+    "pros": [
+      "Cluster de keywords - Cruise Mode para artículos - Auditoría SEO"
+    ],
+    "contras": [
+      "Precio similar a Jasper - Curva de aprendizaje"
+    ],
+    "mejor_para": "Content managers y agencias SEO"
+  },
+  {
+    "tool_id": "midjourney",
+    "nombre": "Midjourney",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "arte-digital",
+    "precio_desde": "10",
+    "modelo_pagos": "mensual",
+    "idioma": "en",
+    "nivel_usuario": "intermedio",
+    "url_oficial": "https://midjourney.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/midjourney",
+    "pros": [
+      "Calidad artística insuperable - Comunidad activa - Estilos únicos"
+    ],
+    "contras": [
+      "Solo funciona en Discord - Curva de aprendizaje de prompts"
+    ],
+    "mejor_para": "Artistas digitales y diseñadores creativos"
+  },
+  {
+    "tool_id": "dall-e",
+    "nombre": "DALL·E 3",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "generacion-imagenes",
+    "precio_desde": "20",
+    "modelo_pagos": "por-creditos",
+    "idioma": "es",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://openai.com/dall-e-3",
+    "url_afiliado": "https://tu-enlace-aqui.com/dall-e",
+    "pros": [
+      "Integrado en ChatGPT - Muy fácil de usar - Comprende instrucciones complejas"
+    ],
+    "contras": [
+      "Menos estilizado que Midjourney - Precio por imagen"
+    ],
+    "mejor_para": "Cualquiera que necesite imágenes rápidas"
+  },
+  {
+    "tool_id": "stable-diffusion",
+    "nombre": "Stable Diffusion",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "generacion-open-source",
+    "precio_desde": "0",
+    "modelo_pagos": "gratis",
+    "idioma": "en",
+    "nivel_usuario": "avanzado",
+    "url_oficial": "https://stability.ai",
+    "url_afiliado": "https://tu-enlace-aqui.com/stable-diffusion",
+    "pros": [
+      "Totalmente gratuito y open source - Control absoluto - Modelos personalizables"
+    ],
+    "contras": [
+      "Requiere GPU potente o cloud - Muy técnico"
+    ],
+    "mejor_para": "Desarrolladores y artistas técnicos"
+  },
+  {
+    "tool_id": "leonardo-ai",
+    "nombre": "Leonardo.AI",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "generacion-imagenes",
+    "precio_desde": "10",
+    "modelo_pagos": "mensual",
+    "idioma": "en",
+    "nivel_usuario": "intermedio",
+    "url_oficial": "https://leonardo.ai",
+    "url_afiliado": "https://tu-enlace-aqui.com/leonardo-ai",
+    "pros": [
+      "Modelos entrenados por comunidad - Control de pose y estilo - Plan gratis generoso"
+    ],
+    "contras": [
+      "Menos conocido que Midjourney - Resultados variables"
+    ],
+    "mejor_para": "Game designers y creadores de assets"
+  },
+  {
+    "tool_id": "ideogram",
+    "nombre": "Ideogram",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "texto-en-imagenes",
+    "precio_desde": "8",
+    "modelo_pagos": "mensual",
+    "idioma": "en",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://ideogram.ai",
+    "url_afiliado": "https://tu-enlace-aqui.com/ideogram",
+    "pros": [
+      "Mejor IA para texto dentro de imágenes - Tipografía perfecta - Gratis para empezar"
+    ],
+    "contras": [
+      "Menos control artístico - Comunidad más pequeña"
+    ],
+    "mejor_para": "Diseñadores de logos y marketing visual"
+  },
+  {
+    "tool_id": "adobe-firefly",
+    "nombre": "Adobe Firefly",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "diseno-profesional",
+    "precio_desde": "5",
+    "modelo_pagos": "mensual",
+    "idioma": "es",
+    "nivel_usuario": "intermedio",
+    "url_oficial": "https://firefly.adobe.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/adobe-firefly",
+    "pros": [
+      "Integrado en Photoshop e Illustrator - Uso comercial seguro - Relleno generativo"
+    ],
+    "contras": [
+      "Requiere suscripción Adobe - Créditos limitados"
+    ],
+    "mejor_para": "Diseñadores profesionales y fotógrafos"
+  },
+  {
+    "tool_id": "canva-ai",
+    "nombre": "Canva IA",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "diseno-social-media",
+    "precio_desde": "0",
+    "modelo_pagos": "gratis-y-mensual",
+    "idioma": "es",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://canva.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/canva-ai",
+    "pros": [
+      "Todo en uno para diseño - Magic Write y Magic Edit - Gratis para empezar"
+    ],
+    "contras": [
+      "Estilo algo genérico - Funciones IA en plan Pro"
+    ],
+    "mejor_para": "Community Managers y emprendedores"
+  },
+  {
+    "tool_id": "clipdrop",
+    "nombre": "ClipDrop",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "edicion-ia",
+    "precio_desde": "0",
+    "modelo_pagos": "gratis-y-mensual",
+    "idioma": "es",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://clipdrop.co",
+    "url_afiliado": "https://tu-enlace-aqui.com/clipdrop",
+    "pros": [
+      "Eliminador de fondos perfecto - Relighting IA - Cleanup de objetos"
+    ],
+    "contras": [
+      "Calidad variable en generación - Menos opciones creativas"
+    ],
+    "mejor_para": "Fotógrafos y e-commerce"
+  },
+  {
+    "tool_id": "nightcafe",
+    "nombre": "NightCafe",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "arte-ia",
+    "precio_desde": "0",
+    "modelo_pagos": "por-creditos",
+    "idioma": "en",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://nightcafe.studio",
+    "url_afiliado": "https://tu-enlace-aqui.com/nightcafe",
+    "pros": [
+      "Múltiples motores IA - Créditos gratuitos diarios - Comunidad y concursos"
+    ],
+    "contras": [
+      "Calidad inferior a Midjourney - Interfaz algo anticuada"
+    ],
+    "mejor_para": "Aficionados al arte digital"
+  },
+  {
+    "tool_id": "playground-ai",
+    "nombre": "Playground AI",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "generacion-rapida",
+    "precio_desde": "0",
+    "modelo_pagos": "gratis-y-mensual",
+    "idioma": "en",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://playground.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/playground-ai",
+    "pros": [
+      "1000 imágenes gratis al día - Interfaz web simple - Mixed Image Editing"
+    ],
+    "contras": [
+      "Resultados menos refinados - Menos modelos premium"
+    ],
+    "mejor_para": "Usuarios casuales y experimentadores"
+  },
+  {
+    "tool_id": "flux-ai",
+    "nombre": "Flux",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "generacion-avanzada",
+    "precio_desde": "0",
+    "modelo_pagos": "gratis",
+    "idioma": "en",
+    "nivel_usuario": "avanzado",
+    "url_oficial": "https://blackforestlabs.ai",
+    "url_afiliado": "https://tu-enlace-aqui.com/flux-ai",
+    "pros": [
+      "Calidad fotorrealista - Open source - Rapidez de generación"
+    ],
+    "contras": [
+      "Requiere hardware potente localmente - Documentación escasa"
+    ],
+    "mejor_para": "Desarrolladores y usuarios técnicos avanzados"
+  },
+  {
+    "tool_id": "getimg-ai",
+    "nombre": "Getimg.ai",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "edicion-batch",
+    "precio_desde": "12",
+    "modelo_pagos": "mensual",
+    "idioma": "en",
+    "nivel_usuario": "intermedio",
+    "url_oficial": "https://getimg.ai",
+    "url_afiliado": "https://tu-enlace-aqui.com/getimg-ai",
+    "pros": [
+      "Edición por lotes - Inpainting avanzado - API disponible"
+    ],
+    "contras": [
+      "Menos conocido - Interfaz mejorable"
+    ],
+    "mejor_para": "Equipos que necesitan producción en volumen"
+  },
+  {
+    "tool_id": "fotor-ai",
+    "nombre": "Fotor IA",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "edicion-fotos",
+    "precio_desde": "8",
+    "modelo_pagos": "mensual",
+    "idioma": "es",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://fotor.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/fotor-ai",
+    "pros": [
+      "Mejora de fotos con IA - Eliminador de fondos - Efectos artísticos"
+    ],
+    "contras": [
+      "Funciones IA limitadas vs competidores - Anuncios en plan gratis"
+    ],
+    "mejor_para": "Fotógrafos amateur y redes sociales"
+  },
+  {
+    "tool_id": "krea-ai",
+    "nombre": "Krea AI",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "generacion-en-tiempo-real",
+    "precio_desde": "0",
+    "modelo_pagos": "gratis-y-mensual",
+    "idioma": "en",
+    "nivel_usuario": "intermedio",
+    "url_oficial": "https://krea.ai",
+    "url_afiliado": "https://tu-enlace-aqui.com/krea-ai",
+    "pros": [
+      "Generación en tiempo real - Canvas interactivo - Upscale inteligente"
+    ],
+    "contras": [
+      "En beta todavía - Funciones cambiantes"
+    ],
+    "mejor_para": "Diseñadores experimentales y arte conceptual"
+  },
+  {
+    "tool_id": "pixlr-ai",
+    "nombre": "Pixlr AI",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "edicion-web",
+    "precio_desde": "0",
+    "modelo_pagos": "gratis-y-mensual",
+    "idioma": "es",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://pixlr.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/pixlr-ai",
+    "pros": [
+      "Editor completo online gratuito - Generador de imágenes - Eliminación de fondos"
+    ],
+    "contras": [
+      "Anuncios en versión gratuita - Menos potente que Photoshop"
+    ],
+    "mejor_para": "Edición rápida sin instalar nada"
+  },
+  {
+    "tool_id": "surfer-seo",
+    "nombre": "SurferSEO",
+    "categoria": "ia-para-seo",
+    "caso_uso": "optimizacion-contenidos",
+    "precio_desde": "89",
+    "modelo_pagos": "mensual",
+    "idioma": "es",
+    "nivel_usuario": "avanzado",
+    "url_oficial": "https://surferseo.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/surfer-seo",
+    "pros": [
+      "Auditoría SEO impecable - Integración con Google Docs - Content Score en tiempo real"
+    ],
+    "contras": [
+      "Curva de aprendizaje empinada - Precio elevado"
+    ],
+    "mejor_para": "Agencias SEO y dueños de nichos"
+  },
+  {
+    "tool_id": "se-ranking",
+    "nombre": "SE Ranking",
+    "categoria": "ia-para-seo",
+    "caso_uso": "auditoria-ranking",
+    "precio_desde": "44",
+    "modelo_pagos": "mensual",
+    "idioma": "es",
+    "nivel_usuario": "intermedio",
+    "url_oficial": "https://seranking.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/se-ranking",
+    "pros": [
+      "Muy completo por su precio - Seguimiento de posiciones - Auditoría técnica"
+    ],
+    "contras": [
+      "Interfaz algo antigua - Base de datos menor que Semrush"
+    ],
+    "mejor_para": "Bloggers de nicho y PYMEs"
+  },
+  {
+    "tool_id": "semrush",
+    "nombre": "Semrush",
+    "categoria": "ia-para-seo",
+    "caso_uso": "seo-completo",
+    "precio_desde": "130",
+    "modelo_pagos": "mensual",
+    "idioma": "es",
+    "nivel_usuario": "avanzado",
+    "url_oficial": "https://semrush.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/semrush",
+    "pros": [
+      "Suite SEO más completa del mercado - Análisis de competencia - PPC y redes"
+    ],
+    "contras": [
+      "Precio muy elevado - Abrumador para principiantes"
+    ],
+    "mejor_para": "Agencias de marketing digital"
+  },
+  {
+    "tool_id": "ahrefs",
+    "nombre": "Ahrefs",
+    "categoria": "ia-para-seo",
+    "caso_uso": "backlinks-keywords",
+    "precio_desde": "99",
+    "modelo_pagos": "mensual",
+    "idioma": "es",
+    "nivel_usuario": "avanzado",
+    "url_oficial": "https://ahrefs.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/ahrefs",
+    "pros": [
+      "Mejor base de datos de backlinks - Content Explorer - Keyword Explorer preciso"
+    ],
+    "contras": [
+      "Precio alto - Sin plan gratis real"
+    ],
+    "mejor_para": "SEOs profesionales y link builders"
+  },
+  {
+    "tool_id": "mangools",
+    "nombre": "Mangools",
+    "categoria": "ia-para-seo",
+    "caso_uso": "keyword-research",
+    "precio_desde": "30",
+    "modelo_pagos": "mensual",
+    "idioma": "es",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://mangools.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/mangools",
+    "pros": [
+      "Interfaz más intuitiva del mercado - KWFinder excelente - Precio accesible"
+    ],
+    "contras": [
+      "Base de datos menor - Menos funciones avanzadas"
+    ],
+    "mejor_para": "Principiantes SEO y bloggers"
+  },
+  {
+    "tool_id": "ubersuggest",
+    "nombre": "Ubersuggest",
+    "categoria": "ia-para-seo",
+    "caso_uso": "seo-accesible",
+    "precio_desde": "12",
+    "modelo_pagos": "mensual",
+    "idioma": "es",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://neilpatel.com/ubersuggest",
+    "url_afiliado": "https://tu-enlace-aqui.com/ubersuggest",
+    "pros": [
+      "Muy barato con pago único - Ideas de contenido - Auditoría básica"
+    ],
+    "contras": [
+      "Datos menos precisos que Semrush - Límites de uso"
+    ],
+    "mejor_para": "Emprendedores y bloggers con poco presupuesto"
+  },
+  {
+    "tool_id": "dinorank",
+    "nombre": "DinoRANK",
+    "categoria": "ia-para-seo",
+    "caso_uso": "seo-en-espanol",
+    "precio_desde": "22",
+    "modelo_pagos": "mensual",
+    "idioma": "es",
+    "nivel_usuario": "intermedio",
+    "url_oficial": "https://dinorank.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/dinorank",
+    "pros": [
+      "Herramienta SEO 100% en español - Módulo de interlinking - TF*IDF integrado"
+    ],
+    "contras": [
+      "Enfocado en mercado hispano solamente - Menos backlinks data"
+    ],
+    "mejor_para": "SEOs hispanohablantes y nichos en español"
+  },
+  {
+    "tool_id": "sistrix",
+    "nombre": "Sistrix",
+    "categoria": "ia-para-seo",
+    "caso_uso": "visibilidad-seo",
+    "precio_desde": "99",
+    "modelo_pagos": "mensual",
+    "idioma": "es",
+    "nivel_usuario": "avanzado",
+    "url_oficial": "https://sistrix.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/sistrix",
+    "pros": [
+      "Índice de visibilidad único - Datos históricos amplios - Análisis SERP"
+    ],
+    "contras": [
+      "Precio elevado - Sin herramientas de contenido IA"
+    ],
+    "mejor_para": "Consultores SEO y grandes empresas"
+  },
+  {
+    "tool_id": "lowfruits",
+    "nombre": "LowFruits",
+    "categoria": "ia-para-seo",
+    "caso_uso": "keywords-baja-competencia",
+    "precio_desde": "25",
+    "modelo_pagos": "mensual",
+    "idioma": "en",
+    "nivel_usuario": "intermedio",
+    "url_oficial": "https://lowfruits.io",
+    "url_afiliado": "https://tu-enlace-aqui.com/lowfruits",
+    "pros": [
+      "Encuentra keywords de baja competencia rápidamente - SERP weakness finder - Clustering"
+    ],
+    "contras": [
+      "Base de datos limitada - Solo en inglés"
+    ],
+    "mejor_para": "Bloggers de nicho y SEOs de afiliación"
+  },
+  {
+    "tool_id": "seranking-content",
+    "nombre": "SE Ranking Content Editor",
+    "categoria": "ia-para-seo",
+    "caso_uso": "redaccion-seo",
+    "precio_desde": "0",
+    "modelo_pagos": "incluido",
+    "idioma": "es",
+    "nivel_usuario": "intermedio",
+    "url_oficial": "https://seranking.com/content-editor.html",
+    "url_afiliado": "https://tu-enlace-aqui.com/seranking-content",
+    "pros": [
+      "Incluido con SE Ranking - Sugerencias NLP - Puntuación de contenido"
+    ],
+    "contras": [
+      "Requiere suscripción SE Ranking - Menos completo que Surfer"
+    ],
+    "mejor_para": "Usuarios actuales de SE Ranking"
+  },
+  {
+    "tool_id": "rankmath",
+    "nombre": "Rank Math",
+    "categoria": "ia-para-seo",
+    "caso_uso": "seo-wordpress",
+    "precio_desde": "0",
+    "modelo_pagos": "gratis-y-mensual",
+    "idioma": "es",
+    "nivel_usuario": "basico",
+    "url_oficial": "https://rankmath.com",
+    "url_afiliado": "https://tu-enlace-aqui.com/rankmath",
+    "pros": [
+      "Plugin SEO WordPress gratuito - Content AI integrado - Schema automático"
+    ],
+    "contras": [
+      "Solo para WordPress - Funciones IA en plan Pro"
+    ],
+    "mejor_para": "Bloggers en WordPress"
+  }
+]

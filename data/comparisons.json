@@ -1,0 +1,956 @@
+[
+  {
+    "slug": "heygen-vs-synthesia",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "heygen vs synthesia",
+    "tool_a_id": "heygen",
+    "tool_b_id": "synthesia",
+    "categoria": "ia-para-video",
+    "caso_uso": "avatares-ia"
+  },
+  {
+    "slug": "runway-ml-vs-pika-art",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "runway vs pika",
+    "tool_a_id": "runway-ml",
+    "tool_b_id": "pika-art",
+    "categoria": "ia-para-video",
+    "caso_uso": "generacion-video"
+  },
+  {
+    "slug": "runway-ml-vs-luma-dream",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "runway vs luma dream machine",
+    "tool_a_id": "runway-ml",
+    "tool_b_id": "luma-dream",
+    "categoria": "ia-para-video",
+    "caso_uso": "generacion-video"
+  },
+  {
+    "slug": "descript-vs-capcut",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "descript vs capcut",
+    "tool_a_id": "descript",
+    "tool_b_id": "capcut",
+    "categoria": "ia-para-video",
+    "caso_uso": "edicion-video"
+  },
+  {
+    "slug": "invideo-ai-vs-pictory",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "invideo ai vs pictory",
+    "tool_a_id": "invideo-ai",
+    "tool_b_id": "pictory",
+    "categoria": "ia-para-video",
+    "caso_uso": "creacion-desde-texto"
+  },
+  {
+    "slug": "fliki-vs-pictory",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "fliki vs pictory",
+    "tool_a_id": "fliki",
+    "tool_b_id": "pictory",
+    "categoria": "ia-para-video",
+    "caso_uso": "voz-a-video"
+  },
+  {
+    "slug": "veed-io-vs-capcut",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "veed io vs capcut",
+    "tool_a_id": "veed-io",
+    "tool_b_id": "capcut",
+    "categoria": "ia-para-video",
+    "caso_uso": "edicion-web"
+  },
+  {
+    "slug": "opus-clip-vs-vidyo-ai",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "opus clip vs vidyo ai",
+    "tool_a_id": "opus-clip",
+    "tool_b_id": "vidyo-ai",
+    "categoria": "ia-para-video",
+    "caso_uso": "ia-para-shorts"
+  },
+  {
+    "slug": "heygen-vs-elai-io",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "heygen vs elai io",
+    "tool_a_id": "heygen",
+    "tool_b_id": "elai-io",
+    "categoria": "ia-para-video",
+    "caso_uso": "avatares-ia"
+  },
+  {
+    "slug": "synthesia-vs-colossyan",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "synthesia vs colossyan",
+    "tool_a_id": "synthesia",
+    "tool_b_id": "colossyan",
+    "categoria": "ia-para-video",
+    "caso_uso": "avatares-ia"
+  },
+  {
+    "slug": "filmora-vs-capcut",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "filmora vs capcut",
+    "tool_a_id": "filmora",
+    "tool_b_id": "capcut",
+    "categoria": "ia-para-video",
+    "caso_uso": "edicion-video"
+  },
+  {
+    "slug": "heygen-vs-deepbrain-ai",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "heygen vs deepbrain ai",
+    "tool_a_id": "heygen",
+    "tool_b_id": "deepbrain-ai",
+    "categoria": "ia-para-video",
+    "caso_uso": "avatares-ia"
+  },
+  {
+    "slug": "pika-art-vs-luma-dream",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "pika vs luma dream machine",
+    "tool_a_id": "pika-art",
+    "tool_b_id": "luma-dream",
+    "categoria": "ia-para-video",
+    "caso_uso": "generacion-video"
+  },
+  {
+    "slug": "descript-vs-veed-io",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "descript vs veed io",
+    "tool_a_id": "descript",
+    "tool_b_id": "veed-io",
+    "categoria": "ia-para-video",
+    "caso_uso": "edicion-por-texto"
+  },
+  {
+    "slug": "pictory-vs-opus-clip",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "pictory vs opus clip",
+    "tool_a_id": "pictory",
+    "tool_b_id": "opus-clip",
+    "categoria": "ia-para-video",
+    "caso_uso": "ia-para-shorts"
+  },
+  {
+    "slug": "alternativa-a-heygen",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a heygen",
+    "tool_a_id": "heygen",
+    "tool_b_id": "",
+    "categoria": "ia-para-video",
+    "caso_uso": "avatares-ia"
+  },
+  {
+    "slug": "alternativa-a-runway-ml",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a runway ml",
+    "tool_a_id": "runway-ml",
+    "tool_b_id": "",
+    "categoria": "ia-para-video",
+    "caso_uso": "generacion-video"
+  },
+  {
+    "slug": "alternativa-a-synthesia",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a synthesia",
+    "tool_a_id": "synthesia",
+    "tool_b_id": "",
+    "categoria": "ia-para-video",
+    "caso_uso": "avatares-ia"
+  },
+  {
+    "slug": "alternativa-a-descript",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a descript",
+    "tool_a_id": "descript",
+    "tool_b_id": "",
+    "categoria": "ia-para-video",
+    "caso_uso": "edicion-por-texto"
+  },
+  {
+    "slug": "alternativa-a-capcut",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a capcut",
+    "tool_a_id": "capcut",
+    "tool_b_id": "",
+    "categoria": "ia-para-video",
+    "caso_uso": "edicion-video"
+  },
+  {
+    "slug": "alternativa-a-pictory",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a pictory",
+    "tool_a_id": "pictory",
+    "tool_b_id": "",
+    "categoria": "ia-para-video",
+    "caso_uso": "creacion-desde-texto"
+  },
+  {
+    "slug": "alternativa-a-invideo-ai",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a invideo ai",
+    "tool_a_id": "invideo-ai",
+    "tool_b_id": "",
+    "categoria": "ia-para-video",
+    "caso_uso": "creacion-desde-texto"
+  },
+  {
+    "slug": "alternativa-a-pika-art",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a pika art",
+    "tool_a_id": "pika-art",
+    "tool_b_id": "",
+    "categoria": "ia-para-video",
+    "caso_uso": "generacion-video"
+  },
+  {
+    "slug": "alternativa-a-veed-io",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a veed io",
+    "tool_a_id": "veed-io",
+    "tool_b_id": "",
+    "categoria": "ia-para-video",
+    "caso_uso": "edicion-web"
+  },
+  {
+    "slug": "alternativa-a-filmora",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a filmora",
+    "tool_a_id": "filmora",
+    "tool_b_id": "",
+    "categoria": "ia-para-video",
+    "caso_uso": "edicion-video"
+  },
+  {
+    "slug": "mejores-ia-generacion-video",
+    "tipo_pagina": "mejores",
+    "keyword_objetivo": "mejores herramientas de generacion de video con ia",
+    "tool_a_id": "",
+    "tool_b_id": "",
+    "categoria": "ia-para-video",
+    "caso_uso": "generacion-video"
+  },
+  {
+    "slug": "mejores-ia-avatares-corporativos",
+    "tipo_pagina": "mejores",
+    "keyword_objetivo": "mejores ia para avatares corporativos",
+    "tool_a_id": "",
+    "tool_b_id": "",
+    "categoria": "ia-para-video",
+    "caso_uso": "avatares-ia"
+  },
+  {
+    "slug": "mejores-ia-editores-video-texto",
+    "tipo_pagina": "mejores",
+    "keyword_objetivo": "mejores editores de video por texto con ia",
+    "tool_a_id": "",
+    "tool_b_id": "",
+    "categoria": "ia-para-video",
+    "caso_uso": "edicion-por-texto"
+  },
+  {
+    "slug": "mejores-ia-clips-virales",
+    "tipo_pagina": "mejores",
+    "keyword_objetivo": "mejores ia para crear clips virales de youtube",
+    "tool_a_id": "",
+    "tool_b_id": "",
+    "categoria": "ia-para-video",
+    "caso_uso": "ia-para-shorts"
+  },
+  {
+    "slug": "mejores-ia-video-marketing",
+    "tipo_pagina": "mejores",
+    "keyword_objetivo": "mejores herramientas de video marketing con ia",
+    "tool_a_id": "",
+    "tool_b_id": "",
+    "categoria": "ia-para-video",
+    "caso_uso": "marketing-multimodal"
+  },
+  {
+    "slug": "jasper-ai-vs-copy-ai",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "jasper vs copy ai",
+    "tool_a_id": "jasper-ai",
+    "tool_b_id": "copy-ai",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "copywriting-marketing"
+  },
+  {
+    "slug": "jasper-ai-vs-writesonic",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "jasper vs writesonic",
+    "tool_a_id": "jasper-ai",
+    "tool_b_id": "writesonic",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "copywriting-marketing"
+  },
+  {
+    "slug": "copy-ai-vs-rytr",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "copy ai vs rytr",
+    "tool_a_id": "copy-ai",
+    "tool_b_id": "rytr",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "copywriting-general"
+  },
+  {
+    "slug": "frase-io-vs-surfer-seo",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "frase vs surfer seo",
+    "tool_a_id": "frase-io",
+    "tool_b_id": "surfer-seo",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "contenido-seo"
+  },
+  {
+    "slug": "koala-writer-vs-writesonic",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "koala writer vs writesonic",
+    "tool_a_id": "koala-writer",
+    "tool_b_id": "writesonic",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "articulos-seo"
+  },
+  {
+    "slug": "jasper-ai-vs-anyword",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "jasper vs anyword",
+    "tool_a_id": "jasper-ai",
+    "tool_b_id": "anyword",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "copywriting-marketing"
+  },
+  {
+    "slug": "notion-ai-vs-grammarly",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "notion ai vs grammarly",
+    "tool_a_id": "notion-ai",
+    "tool_b_id": "grammarly",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "productividad-escritura"
+  },
+  {
+    "slug": "rytr-vs-writesonic",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "rytr vs writesonic",
+    "tool_a_id": "rytr",
+    "tool_b_id": "writesonic",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "escritura-rapida"
+  },
+  {
+    "slug": "wordtune-vs-grammarly",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "wordtune vs grammarly",
+    "tool_a_id": "wordtune",
+    "tool_b_id": "grammarly",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "reescritura-mejora"
+  },
+  {
+    "slug": "neuronwriter-vs-frase-io",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "neuronwriter vs frase",
+    "tool_a_id": "neuronwriter",
+    "tool_b_id": "frase-io",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "optimizacion-seo"
+  },
+  {
+    "slug": "scalenut-vs-jasper-ai",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "scalenut vs jasper",
+    "tool_a_id": "scalenut",
+    "tool_b_id": "jasper-ai",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "seo-y-contenido"
+  },
+  {
+    "slug": "longshot-ai-vs-frase-io",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "longshot ai vs frase",
+    "tool_a_id": "longshot-ai",
+    "tool_b_id": "frase-io",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "fact-checking"
+  },
+  {
+    "slug": "copy-ai-vs-writesonic",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "copy ai vs writesonic",
+    "tool_a_id": "copy-ai",
+    "tool_b_id": "writesonic",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "copywriting-general"
+  },
+  {
+    "slug": "sudowrite-vs-jasper-ai",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "sudowrite vs jasper",
+    "tool_a_id": "sudowrite",
+    "tool_b_id": "jasper-ai",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "escritura-creativa"
+  },
+  {
+    "slug": "koala-writer-vs-longshot-ai",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "koala writer vs longshot ai",
+    "tool_a_id": "koala-writer",
+    "tool_b_id": "longshot-ai",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "articulos-seo"
+  },
+  {
+    "slug": "alternativa-a-jasper-ai",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a jasper ai",
+    "tool_a_id": "jasper-ai",
+    "tool_b_id": "",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "copywriting-marketing"
+  },
+  {
+    "slug": "alternativa-a-copy-ai",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a copy ai",
+    "tool_a_id": "copy-ai",
+    "tool_b_id": "",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "copywriting-general"
+  },
+  {
+    "slug": "alternativa-a-writesonic",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a writesonic",
+    "tool_a_id": "writesonic",
+    "tool_b_id": "",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "contenido-seo"
+  },
+  {
+    "slug": "alternativa-a-grammarly",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a grammarly",
+    "tool_a_id": "grammarly",
+    "tool_b_id": "",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "correccion-estilo"
+  },
+  {
+    "slug": "alternativa-a-notion-ai",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a notion ai",
+    "tool_a_id": "notion-ai",
+    "tool_b_id": "",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "productividad-escritura"
+  },
+  {
+    "slug": "alternativa-a-frase-io",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a frase",
+    "tool_a_id": "frase-io",
+    "tool_b_id": "",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "contenido-seo"
+  },
+  {
+    "slug": "alternativa-a-rytr",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a rytr",
+    "tool_a_id": "rytr",
+    "tool_b_id": "",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "escritura-rapida"
+  },
+  {
+    "slug": "alternativa-a-koala-writer",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a koala writer",
+    "tool_a_id": "koala-writer",
+    "tool_b_id": "",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "articulos-seo"
+  },
+  {
+    "slug": "mejores-ia-escritura-bloggers",
+    "tipo_pagina": "mejores",
+    "keyword_objetivo": "mejores herramientas de escritura ia para bloggers",
+    "tool_a_id": "",
+    "tool_b_id": "",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "contenido-seo"
+  },
+  {
+    "slug": "mejores-ia-copywriting",
+    "tipo_pagina": "mejores",
+    "keyword_objetivo": "mejores ia para copywriting y marketing",
+    "tool_a_id": "",
+    "tool_b_id": "",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "copywriting-marketing"
+  },
+  {
+    "slug": "mejores-ia-escritura-gratis",
+    "tipo_pagina": "mejores",
+    "keyword_objetivo": "mejores ia para escribir gratis",
+    "tool_a_id": "",
+    "tool_b_id": "",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "escritura-rapida"
+  },
+  {
+    "slug": "mejores-ia-seo-contenidos",
+    "tipo_pagina": "mejores",
+    "keyword_objetivo": "mejores ia para redaccion seo de contenidos",
+    "tool_a_id": "",
+    "tool_b_id": "",
+    "categoria": "ia-para-escritura",
+    "caso_uso": "optimizacion-seo"
+  },
+  {
+    "slug": "midjourney-vs-dall-e",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "midjourney vs dall e",
+    "tool_a_id": "midjourney",
+    "tool_b_id": "dall-e",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "arte-digital"
+  },
+  {
+    "slug": "midjourney-vs-stable-diffusion",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "midjourney vs stable diffusion",
+    "tool_a_id": "midjourney",
+    "tool_b_id": "stable-diffusion",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "arte-digital"
+  },
+  {
+    "slug": "midjourney-vs-leonardo-ai",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "midjourney vs leonardo ai",
+    "tool_a_id": "midjourney",
+    "tool_b_id": "leonardo-ai",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "generacion-imagenes"
+  },
+  {
+    "slug": "dall-e-vs-stable-diffusion",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "dall e vs stable diffusion",
+    "tool_a_id": "dall-e",
+    "tool_b_id": "stable-diffusion",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "generacion-imagenes"
+  },
+  {
+    "slug": "leonardo-ai-vs-stable-diffusion",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "leonardo ai vs stable diffusion",
+    "tool_a_id": "leonardo-ai",
+    "tool_b_id": "stable-diffusion",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "generacion-imagenes"
+  },
+  {
+    "slug": "ideogram-vs-midjourney",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "ideogram vs midjourney",
+    "tool_a_id": "ideogram",
+    "tool_b_id": "midjourney",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "texto-en-imagenes"
+  },
+  {
+    "slug": "adobe-firefly-vs-midjourney",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "adobe firefly vs midjourney",
+    "tool_a_id": "adobe-firefly",
+    "tool_b_id": "midjourney",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "diseno-profesional"
+  },
+  {
+    "slug": "canva-ai-vs-adobe-firefly",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "canva ia vs adobe firefly",
+    "tool_a_id": "canva-ai",
+    "tool_b_id": "adobe-firefly",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "diseno-social-media"
+  },
+  {
+    "slug": "dall-e-vs-ideogram",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "dall e vs ideogram",
+    "tool_a_id": "dall-e",
+    "tool_b_id": "ideogram",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "generacion-imagenes"
+  },
+  {
+    "slug": "flux-ai-vs-midjourney",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "flux vs midjourney",
+    "tool_a_id": "flux-ai",
+    "tool_b_id": "midjourney",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "generacion-avanzada"
+  },
+  {
+    "slug": "clipdrop-vs-canva-ai",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "clipdrop vs canva ia",
+    "tool_a_id": "clipdrop",
+    "tool_b_id": "canva-ai",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "edicion-ia"
+  },
+  {
+    "slug": "leonardo-ai-vs-dall-e",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "leonardo ai vs dall e",
+    "tool_a_id": "leonardo-ai",
+    "tool_b_id": "dall-e",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "generacion-imagenes"
+  },
+  {
+    "slug": "krea-ai-vs-leonardo-ai",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "krea ai vs leonardo ai",
+    "tool_a_id": "krea-ai",
+    "tool_b_id": "leonardo-ai",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "generacion-en-tiempo-real"
+  },
+  {
+    "slug": "nightcafe-vs-midjourney",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "nightcafe vs midjourney",
+    "tool_a_id": "nightcafe",
+    "tool_b_id": "midjourney",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "arte-ia"
+  },
+  {
+    "slug": "playground-ai-vs-leonardo-ai",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "playground ai vs leonardo ai",
+    "tool_a_id": "playground-ai",
+    "tool_b_id": "leonardo-ai",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "generacion-rapida"
+  },
+  {
+    "slug": "alternativa-a-midjourney",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a midjourney",
+    "tool_a_id": "midjourney",
+    "tool_b_id": "",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "arte-digital"
+  },
+  {
+    "slug": "alternativa-a-dall-e",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a dall e",
+    "tool_a_id": "dall-e",
+    "tool_b_id": "",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "generacion-imagenes"
+  },
+  {
+    "slug": "alternativa-a-stable-diffusion",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a stable diffusion",
+    "tool_a_id": "stable-diffusion",
+    "tool_b_id": "",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "generacion-open-source"
+  },
+  {
+    "slug": "alternativa-a-adobe-firefly",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a adobe firefly",
+    "tool_a_id": "adobe-firefly",
+    "tool_b_id": "",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "diseno-profesional"
+  },
+  {
+    "slug": "alternativa-a-canva-ai",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a canva ia",
+    "tool_a_id": "canva-ai",
+    "tool_b_id": "",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "diseno-social-media"
+  },
+  {
+    "slug": "alternativa-a-leonardo-ai",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a leonardo ai",
+    "tool_a_id": "leonardo-ai",
+    "tool_b_id": "",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "generacion-imagenes"
+  },
+  {
+    "slug": "alternativa-a-ideogram",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a ideogram",
+    "tool_a_id": "ideogram",
+    "tool_b_id": "",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "texto-en-imagenes"
+  },
+  {
+    "slug": "mejores-ia-generacion-imagenes",
+    "tipo_pagina": "mejores",
+    "keyword_objetivo": "mejores generadores de imagenes con ia",
+    "tool_a_id": "",
+    "tool_b_id": "",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "generacion-imagenes"
+  },
+  {
+    "slug": "mejores-ia-imagenes-gratis",
+    "tipo_pagina": "mejores",
+    "keyword_objetivo": "mejores generadores de imagenes ia gratis",
+    "tool_a_id": "",
+    "tool_b_id": "",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "generacion-rapida"
+  },
+  {
+    "slug": "mejores-ia-diseno-grafico",
+    "tipo_pagina": "mejores",
+    "keyword_objetivo": "mejores ia para diseno grafico y social media",
+    "tool_a_id": "",
+    "tool_b_id": "",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "diseno-social-media"
+  },
+  {
+    "slug": "mejores-ia-arte-digital",
+    "tipo_pagina": "mejores",
+    "keyword_objetivo": "mejores ia para crear arte digital",
+    "tool_a_id": "",
+    "tool_b_id": "",
+    "categoria": "ia-para-imagenes",
+    "caso_uso": "arte-digital"
+  },
+  {
+    "slug": "semrush-vs-ahrefs",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "semrush vs ahrefs",
+    "tool_a_id": "semrush",
+    "tool_b_id": "ahrefs",
+    "categoria": "ia-para-seo",
+    "caso_uso": "seo-completo"
+  },
+  {
+    "slug": "surfer-seo-vs-se-ranking",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "surfer seo vs se ranking",
+    "tool_a_id": "surfer-seo",
+    "tool_b_id": "se-ranking",
+    "categoria": "ia-para-seo",
+    "caso_uso": "optimizacion-contenidos"
+  },
+  {
+    "slug": "semrush-vs-se-ranking",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "semrush vs se ranking",
+    "tool_a_id": "semrush",
+    "tool_b_id": "se-ranking",
+    "categoria": "ia-para-seo",
+    "caso_uso": "seo-completo"
+  },
+  {
+    "slug": "ahrefs-vs-mangools",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "ahrefs vs mangools",
+    "tool_a_id": "ahrefs",
+    "tool_b_id": "mangools",
+    "categoria": "ia-para-seo",
+    "caso_uso": "keyword-research"
+  },
+  {
+    "slug": "mangools-vs-ubersuggest",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "mangools vs ubersuggest",
+    "tool_a_id": "mangools",
+    "tool_b_id": "ubersuggest",
+    "categoria": "ia-para-seo",
+    "caso_uso": "keyword-research"
+  },
+  {
+    "slug": "dinorank-vs-se-ranking",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "dinorank vs se ranking",
+    "tool_a_id": "dinorank",
+    "tool_b_id": "se-ranking",
+    "categoria": "ia-para-seo",
+    "caso_uso": "seo-en-espanol"
+  },
+  {
+    "slug": "surfer-seo-vs-neuronwriter",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "surfer seo vs neuronwriter",
+    "tool_a_id": "surfer-seo",
+    "tool_b_id": "neuronwriter",
+    "categoria": "ia-para-seo",
+    "caso_uso": "optimizacion-contenidos"
+  },
+  {
+    "slug": "semrush-vs-sistrix",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "semrush vs sistrix",
+    "tool_a_id": "semrush",
+    "tool_b_id": "sistrix",
+    "categoria": "ia-para-seo",
+    "caso_uso": "visibilidad-seo"
+  },
+  {
+    "slug": "ahrefs-vs-se-ranking",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "ahrefs vs se ranking",
+    "tool_a_id": "ahrefs",
+    "tool_b_id": "se-ranking",
+    "categoria": "ia-para-seo",
+    "caso_uso": "seo-completo"
+  },
+  {
+    "slug": "lowfruits-vs-mangools",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "lowfruits vs mangools",
+    "tool_a_id": "lowfruits",
+    "tool_b_id": "mangools",
+    "categoria": "ia-para-seo",
+    "caso_uso": "keywords-baja-competencia"
+  },
+  {
+    "slug": "rankmath-vs-surfer-seo",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "rank math vs surfer seo",
+    "tool_a_id": "rankmath",
+    "tool_b_id": "surfer-seo",
+    "categoria": "ia-para-seo",
+    "caso_uso": "seo-wordpress"
+  },
+  {
+    "slug": "dinorank-vs-ubersuggest",
+    "tipo_pagina": "vs",
+    "keyword_objetivo": "dinorank vs ubersuggest",
+    "tool_a_id": "dinorank",
+    "tool_b_id": "ubersuggest",
+    "categoria": "ia-para-seo",
+    "caso_uso": "seo-en-espanol"
+  },
+  {
+    "slug": "alternativa-a-semrush",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a semrush",
+    "tool_a_id": "semrush",
+    "tool_b_id": "",
+    "categoria": "ia-para-seo",
+    "caso_uso": "seo-completo"
+  },
+  {
+    "slug": "alternativa-a-ahrefs",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a ahrefs",
+    "tool_a_id": "ahrefs",
+    "tool_b_id": "",
+    "categoria": "ia-para-seo",
+    "caso_uso": "backlinks-keywords"
+  },
+  {
+    "slug": "alternativa-a-surfer-seo",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a surfer seo",
+    "tool_a_id": "surfer-seo",
+    "tool_b_id": "",
+    "categoria": "ia-para-seo",
+    "caso_uso": "optimizacion-contenidos"
+  },
+  {
+    "slug": "alternativa-a-se-ranking",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a se ranking",
+    "tool_a_id": "se-ranking",
+    "tool_b_id": "",
+    "categoria": "ia-para-seo",
+    "caso_uso": "auditoria-ranking"
+  },
+  {
+    "slug": "alternativa-a-ubersuggest",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a ubersuggest",
+    "tool_a_id": "ubersuggest",
+    "tool_b_id": "",
+    "categoria": "ia-para-seo",
+    "caso_uso": "seo-accesible"
+  },
+  {
+    "slug": "alternativa-a-mangools",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a mangools",
+    "tool_a_id": "mangools",
+    "tool_b_id": "",
+    "categoria": "ia-para-seo",
+    "caso_uso": "keyword-research"
+  },
+  {
+    "slug": "alternativa-a-dinorank",
+    "tipo_pagina": "alternativa",
+    "keyword_objetivo": "alternativas a dinorank",
+    "tool_a_id": "dinorank",
+    "tool_b_id": "",
+    "categoria": "ia-para-seo",
+    "caso_uso": "seo-en-espanol"
+  },
+  {
+    "slug": "mejores-ia-herramientas-seo",
+    "tipo_pagina": "mejores",
+    "keyword_objetivo": "mejores herramientas seo con ia",
+    "tool_a_id": "",
+    "tool_b_id": "",
+    "categoria": "ia-para-seo",
+    "caso_uso": "seo-completo"
+  },
+  {
+    "slug": "mejores-ia-seo-baratas",
+    "tipo_pagina": "mejores",
+    "keyword_objetivo": "mejores herramientas seo baratas",
+    "tool_a_id": "",
+    "tool_b_id": "",
+    "categoria": "ia-para-seo",
+    "caso_uso": "seo-accesible"
+  },
+  {
+    "slug": "mejores-ia-keyword-research",
+    "tipo_pagina": "mejores",
+    "keyword_objetivo": "mejores herramientas de keyword research",
+    "tool_a_id": "",
+    "tool_b_id": "",
+    "categoria": "ia-para-seo",
+    "caso_uso": "keyword-research"
+  },
+  {
+    "slug": "mejores-ia-seo-espanol",
+    "tipo_pagina": "mejores",
+    "keyword_objetivo": "mejores herramientas seo en espanol",
+    "tool_a_id": "",
+    "tool_b_id": "",
+    "categoria": "ia-para-seo",
+    "caso_uso": "seo-en-espanol"
+  }
+]

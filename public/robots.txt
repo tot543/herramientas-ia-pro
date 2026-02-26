@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://herramientasiapro.com/sitemap.xml
+
+# Bloquear rutas de administración o internas si las hay
+Disallow: /_next/
