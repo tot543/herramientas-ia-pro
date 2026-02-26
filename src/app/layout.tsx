@@ -20,17 +20,16 @@ const sourceSerif = Source_Serif_4({
 const siteConfig = require("../../site.config.js");
 
 export const metadata: Metadata = {
-  title: {
-    default: `${siteConfig.siteName} — Comparativas de Herramientas IA`,
-    template: `%s | ${siteConfig.siteName}`,
-  },
-  description: siteConfig.siteDescription,
-  keywords: siteConfig.siteKeywords,
-  metadataBase: new URL(siteConfig.siteUrl),
+  title: "Mejores Herramientas de IA para Profesionales | 2026",
+  description: "Descubre el mejor directorio de herramientas de Inteligencia Artificial. Automatiza tu trabajo, genera contenido y aumenta tu productividad con las mejores IAs del mercado.",
+  keywords: ["herramientas IA", "inteligencia artificial", "automatización", "productividad", "software IA"],
+  metadataBase: new URL("https://herramientas-ia-pro.vercel.app"),
   openGraph: {
     type: "website",
     locale: siteConfig.siteLocale,
     siteName: siteConfig.siteName,
+    title: "Mejores Herramientas de IA para Profesionales | 2026",
+    description: "Descubre el mejor directorio de herramientas de Inteligencia Artificial. Automatiza tu trabajo, genera contenido y aumenta tu productividad con las mejores IAs del mercado.",
   },
   robots: {
     index: true,
@@ -40,6 +39,7 @@ export const metadata: Metadata = {
     google: "ZC13geA6C0ignM30NLkcATpK7rDqjSW8rR15JCmzzhc",
   },
 };
+
 
 export default function RootLayout({
   children,
