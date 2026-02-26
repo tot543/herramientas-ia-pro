@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next-sitemap",
     "start": "next start",
     "lint": "eslint",
     "generate": "node scripts/generate-pages.js",
-    "generate:build": "node scripts/generate-pages.js && next build"
+    "generate:build": "node scripts/generate-pages.js && next build && next-sitemap"
   },
   "dependencies": {
     "csv-parse": "^6.1.0",

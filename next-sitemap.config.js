@@ -2,8 +2,8 @@
 const siteConfig = require("./site.config.js");
 
 module.exports = {
-    siteUrl: siteConfig.siteUrl,
-    generateRobotsTxt: false, // Ya tenemos uno manual en /public
+    siteUrl: "https://midirectorioia.com",
+    generateRobotsTxt: true,
     trailingSlash: true,
     outDir: "out",
     changefreq: "weekly",
