@@ -6,18 +6,33 @@ import BlogSearch from "@/components/BlogSearch";
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const siteConfig = require("../../../site.config.js");
 
-export const metadata: Metadata = {
-    title: `Blueprints — Guías Prácticas de IA para Operaciones | ${siteConfig.siteName}`,
-    description:
-        "Blueprints paso a paso para automatizar operaciones y RRHH con inteligencia artificial. Flujos reales, prompts probados y resultados medibles.",
-    alternates: { canonical: "/blog/" },
-    openGraph: {
-        title: `Blueprints — Guías Prácticas de IA | ${siteConfig.siteName}`,
-        description:
-            "Blueprints paso a paso para automatizar operaciones y RRHH con IA.",
-        type: "website",
-    },
-};
+export async function generateMetadata({
+    searchParams,
+}: BlogIndexProps): Promise<Metadata> {
+    const { cat } = await searchParams;
+    const categoryName = siteConfig.blogCategories.find((c: any) => c.slug === cat)?.nombre;
+
+    const title = categoryName
+        ? `Blueprints de ${categoryName} — Guía de IA | ${siteConfig.siteName}`
+        : `Blueprints — Guías Prácticas de IA para Operaciones | ${siteConfig.siteName}`;
+
+    const description = categoryName
+        ? `Explora blueprints paso a paso sobre ${categoryName} con IA. Automatiza flujos reales y mejora tu arquitectura operativa.`
+        : "Blueprints paso a paso para automatizar operaciones y RRHH con inteligencia artificial. Flujos reales, prompts probados y resultados medibles.";
+
+    const canonical = cat ? `/blog/?cat=${cat}` : "/blog/";
+
+    return {
+        title,
+        description,
+        alternates: { canonical },
+        openGraph: {
+            title,
+            description,
+            type: "website",
+        },
+    };
+}
 
 interface BlogIndexProps {
     searchParams: Promise<{ cat?: string }>;
