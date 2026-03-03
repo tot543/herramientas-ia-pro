@@ -19,6 +19,7 @@ interface HowToJsonLdProps {
     description: string;
     steps: HowToStep[];
     totalTime?: string; // ISO 8601 duration, e.g. "PT30M"
+    estimatedCost?: string;
     imageUrl?: string;
     url: string;
 }
@@ -73,6 +74,7 @@ export function HowToJsonLd({
     description,
     steps,
     totalTime,
+    estimatedCost,
     imageUrl,
     url,
 }: HowToJsonLdProps) {
@@ -82,6 +84,13 @@ export function HowToJsonLd({
         name: name,
         description: description,
         ...(totalTime && { totalTime }),
+        ...(estimatedCost && {
+            estimatedCost: {
+                "@type": "MonetaryAmount",
+                currency: "USD",
+                value: estimatedCost.split(" ")[0],
+            },
+        }),
         ...(imageUrl && {
             image: {
                 "@type": "ImageObject",

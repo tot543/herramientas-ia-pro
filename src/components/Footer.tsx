@@ -69,7 +69,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <Link
-                                    href="/politica-privacidad/"
+                                    href="/politica-de-privacidad/"
                                     className="hover:text-indigo-400 transition-colors"
                                 >
                                     Política de Privacidad
