@@ -1,15 +1,18 @@
 import Link from "next/link";
 
+// eslint-disable-next-line @typescript-eslint/no-require-imports
 const siteConfig = require("../../site.config.js");
 
 export default function Header() {
     return (
-        <header className="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
+        <header className="bg-white/80 backdrop-blur-md border-b border-gray-200 sticky top-0 z-50 shadow-sm">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-2 group">
-                        <span className="text-2xl">🤖</span>
+                        <span className="w-8 h-8 bg-gradient-to-br from-indigo-600 to-violet-600 rounded-lg flex items-center justify-center text-white font-bold text-sm shadow-sm">
+                            B
+                        </span>
                         <span className="font-bold text-lg text-gray-900 group-hover:text-indigo-600 transition-colors">
                             {siteConfig.siteName}
                         </span>
@@ -18,62 +21,38 @@ export default function Header() {
                     {/* Navegación principal */}
                     <nav className="hidden md:flex items-center gap-6">
                         <Link
-                            href="/categoria/ia-para-escritura/"
+                            href="/blog/"
                             className="text-sm text-gray-600 hover:text-indigo-600 font-medium transition-colors"
                         >
-                            Escritura IA
+                            Blueprints
                         </Link>
                         <Link
-                            href="/categoria/ia-para-imagenes/"
+                            href="/recursos/mejores-ia-escritura-bloggers/"
                             className="text-sm text-gray-600 hover:text-indigo-600 font-medium transition-colors"
                         >
-                            Imágenes IA
+                            Recursos
                         </Link>
                         <Link
-                            href="/categoria/ia-para-video/"
+                            href="/aviso-afiliados/"
                             className="text-sm text-gray-600 hover:text-indigo-600 font-medium transition-colors"
                         >
-                            Vídeo IA
+                            Sobre Nosotros
                         </Link>
                         <Link
-                            href="/categoria/ia-para-seo/"
-                            className="text-sm text-gray-600 hover:text-indigo-600 font-medium transition-colors"
+                            href="/blog/"
+                            className="bg-gradient-to-r from-indigo-600 to-violet-600 text-white text-sm px-5 py-2.5 rounded-xl font-semibold hover:from-indigo-700 hover:to-violet-700 transition-all shadow-sm shadow-indigo-200 active:scale-[0.98]"
                         >
-                            SEO IA
-                        </Link>
-                        <Link
-                            href="/categoria/ia-para-productividad/"
-                            className="text-sm text-gray-600 hover:text-indigo-600 font-medium transition-colors"
-                        >
-                            Productividad
-                        </Link>
-                        <Link
-                            href="/categoria/ia-para-audio/"
-                            className="text-sm text-gray-600 hover:text-indigo-600 font-medium transition-colors"
-                        >
-                            Audio
-                        </Link>
-                        <Link
-                            href="/categoria/ia-para-automatizacion/"
-                            className="text-sm text-gray-600 hover:text-indigo-600 font-medium transition-colors"
-                        >
-                            Automática
-                        </Link>
-                        <Link
-                            href="/mejores/mejores-ia-escritura-bloggers/"
-                            className="bg-indigo-600 text-white text-sm px-4 py-2 rounded-lg font-semibold hover:bg-indigo-700 transition-colors"
-                        >
-                            Mejores Herramientas
+                            Ver Blueprints →
                         </Link>
                     </nav>
 
-                    {/* Menú móvil (simplificado) */}
+                    {/* Menú móvil */}
                     <div className="md:hidden">
                         <Link
-                            href="/mejores/mejores-ia-escritura-bloggers/"
-                            className="bg-indigo-600 text-white text-sm px-3 py-2 rounded-lg font-semibold"
+                            href="/blog/"
+                            className="bg-indigo-600 text-white text-sm px-4 py-2 rounded-xl font-semibold"
                         >
-                            Ver Ranking
+                            Blueprints
                         </Link>
                     </div>
                 </div>

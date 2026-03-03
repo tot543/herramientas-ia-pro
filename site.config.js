@@ -1,20 +1,20 @@
 /**
- * Configuración global del sitio
+ * Configuración global del sitio — Blueprint Ops
  * Edita este archivo para personalizar el sitio.
  */
 const siteConfig = {
     // Información básica del sitio
-    siteName: "HerramientasIA Pro",
-    siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://midirectorioia.com",
+    siteName: "Blueprint Ops",
+    siteUrl: "https://midirectorioia.com",
     siteDescription:
-        "Comparativas y reseñas de herramientas de IA para creadores de contenido. Encuentra la mejor herramienta para tu flujo de trabajo.",
+        "Blueprints y guías prácticas de arquitectura IA para Operaciones y RRHH. Automatiza procesos reales con flujos paso a paso.",
     siteKeywords:
-        "herramientas IA, inteligencia artificial, creadores de contenido, comparativas IA, reseñas SaaS",
+        "blueprints IA, arquitectura operativa, automatización RRHH, flujos de trabajo IA, inteligencia artificial operaciones, guías IA",
     siteLocale: "es_ES",
     siteLanguage: "es",
 
     // Redes sociales
-    twitterHandle: "@herramientasIApro",
+    twitterHandle: "@blueprintops",
 
     // Afiliados
     affiliateDisclaimer:
@@ -22,7 +22,39 @@ const siteConfig = {
     affiliateDisclaimerShort:
         "Contiene enlaces de afiliado. Ver aviso completo.",
 
-    // Categorías del sitio
+    // Temas / áreas del blog
+    blogCategories: [
+        {
+            slug: "operaciones",
+            nombre: "Operaciones",
+            descripcion:
+                "Automatiza flujos operativos con IA: desde gestión de inventarios hasta atención al cliente.",
+            icon: "⚙️",
+        },
+        {
+            slug: "rrhh",
+            nombre: "Recursos Humanos",
+            descripcion:
+                "Blueprints para screening de CVs, onboarding automatizado y gestión de talento con IA.",
+            icon: "👥",
+        },
+        {
+            slug: "productividad",
+            nombre: "Productividad",
+            descripcion:
+                "Flujos de trabajo inteligentes para equipos: reuniones, documentación y gestión de proyectos.",
+            icon: "⚡",
+        },
+        {
+            slug: "marketing",
+            nombre: "Marketing & Ventas",
+            descripcion:
+                "Automatiza la generación de contenido, email marketing y análisis de datos de ventas.",
+            icon: "📈",
+        },
+    ],
+
+    // Categorías de recursos (herramientas) — legacy, se mantienen para redirects
     categorias: [
         {
             slug: "ia-para-escritura",
@@ -75,7 +107,7 @@ const siteConfig = {
         },
     ],
 
-    // Páginas de dinero destacadas (money pages)
+    // Páginas de dinero destacadas (money pages) — legacy
     mejoresPaginas: [
         {
             slug: "mejores-ia-escritura-bloggers",
@@ -95,7 +127,7 @@ const siteConfig = {
         },
     ],
 
-    // Colores de marca (para referencia en componentes)
+    // Colores de marca
     brand: {
         primary: "#6366f1", // indigo-500
         secondary: "#8b5cf6", // violet-500

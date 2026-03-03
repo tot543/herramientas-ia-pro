@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+// eslint-disable-next-line @typescript-eslint/no-require-imports
 const siteConfig = require("../../site.config.js");
 
 export default function Footer() {
@@ -12,14 +13,16 @@ export default function Footer() {
                     {/* Columna 1: Marca */}
                     <div className="col-span-1 md:col-span-2">
                         <div className="flex items-center gap-2 mb-3">
-                            <span className="text-2xl">🤖</span>
+                            <span className="w-8 h-8 bg-gradient-to-br from-indigo-500 to-violet-500 rounded-lg flex items-center justify-center text-white font-bold text-sm">
+                                B
+                            </span>
                             <span className="font-bold text-lg text-white">
                                 {siteConfig.siteName}
                             </span>
                         </div>
                         <p className="text-sm leading-relaxed mb-4">
-                            Comparativas honestas y reseñas detalladas de herramientas de IA
-                            para creadores de contenido hispanohablantes.
+                            Blueprints y guías prácticas de arquitectura IA para
+                            Operaciones y RRHH. Flujos reales que puedes implementar hoy.
                         </p>
                         <p className="text-xs text-gray-500">
                             {siteConfig.affiliateDisclaimerShort}{" "}
@@ -32,28 +35,25 @@ export default function Footer() {
                         </p>
                     </div>
 
-                    {/* Columna 2: Categorías */}
+                    {/* Columna 2: Blueprints */}
                     <div>
                         <h3 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">
-                            Categorías
+                            Temas
                         </h3>
                         <ul className="space-y-2 text-sm">
-                            {siteConfig.categorias.map(
-                                (cat: { slug: string; nombre: string }) => (
+                            {siteConfig.blogCategories.map(
+                                (cat: { slug: string; nombre: string; icon: string }) => (
                                     <li key={cat.slug}>
-                                        <Link
-                                            href={`/categoria/${cat.slug}/`}
-                                            className="hover:text-indigo-400 transition-colors"
-                                        >
-                                            {cat.nombre.split(" para ")[1] || cat.nombre}
-                                        </Link>
+                                        <span className="hover:text-indigo-400 transition-colors cursor-default">
+                                            {cat.icon} {cat.nombre}
+                                        </span>
                                     </li>
                                 )
                             )}
                         </ul>
                     </div>
 
-                    {/* Columna 3: Páginas legales */}
+                    {/* Columna 3: Legal & Links */}
                     <div>
                         <h3 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">
                             Legal

@@ -21,16 +21,16 @@ const sourceSerif = Source_Serif_4({
 const siteConfig = require("../../site.config.js");
 
 export const metadata: Metadata = {
-  title: "Mejores Herramientas de IA para Profesionales | 2026",
-  description: "Descubre el mejor directorio de herramientas de Inteligencia Artificial. Automatiza tu trabajo, genera contenido y aumenta tu productividad con las mejores IAs del mercado.",
-  keywords: ["herramientas IA", "inteligencia artificial", "automatización", "productividad", "software IA"],
-  metadataBase: new URL("https://midirectorioia.com"),
+  title: `${siteConfig.siteName} — Arquitectura de IA para Operaciones y RRHH`,
+  description: siteConfig.siteDescription,
+  keywords: siteConfig.siteKeywords.split(", "),
+  metadataBase: new URL(siteConfig.siteUrl),
   openGraph: {
     type: "website",
     locale: siteConfig.siteLocale,
     siteName: siteConfig.siteName,
-    title: "Mejores Herramientas de IA para Profesionales | 2026",
-    description: "Descubre el mejor directorio de herramientas de Inteligencia Artificial. Automatiza tu trabajo, genera contenido y aumenta tu productividad con las mejores IAs del mercado.",
+    title: `${siteConfig.siteName} — Arquitectura de IA para Operaciones y RRHH`,
+    description: siteConfig.siteDescription,
   },
   robots: {
     index: true,

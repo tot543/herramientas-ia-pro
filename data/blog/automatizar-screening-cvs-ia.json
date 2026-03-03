@@ -1,0 +1,73 @@
+{
+    "title": "Cómo Automatizar el Screening de CVs con IA en 30 Minutos",
+    "description": "Blueprint paso a paso para crear un flujo automático que filtra y clasifica CVs usando Gmail, OpenAI y Google Sheets. Ahorra 10+ horas semanales en tu proceso de selección.",
+    "date": "2026-03-01",
+    "lastModified": "2026-03-03",
+    "category": "rrhh",
+    "tags": [
+        "screening",
+        "reclutamiento",
+        "automatización",
+        "RRHH",
+        "OpenAI",
+        "Google Sheets"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "12 min",
+    "featured": true,
+    "intro": "Si tu equipo de RRHH todavía lee CVs uno a uno, estás quemando entre 10 y 20 horas semanales en una tarea que la IA puede resolver en minutos. En este Blueprint, vamos a construir un flujo completo que recibe CVs por email, los analiza con GPT-4 y genera un ranking automático en Google Sheets — listo para que tu equipo solo revise los top 10.",
+    "steps": [
+        {
+            "title": "Configura Gmail para filtrar emails con CVs",
+            "content": "Crea un filtro en Gmail que etiquete automáticamente todos los emails que lleguen a tu dirección de reclutamiento (ej: empleo@tuempresa.com) con el asunto que contenga 'CV', 'Candidatura' o 'Postulación'. Esto creará un flujo limpio de entrada.",
+            "tip": "Usa la búsqueda avanzada de Gmail: subject:(CV OR Candidatura OR Postulación) has:attachment para capturar solo emails con archivos adjuntos."
+        },
+        {
+            "title": "Conecta Gmail con Make (Integromat) para extraer adjuntos",
+            "content": "Crea un nuevo escenario en Make.com. Añade el trigger 'Gmail > Watch Emails' con el filtro de la etiqueta que creaste. Configura el módulo para descargar los archivos adjuntos (PDF/DOCX). Make extraerá automáticamente el texto del CV.",
+            "tip": "Make.com tiene un plan gratuito con 1.000 operaciones/mes, más que suficiente para empezar."
+        },
+        {
+            "title": "Analiza el CV con OpenAI GPT-4",
+            "content": "Añade un módulo 'OpenAI > Create a Completion' en Make. Conecta la salida de texto del CV al prompt de análisis. El modelo evaluará experiencia, habilidades técnicas y fit cultural según los criterios que definas.",
+            "prompt": "Eres un experto en selección de personal. Analiza el siguiente CV para el puesto de [PUESTO].\n\nCriterios de evaluación:\n1. Años de experiencia relevante (peso: 30%)\n2. Habilidades técnicas requeridas: [LISTA] (peso: 40%)\n3. Formación académica (peso: 15%)\n4. Idiomas (peso: 15%)\n\nCV del candidato:\n---\n{texto_cv}\n---\n\nResponde ÚNICAMENTE en JSON con este formato:\n{\n  \"nombre\": \"...\",\n  \"puntuacion_total\": 0-100,\n  \"experiencia_anos\": 0,\n  \"habilidades_match\": [\"skill1\", \"skill2\"],\n  \"habilidades_faltantes\": [\"skill3\"],\n  \"resumen_ejecutivo\": \"2 frases máximo\",\n  \"recomendacion\": \"ENTREVISTAR | REVISAR | DESCARTAR\"\n}",
+            "promptLabel": "Prompt para GPT-4 — Análisis de CV"
+        },
+        {
+            "title": "Envía los resultados a Google Sheets",
+            "content": "Añade un módulo 'Google Sheets > Add a Row'. Mapea los campos del JSON (nombre, puntuación, recomendación, resumen) a las columnas de tu hoja de cálculo. Configura la hoja con formato condicional para resaltar en verde los candidatos con puntuación > 75.",
+            "tip": "Añade una columna extra con =HYPERLINK(url_email) para que tu equipo pueda acceder al email original con un clic."
+        },
+        {
+            "title": "Configura notificaciones automáticas",
+            "content": "Añade un último módulo de Slack o Email que notifique al equipo de RRHH cuando un candidato obtenga puntuación > 80. Incluye el resumen ejecutivo y la recomendación directamente en la notificación para que puedan actuar de inmediato."
+        }
+    ],
+    "flow": {
+        "title": "Flujo de Automatización Completo",
+        "nodes": [
+            {
+                "name": "Gmail",
+                "icon": "📧"
+            },
+            {
+                "name": "Make.com",
+                "icon": "⚡"
+            },
+            {
+                "name": "OpenAI GPT-4",
+                "icon": "🤖"
+            },
+            {
+                "name": "Google Sheets",
+                "icon": "📊"
+            },
+            {
+                "name": "Slack",
+                "icon": "💬"
+            }
+        ]
+    },
+    "conclusion": "Con este flujo activo, cada CV que llega a tu bandeja se analiza, puntúa y clasifica automáticamente. Tu equipo de RRHH pasa de leer 200 CVs a revisar solo los 10 mejores candidatos — con un resumen ejecutivo ya preparado. El ROI es inmediato: lo que antes tomaba 2 días de trabajo ahora ocurre en tiempo real.",
+    "cta": "¿Quieres que te avisemos cuando publiquemos el Blueprint de Onboarding Automatizado? Suscríbete abajo."
+}

@@ -1,0 +1,74 @@
+{
+    "title": "Cómo Crear un Asistente de Onboarding con IA para Nuevos Empleados",
+    "description": "Blueprint para montar un bot de onboarding en Slack que responde preguntas frecuentes, guía a los nuevos empleados por sus primeros 30 días y genera reportes de progreso usando IA.",
+    "date": "2026-02-25",
+    "lastModified": "2026-03-01",
+    "category": "rrhh",
+    "tags": [
+        "onboarding",
+        "chatbot",
+        "Slack",
+        "RRHH",
+        "OpenAI",
+        "Notion"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "15 min",
+    "featured": true,
+    "intro": "El onboarding es el momento más crítico para la retención de talento, pero la mayoría de empresas lo resuelven con un PDF de bienvenida y un 'pregúntale a tu manager'. En este Blueprint construimos un asistente IA en Slack que guía activamente a cada nuevo empleado durante sus primeros 30 días, responde sus preguntas al instante y genera reportes automáticos de progreso para RRHH.",
+    "steps": [
+        {
+            "title": "Estructura tu base de conocimiento en Notion",
+            "content": "Crea una base de datos en Notion con toda la información que un nuevo empleado necesita. Organízala en categorías: Cultura y Valores, Herramientas y Accesos, Políticas de la Empresa, Beneficios, y FAQs. Cada entrada debe tener un campo 'Día' (1-30) para la secuencia de onboarding.",
+            "tip": "Incluye respuestas a las 20 preguntas más frecuentes que recibes de nuevos empleados. Si no las tienes documentadas, pregunta a tus últimas 5 incorporaciones."
+        },
+        {
+            "title": "Crea el bot de Slack con la API de OpenAI",
+            "content": "Configura un Slack Bot usando la API de Slack (Bolt framework). El bot se conectará a tu base de Notion via API como contexto y usará GPT-4 como motor de respuestas. Cada mensaje del empleado se procesará contra la base de conocimiento para dar respuestas precisas y contextualizadas.",
+            "prompt": "Eres el Asistente de Onboarding de [EMPRESA]. Tu personalidad es amigable, proactiva y clara.\n\nREGLAS:\n1. Responde SOLO con información de la base de conocimiento proporcionada.\n2. Si no tienes la respuesta, di: \"No tengo esa info aún, pero he notificado al equipo de People para que te ayuden.\"\n3. Usa formato Slack (negrita con *, listas con •, emojis moderados).\n4. Al final de cada respuesta, sugiere un tema relacionado que el empleado debería conocer.\n5. Si el empleado pregunta algo sensible (salario, despidos, conflictos), redirige a RRHH.\n\nBASE DE CONOCIMIENTO:\n---\n{contexto_notion}\n---\n\nDÍA ACTUAL DEL EMPLEADO: {dia_onboarding}\n\nPREGUNTA DEL EMPLEADO: {pregunta}",
+            "promptLabel": "System Prompt — Asistente de Onboarding"
+        },
+        {
+            "title": "Configura mensajes proactivos diarios",
+            "content": "Programa el bot para que envíe un mensaje proactivo cada mañana durante los primeros 30 días. Día 1: bienvenida y tour virtual. Día 2: configuración de herramientas. Día 5: primera reunión 1:1 con manager. Día 15: check-in de mitad de onboarding. Día 30: encuesta de satisfacción.",
+            "tip": "Usa cron jobs o la función de 'Scheduled Messages' de Slack para automatizar los envíos. Cada mensaje debe incluir un link directo a la documentación relevante en Notion."
+        },
+        {
+            "title": "Conecta un tracker de progreso automático",
+            "content": "Cada interacción del empleado con el bot se registra en un Google Sheet o base de datos. Trackea: preguntas realizadas, documentos consultados, tareas de onboarding completadas (el bot puede preguntar '¿Ya configuraste tu email corporativo? ✅/❌'). Esto genera un dashboard de progreso en tiempo real.",
+            "prompt": "Analiza el siguiente log de interacciones del nuevo empleado {nombre} durante su semana {semana_num} de onboarding.\n\nLOG:\n{log_interacciones}\n\nGenera un reporte breve con:\n1. Porcentaje de tareas completadas\n2. Temas donde necesita más apoyo\n3. Sentimiento general (positivo/neutral/negativo)\n4. Acción recomendada para RRHH\n\nFormato: JSON",
+            "promptLabel": "Prompt para GPT-4 — Reporte Semanal"
+        },
+        {
+            "title": "Genera reportes automáticos para RRHH",
+            "content": "Configura un envío automático semanal (via Make.com o un script cron) que tome los datos del tracker, los pase por GPT-4 para análisis, y envíe un resumen ejecutivo al canal de RRHH en Slack. El reporte incluye: estado de cada nuevo empleado, alertas tempranas de rotación, y recomendaciones de acción."
+        }
+    ],
+    "flow": {
+        "title": "Arquitectura del Asistente de Onboarding",
+        "nodes": [
+            {
+                "name": "Notion",
+                "icon": "📝"
+            },
+            {
+                "name": "Slack Bot",
+                "icon": "🤖"
+            },
+            {
+                "name": "OpenAI",
+                "icon": "🧠"
+            },
+            {
+                "name": "Google Sheets",
+                "icon": "📊"
+            },
+            {
+                "name": "RRHH Dashboard",
+                "icon": "📋"
+            }
+        ]
+    },
+    "conclusion": "Este asistente no reemplaza la conexión humana del onboarding — la potencia. Los managers se liberan de responder las mismas preguntas 50 veces, los nuevos empleados tienen respuestas instantáneas 24/7, y RRHH tiene visibilidad total del proceso. Las empresas que implementan onboarding estructurado retienen un 82% más de talento (Gallup). Con este Blueprint, puedes tenerlo operativo en un fin de semana.",
+    "cta": "¿Te interesa el Blueprint de automatización de evaluaciones de desempeño? Suscríbete para recibirlo cuando lo publiquemos."
+}
