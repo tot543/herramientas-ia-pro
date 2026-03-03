@@ -1,0 +1,67 @@
+{
+    "title": "Bloqueador de Distracciones: Protege tu Deep Work",
+    "description": "Blueprint de Productividad: Configura un entorno digital que limite las notificaciones y el acceso a redes sociales basándose en tus objetivos del día.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "productividad",
+    "tags": [
+        "productividad",
+        "foco",
+        "bienestar-digital",
+        "concentración",
+        "IA-asistente"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "10 min",
+    "featured": false,
+    "intro": "Nuestra atención es el recurso más caro. Este flujo automatiza la entrada en el modo 'Cerebro Profundo' para que puedas terminar en 2 horas lo que antes te llevaba todo el día.",
+    "problem": "La multitarea (multitasking) y las notificaciones constantes bajan el IQ efectivo del profesional en 10 puntos.",
+    "solution": "Uso de perfiles de enfoque automáticos que se activan cuando detectan que estás en una aplicación de trabajo (como VS Code o Notion).",
+    "tools_used": [
+        {
+            "id": "freedom",
+            "name": "Freedom.to / Opal",
+            "reason": "Bloqueo multiplataforma de webs y apps."
+        },
+        {
+            "id": "shortcuts",
+            "name": "Apple Shortcuts / IFTTT",
+            "reason": "Para ejecutar modos de 'No molestar' coordinados."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Mapeo de 'Vampiros de Tiempo'",
+            "content": "Identifica qué apps te roban más tiempo durante la jornada laboral (ej: Instagram, LinkedIn, YouTube).",
+            "tip": "El bloqueo no tiene que ser total; puedes permitir 15 minutos de recreo cada 2 horas."
+        },
+        {
+            "title": "Activación por Contexto",
+            "content": "Configura el trigger para que cuando abras tu herramienta de trabajo principal, el resto del mundo desaparezca.",
+            "prompt": "Analiza mis hábitos de hoy: {uso_apps}. ¿En qué momento perdí más el foco? Sugiere un horario de bloqueo estricto.",
+            "promptLabel": "Prompt Auditoría Enfoque"
+        }
+    ],
+    "conclusion": "Aprender a decir 'no' a las distracciones digitales es la única forma de destacar en una economía que premia los resultados complejos.",
+    "flow": {
+        "title": "Escudo de Concentración",
+        "nodes": [
+            {
+                "name": "Inicio Tarea",
+                "icon": "🎯"
+            },
+            {
+                "name": "Cierre Puertas Digitales",
+                "icon": "🚪"
+            },
+            {
+                "name": "Foco Ininterrumpido",
+                "icon": "🧠"
+            },
+            {
+                "name": "Tarea Finalizada",
+                "icon": "✅"
+            }
+        ]
+    }
+}

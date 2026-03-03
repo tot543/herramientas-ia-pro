@@ -1,0 +1,67 @@
+{
+    "title": "Análisis de Competencia: Espionaje ético con IA",
+    "description": "Blueprint de Marketing: Monitorea precios, cambios en la web y lanzamientos de tu competencia de forma automática con reportes semanales.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "marketing",
+    "tags": [
+        "marketing",
+        "estrategia",
+        "inteligencia-mercado",
+        "scraping",
+        "benchmarking"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "13 min",
+    "featured": false,
+    "intro": "Estar desinformado sobre lo que hace tu competencia es un riesgo estratégico. Este Blueprint te ayuda a montar un sistema de 'alerta temprana' para que nunca te pillen por sorpresa.",
+    "problem": "Revisar las webs de la competencia manualmente consume tiempo y es fácil pasar por alto cambios sutiles en los precios o en el copywriting.",
+    "solution": "Un monitor de cambios visuales y de texto que detecta variaciones en las URLs clave y usa IA para resumir qué significa ese cambio para tu negocio.",
+    "tools_used": [
+        {
+            "id": "visualping",
+            "name": "Visualping / Hexowatch",
+            "reason": "Para monitorizar cambios visuales en páginas web específicas."
+        },
+        {
+            "id": "openai",
+            "name": "OpenAI Analysis",
+            "reason": "Para analizar si el cambio es una oferta temporal o un pivote estratégico."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Selección de URLs Críticas",
+            "content": "Elige la página de precios, el blog y la home de tus 3 principales competidores.",
+            "tip": "No monitorices todo; foco en los mensajes de venta y en el pricing."
+        },
+        {
+            "title": "Análisis de Diferencial",
+            "content": "Cuando el sistema detecta un cambio, la IA compara la versión antigua con la nueva y extrae la conclusión.",
+            "prompt": "Compara: {version_antigua} vs {version_nueva}. ¿Han bajado precios? ¿Qué beneficio nuevo están resaltando?",
+            "promptLabel": "Prompt Analista Mercado"
+        }
+    ],
+    "conclusion": "La inteligencia de mercado por IA permite a las empresas pequeñas reaccionar a la velocidad de las grandes, manteniendo su ventaja competitiva.",
+    "flow": {
+        "title": "Sistema Alerta Competitiva",
+        "nodes": [
+            {
+                "name": "Webs Competencia",
+                "icon": "🌐"
+            },
+            {
+                "name": "Sensor de Cambios",
+                "icon": "📡"
+            },
+            {
+                "name": "Interpretación IA",
+                "icon": "🧠"
+            },
+            {
+                "name": "Ajuste Estrategia",
+                "icon": "🚀"
+            }
+        ]
+    }
+}

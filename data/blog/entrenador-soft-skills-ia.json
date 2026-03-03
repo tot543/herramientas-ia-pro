@@ -1,0 +1,67 @@
+{
+    "title": "Entrenador de Soft Skills: Practica conversaciones difíciles en privado",
+    "description": "Blueprint de RRHH: Un simulador de IA para que los managers practiquen despidos, subidas de sueldo o feedback negativo antes de la reunión real.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "rrhh",
+    "tags": [
+        "rrhh",
+        "formación",
+        "management",
+        "soft-skills",
+        "simulación-IA"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "11 min",
+    "featured": true,
+    "intro": "Nadie nace sabiendo cómo dar malas noticias. Este simulador permite a tus managers 'equivocarse' con una IA que reacciona de forma realista antes de enfrentarse al equipo humano.",
+    "problem": "La falta de preparación en conversaciones difíciles genera tensión innecesaria y daña la relación manager-empleado.",
+    "solution": "Un juego de rol con IA donde el manager interactúa y recibe un reporte de empatía, claridad y resolución tras la sesión.",
+    "tools_used": [
+        {
+            "id": "openai",
+            "name": "OpenAI GPT-4",
+            "reason": "Por su capacidad de razonamiento emocional y cambio de rol fluido."
+        },
+        {
+            "id": "notion",
+            "name": "Notion",
+            "reason": "Para documentar los escenarios de práctica estándar del equipo."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Definición de Escenarios Críticos",
+            "content": "Crea una lista de situaciones: 'El empleado estrella que pide un aumento y no podemos dárselo' o 'Feedback sobre falta de puntualidad'.",
+            "tip": "Personaliza los escenarios con el contexto real de tu empresa para mayor realismo."
+        },
+        {
+            "title": "Sesión de Role-Play",
+            "content": "El manager escribe o habla con el bot. La IA responde según el perfil psicológico asignado (ej: defensivo, triste, racional).",
+            "prompt": "Actúa como [NOMBRE], un empleado que recibe feedback negativo. Sé un poco defensivo. Evalúa al manager al final en base a su empatía.",
+            "promptLabel": "Prompt Simulador Feedback"
+        }
+    ],
+    "conclusion": "La práctica deliberada con IA reduce la ansiedad del manager y asegura que las conversaciones reales sean productivas y humanas.",
+    "flow": {
+        "title": "Ciclo de Entrenamiento Soft Skills",
+        "nodes": [
+            {
+                "name": "Elegir Escenario",
+                "icon": "📋"
+            },
+            {
+                "name": "Dialogo IA",
+                "icon": "💬"
+            },
+            {
+                "name": "Feedback Automático",
+                "icon": "📝"
+            },
+            {
+                "name": "Mejora Continua",
+                "icon": "🔄"
+            }
+        ]
+    }
+}

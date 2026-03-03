@@ -1,0 +1,67 @@
+{
+    "title": "Dashboard de KPIs: Tu negocio en un PDF diario",
+    "description": "Blueprint de Operaciones: Extrae datos de tus diferentes apps y genera un reporte ejecutivo en PDF que llega a tu móvil cada mañana.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "operaciones",
+    "tags": [
+        "operaciones",
+        "data-analysis",
+        "KPIs",
+        "Make.com",
+        "OpenAI"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "11 min",
+    "featured": false,
+    "intro": "Deja de entrar a 5 apps diferentes para saber cómo va el negocio. Crea un flujo que consolide las ventas, el gasto en ads y el soporte en un solo reporte fácil de leer.",
+    "problem": "El análisis de datos suele ser reactivo (al final de mes) en lugar de proactivo porque toma demasiado tiempo consolidar la información.",
+    "solution": "Un colector de datos que extrae métricas de Google Ads, Shopify, Stripe y Zendesk, y usa IA para darte un resumen escrito de lo que significan esos números.",
+    "tools_used": [
+        {
+            "id": "make",
+            "name": "Make.com",
+            "reason": "Para conectar todas las APIs de tus herramientas de negocio."
+        },
+        {
+            "id": "openai",
+            "name": "OpenAI Analysis",
+            "reason": "Para interpretar los números: 'Las ventas han bajado pero el ticket medio ha subido, ojo con esto'."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Recolección Multi-Plataforma",
+            "content": "Configura módulos en Make para extraer las métricas clave de las últimas 24 horas de cada app.",
+            "tip": "No te satures de datos. Elige solo los 5 números que realmente mueven la aguja (North Star Metrics)."
+        },
+        {
+            "title": "Análisis y Narrativa",
+            "content": "Pasa los números a la IA. No pidas un gráfico, pide una explicación de 'cómo fue el día' comparado con el anterior.",
+            "prompt": "Reporte de hoy: {ventas}, {gasto_ads}, {tickets}. Escribe un resumen de 3 frases para el dueño de la empresa. Avisa si algo va mal.",
+            "promptLabel": "Prompt Analista Ejecutivo"
+        }
+    ],
+    "conclusion": "La visibilidad diaria sobre los KPIs permite corregir el rumbo antes de que un pequeño problema se convierta en una tendencia negativa.",
+    "flow": {
+        "title": "Fábrica de Insights Diarios",
+        "nodes": [
+            {
+                "name": "Extracción APIs",
+                "icon": "🔗"
+            },
+            {
+                "name": "Interpretación IA",
+                "icon": "🧠"
+            },
+            {
+                "name": "Diseño PDF",
+                "icon": "🎨"
+            },
+            {
+                "name": "Envío WhatsApp",
+                "icon": "📱"
+            }
+        ]
+    }
+}

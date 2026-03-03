@@ -1,0 +1,67 @@
+{
+    "title": "Gestor de CRM Personal: Nunca olvides un contacto clave",
+    "description": "Blueprint de Productividad: Un sistema que te recuerda cuándo fue la última vez que hablaste con tus contactos estratégicos y sugiere temas de conversación.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "productividad",
+    "tags": [
+        "productividad",
+        "networking",
+        "CRM",
+        "relaciones",
+        "IA-asistente"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "11 min",
+    "featured": false,
+    "intro": "El networking no es coleccionar tarjetas, es mantener relaciones. Este Blueprint automatiza el seguimiento de tus 50 contactos más importantes para que nunca se enfríe el vínculo.",
+    "problem": "Perder el contacto con mentores, antiguos jefes o clientes potenciales simplemente por falta de organización y memoria.",
+    "solution": "Un tablero de 'Semáforo de Relaciones' que se pone en rojo si han pasado más de 90 días sin una interacción significativa.",
+    "tools_used": [
+        {
+            "id": "notion",
+            "name": "Notion Personal CRM",
+            "reason": "Para estructurar la base de datos de contactos por frecuencia de contacto."
+        },
+        {
+            "id": "openai",
+            "name": "OpenAI Contextualizer",
+            "reason": "Pide ideas de 'por qué escribir' hoy basado en intereses del contacto."
+        }
+    ],
+    "steps": [
+        {
+            "title": "La Regla de los 'Top 50'",
+            "content": "No intentes seguir a todos. Elige a las 50 personas que más impactan en tu futuro profesional y asígnales una frecuencia (Mensual, Trimestral).",
+            "tip": "Añade campos de 'Intereses' (ej: aficionado al golf, amante de la IA) para tener excusas de contacto genuinas."
+        },
+        {
+            "title": "Generador de 'Icebreakers' Contextuales",
+            "content": "Usa la IA para buscar una noticia reciente sobre su sector o empresa y redactar un breve: 'Hola, vi esto y me acordé de ti'.",
+            "prompt": "Para mi contacto {nombre} que trabaja en {sector}, busca una noticia relevante de hoy y redacta un correo de saludo corto y profesional.",
+            "promptLabel": "Prompt Networking Inteligente"
+        }
+    ],
+    "conclusion": "La suerte es proporcional a la red de contactos que cuidas. Usar un sistema para mantenerla viva es la inversión más rentable a largo plazo.",
+    "flow": {
+        "title": "Motor de Networking Activo",
+        "nodes": [
+            {
+                "name": "Base de Contactos",
+                "icon": "👥"
+            },
+            {
+                "name": "Alerta de Enfriamiento",
+                "icon": "❄️"
+            },
+            {
+                "name": "Sugerencia Mensaje",
+                "icon": "💡"
+            },
+            {
+                "name": "Reconexión",
+                "icon": "🔥"
+            }
+        ]
+    }
+}

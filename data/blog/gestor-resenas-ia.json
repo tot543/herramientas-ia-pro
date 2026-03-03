@@ -1,0 +1,67 @@
+{
+    "title": "Gestor de Reseñas: Respuestas empáticas en segundos",
+    "description": "Blueprint de Marketing: Automatiza la respuesta a reseñas de Google Maps o Trustpilot asegurando que cada cliente reciba una contestación única y personalizada.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "marketing",
+    "tags": [
+        "marketing",
+        "reputación-online",
+        "atención-cliente",
+        "local-SEO",
+        "Google-Maps"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "8 min",
+    "featured": false,
+    "intro": "Google premia a los negocios que responden a sus reseñas. Este flujo garantiza que no dejes a nadie sin respuesta, usando IA para que cada una suene humana y agradecida.",
+    "problem": "El volumen de reseñas puede ser abrumador. Responder con 'Gracias' a todas da una imagen de falta de cuidado.",
+    "solution": "Un Agente de Reputación que lee la reseña, identifica los puntos positivos mencionados y redacta una respuesta específica citándolos.",
+    "tools_used": [
+        {
+            "id": "make",
+            "name": "Make.com",
+            "reason": "Para conectar Google Business Profile con tu cerebro de IA."
+        },
+        {
+            "id": "openai",
+            "name": "OpenAI GPT-4",
+            "reason": "Cerebro redactor para generar respuestas variadas y empáticas."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Trigger de Nueva Reseña",
+            "content": "Configura un aviso en Make que dispare el flujo cada vez que un nuevo cliente deje un comentario.",
+            "tip": "Si la reseña es de 1 o 2 estrellas, no automatices la respuesta. Alerta al manager para trato humano directo."
+        },
+        {
+            "title": "Redacción Personalizada",
+            "content": "Pide a la IA que use el nombre del cliente y mencione algo que haya dicho (ej: 'Me encantó el café').",
+            "prompt": "Responde a esta reseña de 5 estrellas de {nombre}: {texto_reseña}. Sé agradecido e invita a volver pronto.",
+            "promptLabel": "Prompt Respuesta Reseñas"
+        }
+    ],
+    "conclusion": "Una buena gestión de reseñas mejora el posicionamiento SEO local y genera una confianza inmediata en los prospectos que te buscan en Google.",
+    "flow": {
+        "title": "Flujo de Reputación Estelar",
+        "nodes": [
+            {
+                "name": "Nueva Reseña",
+                "icon": "⭐"
+            },
+            {
+                "name": "Análisis Emocional",
+                "icon": "🧠"
+            },
+            {
+                "name": "Borrador IA",
+                "icon": "✍️"
+            },
+            {
+                "name": "Publicación Automática",
+                "icon": "🌐"
+            }
+        ]
+    }
+}

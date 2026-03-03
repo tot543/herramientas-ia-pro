@@ -1,0 +1,67 @@
+{
+    "title": "Optimizador de Rutas: Logística eficiente con IA",
+    "description": "Blueprint de Operaciones: Calcula la ruta de entrega más rápida y barata para tu flota de vehículos usando inteligencia artificial y datos en tiempo real.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "operaciones",
+    "tags": [
+        "operaciones",
+        "logística",
+        "entregas",
+        "Google-Maps",
+        "IA-operativa"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "13 min",
+    "featured": true,
+    "intro": "Cada kilómetro de más es un gasto innecesario. Este flujo de trabajo automatiza el despacho de rutas para que tus conductores pasen menos tiempo en el tráfico y más tiempo entregando.",
+    "problem": "Planificar rutas manualmente para 5 o más vehículos es un rompecabezas que consume horas y suele ser ineficiente por no considerar el tráfico dinámico.",
+    "solution": "Un algoritmo de optimización que recibe las direcciones del día y propone el orden lógico de entrega basándose en distancia, tiempo y capacidad de carga.",
+    "tools_used": [
+        {
+            "id": "google-maps",
+            "name": "Google Maps Routes API",
+            "reason": "Para el cálculo preciso de tiempos de viaje y distancias reales."
+        },
+        {
+            "id": "make",
+            "name": "Make.com",
+            "reason": "Para conectar el sistema de pedidos con el dispositivo móvil del repartidor."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Consolidación de Direcciones",
+            "content": "Extrae automáticamente las direcciones de entrega de tu Shopify o ERP y límpialas para que el GPS las entienda perfectamente.",
+            "tip": "Añade campos de 'ventana horaria' para entregas prioritarias o con horario específico de cliente."
+        },
+        {
+            "title": "Cálculo de Ruta Maestra",
+            "content": "Envía el listado a la IA para resolver el 'problema del viajante'. Genera un mapa interactivo para cada conductor.",
+            "prompt": "Analiza estas 20 paradas: {direcciones}. Calcula la ruta más eficiente empezando y terminando en el almacén central.",
+            "promptLabel": "Prompt Optimización Ruta"
+        }
+    ],
+    "conclusion": "Reducir el kilometraje en un 15% no solo ahorra combustible, sino que prolonga la vida de la flota y aumenta la capacidad de entrega diaria.",
+    "flow": {
+        "title": "Flujo de Logística Ágil",
+        "nodes": [
+            {
+                "name": "Pedidos Hoy",
+                "icon": "📦"
+            },
+            {
+                "name": "Motor de Rutas",
+                "icon": "🗺️"
+            },
+            {
+                "name": "Asignación Chofer",
+                "icon": "🚚"
+            },
+            {
+                "name": "Entrega Final",
+                "icon": "🏠"
+            }
+        ]
+    }
+}

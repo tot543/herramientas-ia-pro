@@ -1,0 +1,67 @@
+{
+    "title": "Filtro de Inbox: Priorización inteligente de correos",
+    "description": "Blueprint de Productividad: Deja que la IA actúe como tu secretaria personal, etiquetando correos urgentes y limpiando el ruido de tu bandeja de entrada.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "productividad",
+    "tags": [
+        "productividad",
+        "gmail",
+        "foco",
+        "IA-asistente",
+        "inbox-zero"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "9 min",
+    "featured": true,
+    "intro": "Recibir 100 correos al día es estresante solo si tienes que leer los 100. Este Blueprint te ayuda a ver solo lo que importa, cuando importa.",
+    "problem": "El ruido de newsletters, facturas y CCs innecesarios oculta las oportunidades de negocio reales que requieren respuesta inmediata.",
+    "solution": "Un Agente de Triage de correo que 'entiende' quién te escribe y de qué trata el mensaje antes de que tú abras el Gmail.",
+    "tools_used": [
+        {
+            "id": "openai",
+            "name": "OpenAI API",
+            "reason": "Análisis rápido de la intención del correo."
+        },
+        {
+            "id": "make",
+            "name": "Make.com",
+            "reason": "Para leer el inbox y aplicar etiquetas o archivar automáticamente."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Definición de 'Urgencia'",
+            "content": "Enseña a la IA qué es prioridad: correos de clientes, de tu jefe o con palabras como 'Contrato' o 'Problema'.",
+            "tip": "Crea una etiqueta llamada '⚡ IA Prioridad' para ver de un vistazo lo más crítico."
+        },
+        {
+            "title": "Acción Silenciosa",
+            "content": "Configura el flujo para que los correos informativos se archiven automáticamente y se guarden en un resumen diario.",
+            "prompt": "Analiza este correo de {remitente}: {asunto}. ¿Es una urgencia, una factura o una newsletter? Pon la etiqueta correcta.",
+            "promptLabel": "Prompt Clasificador Inbox"
+        }
+    ],
+    "conclusion": "Recuperar el control de tu bandeja de entrada es recuperar el control de tu tiempo y tu capacidad de trabajo profundo (Deep Work).",
+    "flow": {
+        "title": "Sistema de Filtrado Proactivo",
+        "nodes": [
+            {
+                "name": "Nuevo Correo",
+                "icon": "📩"
+            },
+            {
+                "name": "IA Portero",
+                "icon": "💂"
+            },
+            {
+                "name": "Etiquetado / Archivo",
+                "icon": "🏷️"
+            },
+            {
+                "name": "Foco Total",
+                "icon": "🎯"
+            }
+        ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "title": "Generador de Guiones: TikTok y Reels con base en tendencias",
+    "description": "Blueprint de Marketing: Crea guiones virales para contenido vertical analizando lo que está funcionando en la plataforma esta semana.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "marketing",
+    "tags": [
+        "marketing",
+        "TikTok",
+        "Reels",
+        "guionización",
+        "video-short-form"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "11 min",
+    "featured": true,
+    "intro": "No grabes lo que tú quieres, graba lo que la audiencia quiere ver. Este flujo de trabajo utiliza la IA para estructurar tus ideas en formatos de guion con ganchos de alta retención.",
+    "problem": "Los creadores sufren para mantener la retención en los primeros 3 segundos, lo que hace que los algoritmos dejen de mostrar su contenido.",
+    "solution": "Un Agente de Guionización entrenado en estructuras de éxito (Hook, Value, CTA) que adapta tu mensaje a la duración ideal de cada plataforma.",
+    "tools_used": [
+        {
+            "id": "openai",
+            "name": "OpenAI GPT-4",
+            "reason": "Cerebro creativo para redactar copy con ganchos potentes."
+        },
+        {
+            "id": "copyai",
+            "name": "Copy.ai",
+            "reason": "Excelente para variaciones rápidas de ganchos (hooks)."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Ingesta de Idea o Concepto",
+            "content": "Pega un artículo de tu blog o una idea suelta. La IA buscará el ángulo más entretenido o educativo.",
+            "tip": "Elige un ángulo: ¿Es educativo, polémico, o una lista de recursos?"
+        },
+        {
+            "title": "Estructura de Tres Actos Vertical",
+            "content": "Genera el guion incluyendo indicaciones visuales: 'Texto en pantalla', 'Cambio de plano', 'Mirada a cámara'.",
+            "prompt": "Escribe un guion de 60s para TikTok sobre {tema}. Estructura: Gancho impactante (0-3s), Problema, Solución rápida, Final con CTA.",
+            "promptLabel": "Prompt Script Vertical"
+        }
+    ],
+    "conclusion": "La constancia en redes sociales depende de la facilidad para crear. Automatizar el guion te permite escalar tu producción de video x5.",
+    "flow": {
+        "title": "Fábrica de Guiones Virales",
+        "nodes": [
+            {
+                "name": "Idea Core",
+                "icon": "💡"
+            },
+            {
+                "name": "IA Guionista",
+                "icon": "✍️"
+            },
+            {
+                "name": "Revisión Gancho",
+                "icon": "🪝"
+            },
+            {
+                "name": "GRABACIÓN",
+                "icon": "🎥"
+            }
+        ]
+    }
+}

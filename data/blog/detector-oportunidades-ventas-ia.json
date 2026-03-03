@@ -1,0 +1,67 @@
+{
+    "title": "Detector de Oportunidades: Alertas de licitaciones y ventas",
+    "description": "Blueprint de Ventas: Escanea boletines oficiales, LinkedIn y portales de noticias buscando palabras clave que indiquen que un prospecto necesita tus servicios.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "ventas",
+    "tags": [
+        "ventas",
+        "prospección",
+        "oportunidades",
+        "scraping",
+        "IA-analista"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "12 min",
+    "featured": false,
+    "intro": "Venderle a alguien que ya tiene un problema es 10 veces más fácil. Este flujo encuentra esos 'momentos gatillo' (trigge events) para que seas el primero en llamar.",
+    "problem": "Las oportunidades de negocio duran poco. Si te enteras de una licitación o de una ronda de inversión una semana tarde, ya no tienes opción.",
+    "solution": "Un sabueso digital que monitoriza feeds RSS y portales de empleo buscando señales: 'Buscamos experto en...', 'Nueva apertura en...'.",
+    "tools_used": [
+        {
+            "id": "apify",
+            "name": "Apify / Browse.ai",
+            "reason": "Monitorización de cambios en webs de competencia o portales de empleo."
+        },
+        {
+            "id": "openai",
+            "name": "OpenAI Classifier",
+            "reason": "Ddescarta el ruido y solo avisa de oportunidades reales de alto valor."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Configuración de 'Palabras Gatillo'",
+            "content": "Define qué señales buscas: 'Ampliación de capital', 'Nuevo Director de...', 'Fallo en sistema de...'.",
+            "tip": "Céntrate en portales de nicho de tu sector para evitar el spam masivo de grandes portales."
+        },
+        {
+            "title": "Triage de Valor IA",
+            "content": "La IA lee el contexto de la noticia y asigna un score de 1 a 10 de 'Afinidad con mis servicios'.",
+            "prompt": "Analiza este titular: {titular}. ¿Indica que la empresa necesita servicios de automatización? Justifica tu respuesta.",
+            "promptLabel": "Prompt Analista Oportunidades"
+        }
+    ],
+    "conclusion": "Pasar de la venta 'puerta fría' a la venta 'por evento' transforma tu departamento comercial en un equipo quirúrgico y altamente efectivo.",
+    "flow": {
+        "title": "Radar de Negocio IA",
+        "nodes": [
+            {
+                "name": "Monitorización Web",
+                "icon": "📡"
+            },
+            {
+                "name": "Filtro Relevancia IA",
+                "icon": "🔍"
+            },
+            {
+                "name": "Alerta Comercial",
+                "icon": "🔔"
+            },
+            {
+                "name": "Pitch Personalizado",
+                "icon": "📧"
+            }
+        ]
+    }
+}

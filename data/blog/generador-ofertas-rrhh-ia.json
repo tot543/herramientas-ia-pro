@@ -1,0 +1,67 @@
+{
+    "title": "Generador de Ofertas: Cierra contrataciones con cartas personalizadas",
+    "description": "Blueprint de RRHH: Crea cartas de oferta irresistibles extrayendo datos clave de las entrevistas y alineándolos con las motivaciones del candidato.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "rrhh",
+    "tags": [
+        "rrhh",
+        "reclutamiento",
+        "contratación",
+        "personalización",
+        "Make.com"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "9 min",
+    "featured": false,
+    "intro": "Una oferta de trabajo debe ser una carta de amor profesional. Este flujo de trabajo genera documentos legales perfectos que además incluyen ese toque personal que convence al candidato.",
+    "problem": "Enviar ofertas genéricas baja la tasa de aceptación, especialmente ante candidatos que tienen múltiples opciones en la mesa.",
+    "solution": "Un generador de documentos que combina una plantilla legal sólida con un párrafo de 'por qué te queremos' redactado por IA basado en las notas de la entrevista.",
+    "tools_used": [
+        {
+            "id": "documint",
+            "name": "Documint / Google Docs API",
+            "reason": "Generación del PDF final a partir de plantillas."
+        },
+        {
+            "id": "openai",
+            "name": "OpenAI GPT-4",
+            "reason": "Para redactar el toque personal basado en el feedback del equipo."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Input de Datos de Cierre",
+            "content": "Rellena un formulario con: Nombre, Salario, Fecha de inicio y 3 razones por las que el equipo le eligió.",
+            "tip": "Menciona una anécdota específica de la entrevista para demostrar que escuchaste activamente."
+        },
+        {
+            "title": "Fusión y Generación",
+            "content": "Make une la plantilla base (contrato) con los datos variables y el texto redactado por la IA. El PDF ganador se envía instantáneamente.",
+            "prompt": "Redacta un párrafo final motivador para una oferta a {nombre}. Destaca su habilidad en {habilidad} y cómo encajará en nuestro equipo de {departamento}.",
+            "promptLabel": "Prompt Párrafo Oferta"
+        }
+    ],
+    "conclusion": "La rapidez y personalización en la fase final de contratación transmite una imagen de agilidad y excelencia que enamora al mejor talento.",
+    "flow": {
+        "title": "Fábrica de Ofertas Ganadoras",
+        "nodes": [
+            {
+                "name": "Aprobación Manager",
+                "icon": "👍"
+            },
+            {
+                "name": "Redacción IA",
+                "icon": "✍️"
+            },
+            {
+                "name": "Firma Digital",
+                "icon": "🖋️"
+            },
+            {
+                "name": "Contratación",
+                "icon": "🎊"
+            }
+        ]
+    }
+}

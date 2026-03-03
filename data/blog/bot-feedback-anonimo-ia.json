@@ -1,0 +1,67 @@
+{
+    "title": "Bot de Feedback Anónimo: El termómetro real de tu cultura",
+    "description": "Blueprint de RRHH: Recolecta opiniones honestas del equipo y analiza el sentimiento general sin comprometer la identidad de nadie.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "rrhh",
+    "tags": [
+        "rrhh",
+        "cultura",
+        "feedback",
+        "IA-sentimiento",
+        "Slack"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "10 min",
+    "featured": false,
+    "intro": "El miedo a las represalias mata la honestidad. Este bot permite que el equipo hable con libertad mientras la IA agrupa las preocupaciones por temas y mide la 'salud emocional' de la oficina.",
+    "problem": "Las encuestas anuales son lentas y los empleados a menudo no dicen lo que piensan de verdad por miedo a ser identificados.",
+    "solution": "Un puente entre Slack y una base de datos cifrada donde la IA procesa el texto, elimina rastros de identidad específicos y genera un reporte de tendencias.",
+    "tools_used": [
+        {
+            "id": "make",
+            "name": "Make.com",
+            "reason": "Para anonimizar los datos antes de guardarlos en la base de datos."
+        },
+        {
+            "id": "openai",
+            "name": "OpenAI Sentiment Analysis",
+            "reason": "Para detectar si el clima es tóxico, neutral o motivador."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Configuración del Buzón Ciego",
+            "content": "Crea un comando de Slack (/feedback) que abra un formulario simple de Tally o Typeform que no guarde correos ni IPs.",
+            "tip": "Comunica explícitamente al equipo cómo funciona la limpieza de metadatos para generar confianza."
+        },
+        {
+            "title": "Procesamiento de Voz de Equipo",
+            "content": "Envía las respuestas a la IA para resumir: qué les preocupa, qué les gusta y qué sugerencia práctica proponen.",
+            "prompt": "Analiza estos comentarios anónimos: {comentarios}. Dime: 1. Sentimiento predominante (0-10), 2. Top 3 quejas, 3. Sugerencia clave. No cites frases literales.",
+            "promptLabel": "Prompt Análisis Sentimiento"
+        }
+    ],
+    "conclusion": "La transparencia radical asistida por IA permite a los líderes actuar sobre problemas reales antes de que se conviertan en crisis de rotación.",
+    "flow": {
+        "title": "Flujo de Escucha Silenciosa",
+        "nodes": [
+            {
+                "name": "Entrada Anónima",
+                "icon": "🎭"
+            },
+            {
+                "name": "Limpieza Metadatos",
+                "icon": "🧹"
+            },
+            {
+                "name": "IA Analista",
+                "icon": "🧠"
+            },
+            {
+                "name": "Dashboard Cultura",
+                "icon": "📊"
+            }
+        ]
+    }
+}

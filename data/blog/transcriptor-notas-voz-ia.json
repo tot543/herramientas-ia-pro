@@ -1,0 +1,67 @@
+{
+    "title": "Transcriptor de Notas de Voz: De audio a acción en Notion",
+    "description": "Blueprint de Productividad: Envía audios de WhatsApp o notas de voz sueltas y recibe un resumen estructurado con tareas pendientes en tu CRM.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "productividad",
+    "tags": [
+        "productividad",
+        "OCR-audio",
+        "transcripción",
+        "Notion",
+        "Whisper"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "9 min",
+    "featured": true,
+    "intro": "Las mejores ideas suelen pillarnos conduciendo o caminando. No dejes que se pierdan. Este flujo convierte tus divagaciones en voz en planes de acción limpios.",
+    "problem": "Escuchar tus propias notas de voz antiguas es tedioso y a menudo olvidas qué tarea tenías que extraer de cada una.",
+    "solution": "Un motor de Whisper (OpenAI) que transcribe el audio y un Agente de IA que extrae las acciones (To-dos) y las fechas límite mencionadas.",
+    "tools_used": [
+        {
+            "id": "whisper",
+            "name": "OpenAI Whisper",
+            "reason": "La mejor precisión de transcripción de voz a texto del mercado."
+        },
+        {
+            "id": "make",
+            "name": "Make.com",
+            "reason": "Conecta el audio (vía Telegram/WhatsApp) con el destino final (Notion)."
+        }
+    ],
+    "steps": [
+        {
+            "title": "El 'Buzón de Ideas' por Voz",
+            "content": "Configura un bot de Telegram al que solo tú puedas enviar audios. Es tu línea directa con tu sistema de productividad.",
+            "tip": "Habla sin filtros. La IA es excelente separando las muletillas de la información valiosa."
+        },
+        {
+            "title": "Extracción de Tareas Ejecutables",
+            "content": "Pide a la IA que no solo transcriba, sino que cree una lista de 'Siguientes Pasos'.",
+            "prompt": "Transcribe este audio: {audio}. Extrae: 1. Idea principal, 2. Tareas mencionadas (con responsables si hay), 3. Fecha de seguimiento.",
+            "promptLabel": "Prompt Analista de Voz"
+        }
+    ],
+    "conclusion": "Eliminar la fricción de escribir permite capturar más valor intelectual a lo largo del día sin interrumpir tu flujo natural de pensamiento.",
+    "flow": {
+        "title": "Flujo de Captura Inteligente",
+        "nodes": [
+            {
+                "name": "Nota de Voz",
+                "icon": "🎙️"
+            },
+            {
+                "name": "Transcripción Whisper",
+                "icon": "📄"
+            },
+            {
+                "name": "Estructuración IA",
+                "icon": "🏗️"
+            },
+            {
+                "name": "Notion Task",
+                "icon": "✅"
+            }
+        ]
+    }
+}

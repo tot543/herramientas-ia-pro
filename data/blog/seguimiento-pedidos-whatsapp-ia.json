@@ -1,0 +1,67 @@
+{
+    "title": "Seguimiento de Pedidos: Notificaciones proactivas vía WhatsApp",
+    "description": "Blueprint de Operaciones: Mantén a tus clientes informados en cada paso de su envío con mensajes de WhatsApp automáticos y amigables.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "operaciones",
+    "tags": [
+        "operaciones",
+        "e-commerce",
+        "atención-cliente",
+        "WhatsApp",
+        "Make.com"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "10 min",
+    "featured": false,
+    "intro": "El 30% de los tickets de soporte son: '¿Dónde está mi pedido?'. Elimina esa carga proactivamente enviando el estatus directamente al canal que más usan tus clientes.",
+    "problem": "Los correos de seguimiento a menudo terminan en spam o son ignorados, lo que genera ansiedad en el cliente y más trabajo para soporte.",
+    "solution": "Un flujo que conecta tu transportista con una API de WhatsApp (como Twilio o Wati) para disparar avisos cuando el paquete sale, está en reparto o entregado.",
+    "tools_used": [
+        {
+            "id": "make",
+            "name": "Make.com",
+            "reason": "Para detectar los cambios de estatus en el transportista y disparar el mensaje."
+        },
+        {
+            "id": "twilio",
+            "name": "Twilio / Meta Business API",
+            "reason": "Proveedor de mensajería para WhatsApp oficial."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Sincronización con Transportista",
+            "content": "Usa webhooks o consultas periódicas a la API de tu proveedor logístico para saber cuándo cambia el estado del pedido.",
+            "tip": "Personaliza el mensaje con el nombre del cliente y el link directo al tracking."
+        },
+        {
+            "title": "Redacción de Mensajes con IA",
+            "content": "Usa IA para que cada mensaje de estatus tenga un tono diferente y divertido, evitando parecer un bot genérico.",
+            "prompt": "Escribe un mensaje de WhatsApp para {nombre} avisando que su pedido está 'En Reparto'. Sé amable y usa un emoji de camión.",
+            "promptLabel": "Prompt Notificación Pedido"
+        }
+    ],
+    "conclusion": "La comunicación proactiva reduce drásticación las quejas y aumenta la probabilidad de que el cliente vuelva a comprar gracias a una experiencia de post-venta sobresaliente.",
+    "flow": {
+        "title": "Flujo de Post-Venta Feliz",
+        "nodes": [
+            {
+                "name": "Cambio Estatus",
+                "icon": "🚚"
+            },
+            {
+                "name": "IA Copywriter",
+                "icon": "✍️"
+            },
+            {
+                "name": "Envío WhatsApp",
+                "icon": "📱"
+            },
+            {
+                "name": "Cliente Tranquilo",
+                "icon": "😊"
+            }
+        ]
+    }
+}

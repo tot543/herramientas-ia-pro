@@ -1,0 +1,67 @@
+{
+    "title": "Automatización de Contratos: Legal tech para humanos",
+    "description": "Blueprint de Operaciones: Genera borradores legales básicos, NDAs y contratos de servicios a partir de un simple formulario de entrada con validación IA.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "operaciones",
+    "tags": [
+        "operaciones",
+        "legal-tech",
+        "contratos",
+        "automatización",
+        "IA-legal"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "12 min",
+    "featured": false,
+    "intro": "Dejar de usar plantillas de Word que tienes que rellenar a mano. Crea un sistema donde rellenas los datos una vez y el contrato se genera, envía y firma de forma automática.",
+    "problem": "La lentitud en la generación de contratos retrasa el cierre de ventas y la contratación de proveedores.",
+    "solution": "Un flujo que toma inputs estructurados, valida las cláusulas especiales con IA y genera el documento legal final listo para firma digital.",
+    "tools_used": [
+        {
+            "id": "pandaloc",
+            "name": "PandaDoc / HelloSign",
+            "reason": "Gestión de la firma electrónica legalment válida."
+        },
+        {
+            "id": "openai",
+            "name": "OpenAI Reasoning",
+            "reason": "Para asegurar que las cláusulas personalizadas no contienen errores lógicos."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Captura de Variables Legales",
+            "content": "Usa un formulario con validación para recoger: DNI, Dirección, Importe y Condiciones de Pago.",
+            "tip": "Crea plantillas modulares donde las secciones pueden activarse o desactivarse según el caso de uso."
+        },
+        {
+            "title": "Revisión de Cláusulas Especiales",
+            "content": "Si el usuario añade un pacto especial, pide a la IA que verifique si contradice alguna otra parte del contrato.",
+            "prompt": "Compara este pacto especial: {pacto} con el contrato base. ¿Hay contradicciones legales? Redáctalo de forma más profesional si es necesario.",
+            "promptLabel": "Prompt Validador Legal"
+        }
+    ],
+    "conclusion": "Automatizar la base del trabajo legal libera tiempo para que los abogados se centren en negociaciones complejas, no en cambiar nombres en un Word.",
+    "flow": {
+        "title": "Ciclo de Vida del Contrato",
+        "nodes": [
+            {
+                "name": "Formulario Datos",
+                "icon": "📋"
+            },
+            {
+                "name": "Generación Doc",
+                "icon": "📄"
+            },
+            {
+                "name": "Validación IA",
+                "icon": "⚖️"
+            },
+            {
+                "name": "Firma Cliente",
+                "icon": "🖋️"
+            }
+        ]
+    }
+}

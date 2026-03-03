@@ -1,0 +1,67 @@
+{
+    "title": "Planificador Diario: Tu agenda optimizada por IA",
+    "description": "Blueprint de Productividad: Organiza tus tareas pendientes en los huecos libres de tu calendario basándose en tu nivel de energía y prioridades.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "productividad",
+    "tags": [
+        "productividad",
+        "time-blocking",
+        "calendario",
+        "IA-asistente",
+        "organización"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "8 min",
+    "featured": false,
+    "intro": "Tener una lista de tareas infinita no sirve de nada si no tienes tiempo para hacerlas. Este flujo convierte tu lista en bloques reales en tu calendario.",
+    "problem": "Solemos sobrestimar cuánto podemos hacer en un día, lo que lleva a la frustración y al trabajo hasta tarde.",
+    "solution": "Un Agente de Planificación (Daily Planner) que bloquea tiempo para 'Deep Work' por la mañana y tareas administrativas por la tarde.",
+    "tools_used": [
+        {
+            "id": "reclaim",
+            "name": "Reclaim.ai / Motion",
+            "reason": "IA específica para la gestión dinámica del calendario."
+        },
+        {
+            "id": "todoist",
+            "name": "Todoist / TickTick",
+            "reason": "Repuntorio de tareas donde vive tu 'To-do list'."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Auditoría de Disponibilidad",
+            "content": "Conecta tus calendarios personal y laboral. La IA debe saber cuándo NO estás disponible.",
+            "tip": "Protege tus mañanas. No dejes que las reuniones invadan tu tiempo de creación."
+        },
+        {
+            "title": "Asignación Dinámica",
+            "content": "Pasa tus tareas a la IA indicando prioridad y duración estimada. Deja que el sistema las encaje como piezas de tetris.",
+            "prompt": "Tengo estas 5 tareas. Planifica mi día de mañana. Pon lo más difícil primero y deja 1h para comer.",
+            "promptLabel": "Prompt Planificador Diario"
+        }
+    ],
+    "conclusion": "Sustituir las listas por bloques de tiempo es la técnica más efectiva para eliminar la procrastinación y asegurar el progreso en proyectos clave.",
+    "flow": {
+        "title": "Circuito de Alta Productividad",
+        "nodes": [
+            {
+                "name": "Lista Tareas",
+                "icon": "📝"
+            },
+            {
+                "name": "Cálculo Huecos",
+                "icon": "📅"
+            },
+            {
+                "name": "Time Blocking IA",
+                "icon": "🧩"
+            },
+            {
+                "name": "Ejecución",
+                "icon": "🚀"
+            }
+        ]
+    }
+}

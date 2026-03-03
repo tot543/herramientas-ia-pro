@@ -1,0 +1,67 @@
+{
+    "title": "Automatización de Gastos: Cero tickets en tu cartera",
+    "description": "Blueprint de Productividad: Registra automáticamente tus gastos personales o profesionales enviando una foto del ticket a una base de datos organizada.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "productividad",
+    "tags": [
+        "productividad",
+        "finanzas-personales",
+        "OCR",
+        "gastos",
+        "IA-vision"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "8 min",
+    "featured": false,
+    "intro": "Hacer la declaración de gastos es una tortura. Este flujo permite que solo tengas que hacer una foto y la IA se encargue de extraer el importe, la fecha y la categoría.",
+    "problem": "Perder tickets o olvidar registrar gastos pequeños hace que las cuentas nunca cuadren al final de mes.",
+    "solution": "Un Agente Vision que procesa fotos de tickets enviadas por Telegram o WhatsApp y las guarda en Notion o una hoja de Google.",
+    "tools_used": [
+        {
+            "id": "openai",
+            "name": "GPT-4o (Vision)",
+            "reason": "Para leer el texto de tickets arrugados o con mala iluminación."
+        },
+        {
+            "id": "tally",
+            "name": "Telegram Bot / Tally",
+            "reason": "Como interfaz de entrada rápida desde el móvil."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Captura en el Acto",
+            "content": "Envía la foto al bot de Telegram justo después de pagar. No esperes a llegar a casa.",
+            "tip": "Si el ticket es muy largo, haz dos fotos asegurándote de que el total se vea claro."
+        },
+        {
+            "title": "Categorización Inteligente",
+            "content": "La IA detecta si es 'Taxi', 'Restaurante' o 'Material de Oficina' basándose en el nombre del establecimiento.",
+            "prompt": "Extrae de esta imagen: Total, Fecha, Comercio. Clasifica en: [Viajes, Comida, Oficina, Varios].",
+            "promptLabel": "Prompt Extractor Gastos"
+        }
+    ],
+    "conclusion": "Tener tus finanzas al día sin esfuerzo manual es el primer paso para una gestión patrimonial (o de empresa) profesional.",
+    "flow": {
+        "title": "Flujo Captura Gastos Flash",
+        "nodes": [
+            {
+                "name": "Foto Ticket",
+                "icon": "📸"
+            },
+            {
+                "name": "Procesamiento IA",
+                "icon": "🔍"
+            },
+            {
+                "name": "Notificación Éxito",
+                "icon": "🔔"
+            },
+            {
+                "name": "Cierre Mes",
+                "icon": "📈"
+            }
+        ]
+    }
+}

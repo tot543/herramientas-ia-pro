@@ -1,0 +1,67 @@
+{
+    "title": "Gestor de Archivos Inteligente: Drive organizado por su contenido",
+    "description": "Blueprint de Operaciones: Automatiza la limpieza de tu Google Drive o Dropbox. La IA 'lee' tus archivos, los renombra y los organiza en carpetas lógicas.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "operaciones",
+    "tags": [
+        "operaciones",
+        "productividad",
+        "Drive",
+        "organización",
+        "IA-analista"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "9 min",
+    "featured": false,
+    "intro": "El caos documental es el enemigo silencioso de la productividad. Este flujo convierte tu carpeta 'Documentos Finales V2_DEF' en un sistema perfectamente estructurado y fácil de buscar.",
+    "problem": "Los equipos suelen subir archivos con nombres genéricos (ej: scan001.pdf) haciendo que buscar información antigua sea una misión imposible.",
+    "solution": "Un Agente de Clasificación que analiza los metadatos y el contenido (OCR) de cada subida para moverlo a la carpeta correcta (Facturas, Contratos, Branding) y renombrarlo con fecha y cliente.",
+    "tools_used": [
+        {
+            "id": "make",
+            "name": "Make.com",
+            "reason": "Monitoriza las subidas a carpetas temporales."
+        },
+        {
+            "id": "openai",
+            "name": "OpenAI Vision/Text",
+            "reason": "Para entender de qué trata el archivo y proponer un nombre estandarizado."
+        }
+    ],
+    "steps": [
+        {
+            "title": "La 'Carpeta de Entrada'",
+            "content": "Define una sola carpeta donde todos suban los documentos crudos. El proceso se dispara cada vez que detecta un archivo nuevo.",
+            "tip": "Añade una etiqueta de color al archivo procesado para saber que ya ha sido clasificado por la IA."
+        },
+        {
+            "title": "Clasificación Dinámica",
+            "content": "Pasa el texto extraído a la IA. No solo pidas el nombre, pide que identifique el 'Proyecto' y la 'Categoría'.",
+            "prompt": "Analiza el contenido de este archivo: {texto}. Propón un nombre: AAAA-MM-DD_CLIENTE_CATEGORIA.pdf. Indica a qué carpeta moverlo.",
+            "promptLabel": "Prompt Clasificador Archivos"
+        }
+    ],
+    "conclusion": "Un sistema de archivos organizado no solo ahorra tiempo de búsqueda, sino que reduce el estrés cognitivo del equipo al saber exactamente dónde está todo.",
+    "flow": {
+        "title": "Sistema de Orden Documental",
+        "nodes": [
+            {
+                "name": "Archivo Crudo",
+                "icon": "📄"
+            },
+            {
+                "name": "Escaneo Contenido",
+                "icon": "🔍"
+            },
+            {
+                "name": "IA Reclasificadora",
+                "icon": "📂"
+            },
+            {
+                "name": "Archivo Clasificado",
+                "icon": "✅"
+            }
+        ]
+    }
+}

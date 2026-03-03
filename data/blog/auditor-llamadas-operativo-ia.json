@@ -1,0 +1,67 @@
+{
+    "title": "Auditor de Llamadas: Calidad en cada conversación",
+    "description": "Blueprint de Operaciones: Escucha y analiza tus grabaciones de llamadas de ventas o soporte, detectando fallos en el guion o momentos de tensión.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "operaciones",
+    "tags": [
+        "operaciones",
+        "calidad",
+        "soporte",
+        "ventas",
+        "análisis-audio"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "14 min",
+    "featured": true,
+    "intro": "No puedes estar en todas las llamadas de tu equipo. Este Blueprint actúa como un supervisor incansable que revisa el 100% de las conversaciones, no solo una muestra aleatoria.",
+    "problem": "Sin auditoría, los errores en el pitch de ventas se repiten durante semanas, quemando leads valiosos sin que el manager se entere.",
+    "solution": "Transcripción automática de cada llamada grabada y análisis de 'Cumplimiento de Guion' y 'Sentimiento del Cliente' mediante IA.",
+    "tools_used": [
+        {
+            "id": "fireflies",
+            "name": "Fireflies / Gong.io",
+            "reason": "Grabación y transcripción automática de reuniones virtuales."
+        },
+        {
+            "id": "openai",
+            "name": "OpenAI Evaluation",
+            "reason": "Para puntuar la llamada basándose en criterios de excelencia de la empresa."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Definición del 'Gold Standard'",
+            "content": "Enumera qué debe pasar en una llamada perfecta: Saludo inicial, detección de dolor, manejo de objeciones y cierre claro.",
+            "tip": "Identifica las 3 objeciones más comunes y enseña a la IA a verificar si fueron respondidas correctamente."
+        },
+        {
+            "title": "Scorecard Automático",
+            "content": "Tras la llamada, la IA genera una nota del 1 al 10 y un consejo práctico para el empleado: 'Hablaste el 80% del tiempo, intenta escuchar más'.",
+            "prompt": "Evalúa esta llamada: {transcripcion}. ¿Se mencionó el precio? ¿Hubo insultos? Dame un consejo para el vendedor.",
+            "promptLabel": "Prompt Auditor Calidad"
+        }
+    ],
+    "conclusion": "La auditoría automatizada eleva el nivel medio del equipo al proporcionar feedback inmediato y basado en datos, no en opiniones subjetivas.",
+    "flow": {
+        "title": "Ciclo de Mejora en Ventas",
+        "nodes": [
+            {
+                "name": "Llamada Grabada",
+                "icon": "📞"
+            },
+            {
+                "name": "Transcripción IA",
+                "icon": "📄"
+            },
+            {
+                "name": "Auditoría Automática",
+                "icon": "⚖️"
+            },
+            {
+                "name": "Coaching Manager",
+                "icon": "🎓"
+            }
+        ]
+    }
+}

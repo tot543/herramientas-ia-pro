@@ -1,0 +1,67 @@
+{
+    "title": "Predicción de Churn: Identifica clientes a punto de irse",
+    "description": "Blueprint de Ventas: Usa modelos de IA para detectar patrones de baja actividad y activa alertas automáticas para fidelizar a esos clientes antes de que sea tarde.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "ventas",
+    "tags": [
+        "ventas",
+        "fidelización",
+        "churn",
+        "IA-proactiva",
+        "retención"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "14 min",
+    "featured": false,
+    "intro": "Es 7 veces más caro conseguir un cliente nuevo que mantener a uno actual. Este Blueprint te ayuda a ser proactivo y salvar cuentas en riesgo.",
+    "problem": "Las empresas suelen darse cuenta de que un cliente se ha ido cuando ya ha cancelado la suscripción o ha dejado de comprar por completo.",
+    "solution": "Un sistema de 'Alerta Roja' que monitoriza la frecuencia de uso, logins o compras, y avisa al equipo de cuentas si la actividad cae por debajo de la media.",
+    "tools_used": [
+        {
+            "id": "openai",
+            "name": "OpenAI Analysis",
+            "reason": "Para analizar tendencias de uso históricas e identificar anomalías."
+        },
+        {
+            "id": "stripe",
+            "name": "Stripe / Chargebee",
+            "reason": "Gestión de cobros y estados de suscripción."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Monitorización de 'Salud' del Cliente",
+            "content": "Conecta tus datos de uso con una tabla de seguimiento. Define qué es un 'cliente inactivo' para tu modelo de negocio.",
+            "tip": "Mide el 'Time to Value': ¿Cuánto tarda el cliente en realizar su acción principal?"
+        },
+        {
+            "title": "Activación de Secuencia de Rescate",
+            "content": "Cuando el score de riesgo sube, dispara un correo personal del CEO o un descuento de fidelización automáticamente.",
+            "prompt": "Este cliente no entra en la app desde hace 15 días. Escribe un email de 'te echamos de menos' sugiriendo una nueva función que le interese.",
+            "promptLabel": "Prompt Rescate Cliente"
+        }
+    ],
+    "conclusion": "La capacidad de predecir el abandono permite convertir una baja asegurada en una oportunidad de feedback y mejora del servicio.",
+    "flow": {
+        "title": "Sistema Retención Inteligente",
+        "nodes": [
+            {
+                "name": "Métricas de Uso",
+                "icon": "📉"
+            },
+            {
+                "name": "Score de Riesgo IA",
+                "icon": "🚩"
+            },
+            {
+                "name": "Tarea para Account Manager",
+                "icon": "👤"
+            },
+            {
+                "name": "Cliente Fidelizado",
+                "icon": "🤝"
+            }
+        ]
+    }
+}

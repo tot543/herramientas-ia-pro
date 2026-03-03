@@ -1,0 +1,67 @@
+{
+    "title": "Análisis de Clima Laboral: Reportes de pulso en tiempo real",
+    "description": "Blueprint de RRHH: Automatiza el envío de encuestas cortas semanales y genera reportes mensuales de satisfacción del equipo con IA.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "rrhh",
+    "tags": [
+        "rrhh",
+        "clima-laboral",
+        "datos-personas",
+        "reportes-IA",
+        "Slack"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "12 min",
+    "featured": true,
+    "intro": "No esperes a que alguien renuncie para saber que estaba quemado (burnout). Las encuestas de pulso te dan el dato hoy para que puedas actuar mañana.",
+    "problem": "Las encuestas de clima suelen ser densas y pesadas, por lo que la participación baja drásticamente después del primer mes.",
+    "solution": "Un sistema de 1 sola pregunta aleatoria a la semana vía Slack que alimenta un dashboard de inteligencia emocional corporativa.",
+    "tools_used": [
+        {
+            "id": "tally",
+            "name": "Tally / Slack API",
+            "reason": "Interfaz simple y rápida para capturar la respuesta en un clic."
+        },
+        {
+            "id": "openai",
+            "name": "OpenAI Data Analysis",
+            "reason": "Para encontrar correlaciones entre eventos (ej: bajada de ánimo tras lanzamiento de proyecto)."
+        }
+    ],
+    "steps": [
+        {
+            "title": "El Micro-Pulso Semanal",
+            "content": "Programa un mensaje automático los jueves: '¿Cómo ha sido tu semana del 1 al 5 y por qué?'.",
+            "tip": "Asegúrate de que responder tarde menos de 10 segundos para mantener el engagement."
+        },
+        {
+            "title": "IA Correladora de Eventos",
+            "content": "Analiza las bajadas de ánimo cruzándolas con el calendario de la empresa (picos de trabajo, festivos, cambios de política).",
+            "prompt": "Resume los pulsos del mes: {datos}. ¿Hay patrones de estrés detectables? ¿Qué equipo necesita intervención inmediata?",
+            "promptLabel": "Prompt Análisis Pulso"
+        }
+    ],
+    "conclusion": "Gestionar el clima con datos reales y no con 'sensaciones' es la diferencia entre un equipo de alto rendimiento y uno desmotivado.",
+    "flow": {
+        "title": "Dashboard Salud Operativa",
+        "nodes": [
+            {
+                "name": "Pregunta Pulso",
+                "icon": "📩"
+            },
+            {
+                "name": "Recogida Datos",
+                "icon": "📊"
+            },
+            {
+                "name": "Análisis Tendencia",
+                "icon": "📈"
+            },
+            {
+                "name": "Acción Preventiva",
+                "icon": "🛡️"
+            }
+        ]
+    }
+}

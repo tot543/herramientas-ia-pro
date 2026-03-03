@@ -1,0 +1,67 @@
+{
+    "title": "Seguimiento de Carritos: Recuperación vía WhatsApp",
+    "description": "Blueprint de Ventas: Envía recordatorios personalizados por WhatsApp a los clientes que dejaron productos en el carrito, aumentando tu tasa de conversión.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "marketing",
+    "tags": [
+        "marketing",
+        "ventas",
+        "e-commerce",
+        "WhatsApp",
+        "conversión"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "11 min",
+    "featured": true,
+    "intro": "El 70% de los carritos se abandonan. El email de recuperación está saturado; WhatsApp es el canal donde el cliente realmente te leerá y responderá.",
+    "problem": "Los recordatorios de carrito convencionales a menudo se pierden entre decenas de promociones en la bandeja de entrada.",
+    "solution": "Un flujo que espera 30 minutos tras el abandono y envía un mensaje amable preguntando si hubo algún problema técnico o si necesitan ayuda.",
+    "tools_used": [
+        {
+            "id": "shopify",
+            "name": "Shopify / WooCommerce",
+            "reason": "Fuente de datos de carritos abandonados."
+        },
+        {
+            "id": "twilio",
+            "name": "Twilio / Meta Business API",
+            "reason": "Interfaz de envío masivo pero personalizado vía WhatsApp."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Detección de Abandono",
+            "content": "Monitoriza los carritos inacabados. Filtra aquellos que tengan el teléfono del cliente disponible.",
+            "tip": "No envíes el mensaje de inmediato; espera al menos 30-60 minutos para no parecer desesperado."
+        },
+        {
+            "title": "Oferta de Valor IA",
+            "content": "Usa la IA para redactar un mensaje que no solo recuerde los productos, sino que ofrezca ayuda real o un descuento temporal.",
+            "prompt": "El cliente {nombre} dejó {productos} en el carrito. Escribe un mensaje de WhatsApp preguntando si tiene dudas sobre el envío.",
+            "promptLabel": "Prompt Carrito Abandonado"
+        }
+    ],
+    "conclusion": "Recuperar solo un 5% extra de carritos abandonados puede suponer un incremento sustancial en el margen neto sin invertir más en publicidad.",
+    "flow": {
+        "title": "Embudo Recuperación WhatsApp",
+        "nodes": [
+            {
+                "name": "Carrito Abandonado",
+                "icon": "🛒"
+            },
+            {
+                "name": "Trigger Temporal",
+                "icon": "⏰"
+            },
+            {
+                "name": "Mensaje Ayuda IA",
+                "icon": "📱"
+            },
+            {
+                "name": "Compra Finalizada",
+                "icon": "💰"
+            }
+        ]
+    }
+}

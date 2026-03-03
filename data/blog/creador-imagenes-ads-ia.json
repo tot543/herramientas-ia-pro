@@ -1,0 +1,67 @@
+{
+    "title": "Creador de Imágenes Ad: Variantes visuales infinitas",
+    "description": "Blueprint de Marketing: Genera cientos de variantes creativas para tus anuncios de Meta o Google Ads usando IA generativa para encontrar el ganador.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "marketing",
+    "tags": [
+        "marketing",
+        "paid-media",
+        "generación-imágenes",
+        "Midjourney",
+        "A/B-testing"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "11 min",
+    "featured": false,
+    "intro": "El éxito en publicidad digital hoy depende de la variedad creativa. No testees 2 imágenes, testea 50. Este flujo de trabajo automatiza la producción visual de alto nivel.",
+    "problem": "Diseñar cada variante de anuncio manualmente es caro y lento, limitando la capacidad de testear qué visual resuena mejor con la audiencia.",
+    "solution": "Uso de modelos de difusión (como Midjourney o Stable Diffusion) conectados a scripts de diseño para generar composiciones pulidas en segundos.",
+    "tools_used": [
+        {
+            "id": "midjourney",
+            "name": "Midjourney API / Leonardo.ai",
+            "reason": "Generación de fondos y visuales fotorrealistas de alta gama."
+        },
+        {
+            "id": "canva",
+            "name": "Canva Magic Studio",
+            "reason": "Para estructurar el diseño final con texto y logo de marca."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Definición del 'Concepto Visual'",
+            "content": "Describe el estilo de tu marca y el producto. Pide a la IA que cree 10 escenarios diferentes (ej: minimalista, en la naturaleza, urbano).",
+            "tip": "Usa prompts que incluyan iluminación de estudio para asegurar un acabado profesional."
+        },
+        {
+            "title": "Escalado de Formatos",
+            "content": "Redimensiona automáticamente para feed (1:1), stories (9:16) y banners de web usando herramientas de 'Generative Fill'.",
+            "prompt": "Crea una escena fotorrealista de una oficina moderna con luz de atardecer. Estilo: Apple. Foco en [PRODUCTO].",
+            "promptLabel": "Prompt Imagen Publicitaria"
+        }
+    ],
+    "conclusion": "La democratización del diseño de alta gama permite a marcas pequeñas competir visualmente con presupuestos de agencias multinacionales.",
+    "flow": {
+        "title": "Laboratorio Creativo IA",
+        "nodes": [
+            {
+                "name": "Concepto Producto",
+                "icon": "💎"
+            },
+            {
+                "name": "Generación Fondo IA",
+                "icon": "🎨"
+            },
+            {
+                "name": "Composición Final",
+                "icon": "🖼️"
+            },
+            {
+                "name": "Testeo en Ads",
+                "icon": "📊"
+            }
+        ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "title": "FAQ de Beneficios: El bot que conoce tu nómina y seguros",
+    "description": "Blueprint de RRHH: Un asistente de IA que responde dudas sobre vacaciones, seguros médicos y política de beneficios 24/7.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "rrhh",
+    "tags": [
+        "rrhh",
+        "beneficios",
+        "internal-comms",
+        "chatbot-IA",
+        "knowledge-base"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "10 min",
+    "featured": false,
+    "intro": "¿Cuántos días de vacaciones me quedan? ¿Cubre el seguro dental el blanqueamiento? Estas preguntas no deberían consumir el tiempo de RRHH. Este bot tiene todas las respuestas.",
+    "problem": "El acceso a la información de beneficios suele estar enterrado en PDFs de 40 páginas que nadie lee por completo.",
+    "solution": "Un bot con capacidad de RAG (Retrieval-Augmented Generation) que 'lee' los contratos de proveedores y manuales internos para dar respuestas exactas.",
+    "tools_used": [
+        {
+            "id": "chatbase",
+            "name": "Chatbase / CustomGPT",
+            "reason": "Para entrenar el modelo con los documentos específicos de tus proveedores."
+        },
+        {
+            "id": "slack",
+            "name": "Slack / Microsoft Teams",
+            "reason": "Ecosistema donde el empleado ya trabaja."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Alimentación de Cerebro",
+            "content": "Sube los contratos de seguros, manuales de compensación y políticas de vacaciones al bot.",
+            "tip": "Actualiza los documentos cada año para que el bot no dé información de planes de salud antiguos."
+        },
+        {
+            "title": "Configuración de Personalidad",
+            "content": "Ajusta el tono para que sea amable, informativo y que nunca dé consejos médicos, solo información de coberturas.",
+            "prompt": "Eres el experto en Beneficios de [EMPRESA]. Solo contesta basándote en el manual. Si no sabes algo, remite a rr@empresa.com.",
+            "promptLabel": "Prompt Bot RRHH"
+        }
+    ],
+    "conclusion": "Liberar a RRHH de las tareas de soporte repetitivo les permite enfocarse en estrategia de talento, mejorando la eficiencia global del departamento.",
+    "flow": {
+        "title": "Sistema de Soporte al Empleado",
+        "nodes": [
+            {
+                "name": "Duda Empleado",
+                "icon": "❓"
+            },
+            {
+                "name": "Consulta Manuales",
+                "icon": "🔍"
+            },
+            {
+                "name": "Respuesta IA",
+                "icon": "✅"
+            },
+            {
+                "name": "Cierre / Escalado",
+                "icon": "🎟️"
+            }
+        ]
+    }
+}
