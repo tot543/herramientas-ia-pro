@@ -85,9 +85,6 @@ export default async function RecursosPage({ params }: PageProps) {
         if (!toolA || !toolB) notFound();
 
         const relatedComparisons = getRelatedComparisons(slug, comparison.categoria, 4);
-        const cat = siteConfig.categorias.find(
-            (c: { slug: string }) => c.slug === comparison.categoria
-        );
 
         return (
             <div className="max-w-4xl mx-auto px-4 py-12">
@@ -187,6 +184,70 @@ export default async function RecursosPage({ params }: PageProps) {
         );
     }
 
-    // Si no es comparación, mostrar 404
+    // Intentar cargar como herramienta individual
+    const tool = getAllTools().find((t) => t.slug === slug);
+    if (tool) {
+        return (
+            <div className="max-w-4xl mx-auto px-4 py-12">
+                {/* Breadcrumb Tool */}
+                <nav className="text-sm text-gray-500 mb-8 flex gap-2">
+                    <Link href="/" className="hover:text-indigo-600">Inicio</Link>
+                    <span>/</span>
+                    <Link href="/recursos/" className="hover:text-indigo-600">Recursos</Link>
+                    <span>/</span>
+                    <span className="text-gray-800 font-medium">{tool.nombre}</span>
+                </nav>
+
+                <div className="bg-white rounded-3xl border border-gray-100 shadow-xl overflow-hidden mb-12">
+                    <div className="bg-gradient-to-r from-indigo-600 to-violet-600 px-8 py-10 text-white text-center">
+                        <h1 className="text-4xl font-extrabold mb-4">{tool.nombre}</h1>
+                        <p className="text-indigo-100 text-lg max-w-2xl mx-auto">
+                            {tool.descripcion}
+                        </p>
+                    </div>
+
+                    <div className="p-8 md:p-12">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
+                            <div>
+                                <h2 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                                    ✅ Lo mejor de {tool.nombre}
+                                </h2>
+                                <ul className="space-y-3">
+                                    {tool.pros.map((pro, i) => (
+                                        <li key={i} className="flex gap-3 text-gray-700 italic">
+                                            <span className="text-green-500 font-bold">✓</span> {pro}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                            <div>
+                                <h2 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                                    🎯 Ideal para...
+                                </h2>
+                                <p className="text-gray-700 leading-relaxed bg-indigo-50 p-4 rounded-xl border border-indigo-100">
+                                    {tool.ideal_para || tool.mejor_para}
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="text-center bg-gray-50 rounded-2xl p-8 border border-gray-100">
+                            <h2 className="text-2xl font-bold text-gray-900 mb-6">¿Preparado para empezar?</h2>
+                            <AffiliateButton tool={tool} size="lg" className="px-12" />
+                            <p className="text-xs text-gray-400 mt-6 italic">
+                                {siteConfig.affiliateDisclaimer}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="text-center">
+                    <Link href="/recursos/" className="text-indigo-600 font-bold hover:underline">
+                        ← Volver a todos los recursos
+                    </Link>
+                </div>
+            </div>
+        );
+    }
+
     notFound();
 }

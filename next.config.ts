@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  trailingSlash: true,
+  trailingSlash: false,
   images: {
     // Con el runtime de Node.js en Vercel, next/image optimiza automáticamente
     // Descomentar si se necesitan dominios externos:
