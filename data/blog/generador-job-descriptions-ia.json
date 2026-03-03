@@ -1,0 +1,66 @@
+{
+    "title": "Generador de Job Descriptions: Atrae el talento adecuado con IA",
+    "description": "Blueprint de RRHH: Crea descripciones de cargo optimizadas para SEO y branding que destaquen en LinkedIn.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "rrhh",
+    "tags": [
+        "rrhh",
+        "reclutamiento",
+        "LinkedIn",
+        "copywriting",
+        "IA"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "7 min",
+    "featured": false,
+    "intro": "Una mala descripción de cargo atrae a los candidatos equivocados o, peor aún, a ninguno. Este flujo permite transformar una lista de requisitos técnicos en un anuncio de empleo persuasivo y profesional.",
+    "problem": "Los reclutadores suelen copiar y pegar JDs genéricas que no reflejan la cultura de la empresa ni los desafíos reales del puesto.",
+    "solution": "Un Agente de Copywriting en RRHH que conoce los gatillos mentales de LinkedIn y optimiza para palabras clave de búsqueda.",
+    "tools_used": [
+        {
+            "id": "openai",
+            "name": "OpenAI GPT-4",
+            "reason": "Cerebro creativo para redactar copy persuasivo."
+        },
+        {
+            "id": "copyai",
+            "name": "Copy.ai (Opcional)",
+            "reason": "Para variaciones rápidas de tono de voz corporativo."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Define los Mínimos Requeridos",
+            "content": "Pega los 5 puntos técnicos clave y los beneficios que ofrece tu empresa.",
+            "tip": "No escatimes en beneficios; en el mercado actual, la flexibilidad es el factor #1."
+        },
+        {
+            "title": "Generación del Borrador Maestro",
+            "content": "Usa el prompt estructurado para generar secciones de: 'Sobre el Rol', 'Tu impacto', 'Lo que buscamos' y 'Por qué nosotros'.",
+            "prompt": "Crea una JD para [PUESTO] en una empresa de [SECTOR]. Tono: Inspirador y profesional. Resalta que usamos IA en todas las operaciones.",
+            "promptLabel": "Prompt JD Builder"
+        }
+    ],
+    "flow": {
+        "title": "Arquitectura Job Description IA",
+        "nodes": [
+            {
+                "name": "Inputs Manager",
+                "icon": "⌨️"
+            },
+            {
+                "name": "IA Copywriter",
+                "icon": "✍️"
+            },
+            {
+                "name": "Optimización SEO",
+                "icon": "🔍"
+            },
+            {
+                "name": "JD Final",
+                "icon": "🚀"
+            }
+        ]
+    }
+}

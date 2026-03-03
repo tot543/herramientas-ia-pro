@@ -1,0 +1,60 @@
+{
+    "title": "Onboarding Bot: El mentor IA que acompaña a tus nuevos empleados",
+    "description": "Blueprint de RRHH: Un asistente de IA que resuelve dudas sobre manuales corporativos y herramientas internas 24/7.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "rrhh",
+    "tags": [
+        "rrhh",
+        "onboarding",
+        "cultura-corporativa",
+        "internal-tools"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "9 min",
+    "featured": false,
+    "intro": "Los primeros 30 días de un empleado determinan su retención a largo plazo. Este bot asegura que nadie se sienta perdido en su primera semana.",
+    "problem": "El equipo de RRHH dedica horas a responder las mismas 20 preguntas sobre seguros, vacaciones y accesos a herramientas.",
+    "solution": "Un bot entrenado con la base de conocimientos de Notion o Drive que responde de forma personalizada a cada nuevo integrante.",
+    "tools_used": [
+        {
+            "id": "chatbase",
+            "name": "Chatbase / CustomGPT",
+            "reason": "Para crear un bot con RAG sobre documentos internos."
+        },
+        {
+            "id": "slack",
+            "name": "Slack / Teams",
+            "reason": "Interfaz de comunicación donde vive el bot."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Centraliza el Conocimiento",
+            "content": "Asegúrate de que tus manuales en Notion estén actualizados y exportalos a PDF o conecta la API.",
+            "tip": "Divide los documentos por temas para que la IA recupere información más precisa."
+        },
+        {
+            "title": "Entrenamiento del Asistente",
+            "content": "Sube los archivos a Chatbase y configura el 'System Prompt' para que sea amable y acogedor.",
+            "tip": "Incluye una instrucción de 'escalar a humano' si la pregunta es sobre temas sensibles."
+        }
+    ],
+    "flow": {
+        "title": "Flujo de Onboarding Asistido",
+        "nodes": [
+            {
+                "name": "Manuales Notion",
+                "icon": "📚"
+            },
+            {
+                "name": "Motor RAG (Chatbase)",
+                "icon": "🤖"
+            },
+            {
+                "name": "Interfaz Slack",
+                "icon": "💬"
+            }
+        ]
+    }
+}

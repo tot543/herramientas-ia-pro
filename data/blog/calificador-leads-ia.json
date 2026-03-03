@@ -1,0 +1,67 @@
+{
+    "title": "Calificador de Leads: Filtra la paja del trigo con Chatbots IA",
+    "description": "Blueprint de Ventas: Chatbots inteligentes que entrevistan, filtran y agendan llamadas solo con los prospectos que cumplen tus criterios.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "ventas",
+    "tags": [
+        "ventas",
+        "marketing",
+        "leads",
+        "chatbot",
+        "Typeform",
+        "OpenAI"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "11 min",
+    "featured": false,
+    "intro": "Tu equipo de ventas no debería hablar con alguien que no tiene presupuesto o no necesita tu solución real. Este bot hace el trabajo de 'puerta' para que los closers solo hablen con perfiles calificados.",
+    "problem": "El costo por lead sube mientras que el tiempo de los vendedores se desperdicia en llamadas de descubrimiento sin futuro.",
+    "solution": "Un formulario conversacional (Typeform o Tally) conectado a una lógica de IA que evalúa las respuestas en tiempo real y decide si ofrece un link de agenda a Calendly o un 'no somos el fit adecuado'.",
+    "tools_used": [
+        {
+            "id": "typeform",
+            "name": "Typeform",
+            "reason": "Para una experiencia de usuario estéticamente premium y conversacional."
+        },
+        {
+            "id": "openai",
+            "name": "OpenAI Reasoning",
+            "reason": "Para evaluar respuestas abiertas sobre desafíos de negocio del lead."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Diseño del Árbol de Calificación",
+            "content": "Define 3 preguntas 'killer' que descarten leads (ej: Facturación mínima, tamaño de equipo, software actual).",
+            "tip": "Hazlo corto. Nadie quiere rellenar un censo para comprar un servicio."
+        },
+        {
+            "title": "Evaluación Inteligente",
+            "content": "Envía las respuestas de texto libre a la IA para una validación cualitativa profunda.",
+            "prompt": "Basándote en estos criterios: {criterios_fit}, evalúa esta respuesta: {respuesta_lead}. ¿Es un lead de ALTA, MEDIA o BAJA prioridad?",
+            "promptLabel": "Prompt Lead Scoring"
+        }
+    ],
+    "flow": {
+        "title": "Embudo Calificación Automática",
+        "nodes": [
+            {
+                "name": "Entrada Lead",
+                "icon": "👤"
+            },
+            {
+                "name": "Testeo de Fit",
+                "icon": "⚖️"
+            },
+            {
+                "name": "Filtro IA",
+                "icon": "🧠"
+            },
+            {
+                "name": "Cierre / Calendly",
+                "icon": "📅"
+            }
+        ]
+    }
+}

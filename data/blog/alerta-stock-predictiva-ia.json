@@ -1,0 +1,66 @@
+{
+    "title": "Alerta de Stock Predictiva: Adelántate a tus roturas de inventario",
+    "description": "Blueprint de Operaciones: Usa IA para analizar tendencias de venta y recibir alertas automáticas antes de que se agote un producto.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "operaciones",
+    "tags": [
+        "operaciones",
+        "logística",
+        "inventario",
+        "IA-predictiva",
+        "Make.com"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "13 min",
+    "featured": false,
+    "intro": "Nada mata un negocio de ecommerce más rápido que una 'rotura de stock'. Este flujo de trabajo no solo mira lo que tienes hoy, sino cuánto tardarás en venderlo basándose en datos históricos.",
+    "problem": "Los sistemas de inventario tradicionales avisan cuando el stock es BAJO, pero no tienen en cuenta los tiempos de entrega del proveedor ni picos de demanda.",
+    "solution": "Un modelo de análisis de datos simple en Python o con OpenAI que proyecta la fecha de agotamiento y dispara una alerta preventiva.",
+    "tools_used": [
+        {
+            "id": "make",
+            "name": "Make.com",
+            "reason": "Conector entre Shopify/Amazon y el sistema de alertas."
+        },
+        {
+            "id": "openai",
+            "name": "OpenAI Analysis",
+            "reason": "Para proyectar tendencias a partir de CSVs de ventas pasadas."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Exportación de Datos Diaria",
+            "content": "Configura un flujo en Make que extraiga las ventas diarias y el stock actual de tu tienda online.",
+            "tip": "Realiza la exportación a las 00:00 para tener el cierre de día consolidado."
+        },
+        {
+            "title": "Cálculo de 'Burn Rate'",
+            "content": "Envía los datos a la IA para calcular cuántas unidades vendes por día y cuántos días de vida le quedan a cada SKU.",
+            "prompt": "Analiza estos datos de ventas: {csv_ventas}. Stock actual: {stock}. ¿En qué fecha nos quedaremos sin stock de cada producto? Ten en cuenta que el proveedor tarda 15 días en entregar.",
+            "promptLabel": "Prompt Análisis Inventario"
+        }
+    ],
+    "flow": {
+        "title": "Flujo Inventario Inteligente",
+        "nodes": [
+            {
+                "name": "Tienda Online",
+                "icon": "🛒"
+            },
+            {
+                "name": "IA Analista",
+                "icon": "📈"
+            },
+            {
+                "name": "Alerta Preventiva",
+                "icon": "⚠️"
+            },
+            {
+                "name": "Compra Proveedor",
+                "icon": "📦"
+            }
+        ]
+    }
+}

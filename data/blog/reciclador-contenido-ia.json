@@ -1,0 +1,66 @@
+{
+    "title": "Reciclador de Contenido: De un post de blog a 10 piezas sociales",
+    "description": "Blueprint de Marketing: Maximiza el alcance de tu contenido original multiplicándolo automáticamente para LinkedIn, Twitter y Reels.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "marketing",
+    "tags": [
+        "marketing",
+        "redes-sociales",
+        "contenido",
+        "IA-generativa",
+        "multicanal"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "10 min",
+    "featured": true,
+    "intro": "Pasas horas redactando un artículo de blog sustancial y luego muere por falta de distribución. Este Blueprint convierte ese artículo en un ecosistema de contenido para toda la semana.",
+    "problem": "Crear contenido de calidad para varias redes sociales consume el 40% del tiempo de un equipo de marketing o de un solopreneur.",
+    "solution": "Un Agente de Contenido que 'destila' los puntos clave de un artículo largo y los reformatea según la psicología de cada red social.",
+    "tools_used": [
+        {
+            "id": "openai",
+            "name": "GPT-4o",
+            "reason": "Para adaptar el tono y formato a cada plataforma específica."
+        },
+        {
+            "id": "make",
+            "name": "Make.com",
+            "reason": "Para distribuir automáticamente los borradores a Buffer o Metricool."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Extracción de Micro-Ideas",
+            "content": "Carga tu post de blog y pide a la IA que identifique las 10 ideas más compartibles o polémicas del texto.",
+            "tip": "Busca estadísticas, citas o pasos prácticos; son los que mejor funcionan en redes sociales."
+        },
+        {
+            "title": "Adaptación Multi-Formato",
+            "content": "Ejecuta los prompts específicos para cada red: Hilo de X, Post de autoridad en LinkedIn y Guion de Reel.",
+            "prompt": "Toma esta idea: {idea}. Escribe un post de LinkedIn con gancho, desarrollo de 3 puntos y CTA interactivo.",
+            "promptLabel": "Prompt Adaptación Redes"
+        }
+    ],
+    "flow": {
+        "title": "Fábrica de Multiplicación Contenido",
+        "nodes": [
+            {
+                "name": "Post Original",
+                "icon": "📄"
+            },
+            {
+                "name": "IA Destiladora",
+                "icon": "⚗️"
+            },
+            {
+                "name": "Formatos Sociales",
+                "icon": "📱"
+            },
+            {
+                "name": "Programación",
+                "icon": "🗓️"
+            }
+        ]
+    }
+}

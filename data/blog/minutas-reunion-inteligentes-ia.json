@@ -1,0 +1,67 @@
+{
+    "title": "Minutas de Reunión Inteligentes: De la voz a la acción",
+    "description": "Blueprint de Productividad: Cómo transcribir, resumir y asignar tareas de tus reuniones de equipo sin mover un dedo.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "productividad",
+    "tags": [
+        "productividad",
+        "reuniones",
+        "Otter",
+        "Fireflies",
+        "GPT-4",
+        "Notion"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "8 min",
+    "featured": true,
+    "intro": "El fin de las notas a mano en las reuniones. Este flujo de trabajo garantiza que cada minuto de charla se convierta en una tarea accionable en tu gestor de proyectos.",
+    "problem": "Se pierde el 50% de las decisiones tomadas en reuniones debido a actas incompletas o que simplemente nunca se escriben.",
+    "solution": "Uso de grabadores de IA con RAG para generar minutas ejecutivas y sincronizarlas con el stack de productividad del equipo.",
+    "tools_used": [
+        {
+            "id": "fireflies",
+            "name": "Fireflies / Otter",
+            "reason": "Para la captura y transcripción precisa del audio."
+        },
+        {
+            "id": "notion",
+            "name": "Notion",
+            "reason": "Como repositorio central de actas y base de datos de tareas."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Integración del Bot",
+            "content": "Conecta tu calendario de Google o Outlook con Fireflies para que el bot asista a todas las reuniones con enlace de video.",
+            "tip": "Avisa al principio de la llamada que la sesión está siendo transcrita para transparencia y ética."
+        },
+        {
+            "title": "Procesamiento Post-Llamada",
+            "content": "Configura un trigger en Make que, al finalizar la grabación, envíe la transcripción a OpenAI para el resumen ejecutivo.",
+            "prompt": "Genera la minuta de esta reunión: {transcripcion}. Incluye: Tareas asignadas (Asignado/Tarea), Decisiones críticas y Próximos pasos.",
+            "promptLabel": "Prompt Minuta Ejecutiva"
+        }
+    ],
+    "flow": {
+        "title": "Arquitectura Reuniones 2.0",
+        "nodes": [
+            {
+                "name": "Reunión Live",
+                "icon": "📹"
+            },
+            {
+                "name": "Transcripción IA",
+                "icon": "🔡"
+            },
+            {
+                "name": "Resumen Acción",
+                "icon": "📋"
+            },
+            {
+                "name": "Sincro Notion",
+                "icon": "📓"
+            }
+        ]
+    }
+}

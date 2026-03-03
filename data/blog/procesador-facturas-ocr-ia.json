@@ -1,0 +1,66 @@
+{
+    "title": "Procesador de Facturas OCR: Elimina la carga administrativa contable",
+    "description": "Blueprint de Operaciones: Automatiza la lectura de facturas y su registro en tu sistema contable usando inteligencia artificial.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "operaciones",
+    "tags": [
+        "operaciones",
+        "contabilidad",
+        "OCR",
+        "finanzas",
+        "Make.com"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "11 min",
+    "featured": true,
+    "intro": "Picar datos de facturas manualmente es propenso a errores y una pérdida de talento. Este flujo 'lee' los adjuntos de tus correos y extrae montos, fechas e impuestos automáticamente.",
+    "problem": "La gestión de cuentas por pagar se vuelve un cuello de botella al final de mes debido a la carga de procesamiento manual.",
+    "solution": "Uso de modelos vision de IA para extraer datos estructurados de imágenes o PDFs y sincronizarlos con ERPs o Google Sheets.",
+    "tools_used": [
+        {
+            "id": "openai",
+            "name": "GPT-4o (Vision)",
+            "reason": "Para leer facturas con formatos complejos o fotos de tickets."
+        },
+        {
+            "id": "make",
+            "name": "Make.com",
+            "reason": "Para conectar el email de administración con la base de datos."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Trigger de Email",
+            "content": "Configura un filtro en Gmail para que todos los correos con la palabra 'factura' o 'invoice' envíen su adjunto a Make.",
+            "tip": "Usa una dirección de correo dedicada como facturacion@tuempresa.com."
+        },
+        {
+            "title": "Extracción por Visión",
+            "content": "Envía el archivo al módulo de OpenAI con instrucciones claras de extracción en JSON.",
+            "prompt": "Extrae de esta imagen: 1. Nombre Proveedor, 2. Base Imponible, 3. IVA, 4. Total, 5. Fecha Vencimiento.",
+            "promptLabel": "Prompt OCR Contable"
+        }
+    ],
+    "flow": {
+        "title": "Automatización Contable Vision",
+        "nodes": [
+            {
+                "name": "Email Entrada",
+                "icon": "📧"
+            },
+            {
+                "name": "Análisis Vision",
+                "icon": "👁️"
+            },
+            {
+                "name": "Validación Datos",
+                "icon": "✔️"
+            },
+            {
+                "name": "ERP / Sheets",
+                "icon": "🏦"
+            }
+        ]
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "title": "Screening de CVs Masivo: Cómo filtrar cientos de aplicaciones en minutos",
+    "description": "Blueprint avanzado para RRHH: Automatiza el filtrado inicial de candidatos basándote en criterios técnicos y culturales usando OpenAI y Claude.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "rrhh",
+    "tags": [
+        "rrhh",
+        "reclutamiento",
+        "screening",
+        "OpenAI",
+        "Claude",
+        "automatización"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "12 min",
+    "featured": true,
+    "intro": "En procesos de selección masivos, el equipo de Talent Acquisition suele dedicar el 60% de su tiempo a descartar perfiles que no cumplen los mínimos técnicos. Este Blueprint elimina esa carga administrativa, permitiendo a los reclutadores enfocarse solo en las entrevistas de valor.",
+    "problem": "El volumen de candidatos por vacante es inmanejable manualmente, lo que causa fatiga en los reclutadores y una mala experiencia para el candidato por la demora en las respuestas.",
+    "solution": "Un flujo que extrae el texto de los CVs (PDF) y los evalúa contra una rúbrica ciega de competencias usando IA, asignando una puntuación de fit y un resumen del porqué de la nota.",
+    "tools_used": [
+        {
+            "id": "openai",
+            "name": "OpenAI API",
+            "reason": "Para el análisis lógico de competencias y scoring."
+        },
+        {
+            "id": "make",
+            "name": "Make.com",
+            "reason": "Orquestador del flujo desde el ATS o carpeta de entrada."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Configura tu 'Caja de Entrada'",
+            "content": "Crea una carpeta en Drive o conecta tu ATS (Lever, Greenhouse) para que cada nuevo CV dispare el flujo.",
+            "tip": "Usa una nomenclatura estandarizada para los archivos de CV para facilitar el seguimiento."
+        },
+        {
+            "title": "Extracción de Texto asistida por IA",
+            "content": "Pasa el PDF por un módulo de OCR o lectura directa en Make. Envía el texto crudo al Agente Evaluador.",
+            "tip": "Claude 3.5 Sonnet es excelente extrayendo datos estructurados de PDFs complejos."
+        },
+        {
+            "title": "El Prompt de Evaluación Crítica",
+            "content": "Define una rúbrica de 1 a 5 para cada requisito clave de la vacante.",
+            "prompt": "Actúa como un reclutador senior. Evalúa este CV: {texto_cv}. Puntuación de 1 a 10 en: 1. Python, 2. Experiencia en SaaS, 3. Liderazgo. Justifica brevemente.",
+            "promptLabel": "Prompt de Reclutamiento"
+        }
+    ],
+    "flow": {
+        "title": "Flujo de Screening Masivo",
+        "nodes": [
+            {
+                "name": "Entrada CV (PDF)",
+                "icon": "📄"
+            },
+            {
+                "name": "Extracción Texto",
+                "icon": "🔍"
+            },
+            {
+                "name": "Evaluación IA",
+                "icon": "🧠"
+            },
+            {
+                "name": "Reporte Fit",
+                "icon": "📊"
+            }
+        ]
+    }
+}
