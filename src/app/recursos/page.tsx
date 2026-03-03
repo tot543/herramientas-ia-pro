@@ -10,8 +10,8 @@ export const metadata = {
 };
 
 export default function RecursosIndex() {
-    const tools = getAllTools();
-    const comparisons = getAllComparisons();
+    const tools = getAllTools().filter(t => t.slug);
+    const comparisons = getAllComparisons().filter(c => c.slug);
 
     return (
         <div className="max-w-6xl mx-auto px-4 py-16">
