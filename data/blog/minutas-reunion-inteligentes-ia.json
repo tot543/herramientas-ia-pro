@@ -43,6 +43,7 @@
             "promptLabel": "Prompt Minuta Ejecutiva"
         }
     ],
+    "conclusion": "La capacidad de convertir una hora de conversación en un acta estructurada y ejecutable es el 'superpoder' de los equipos modernos. Este blueprint elimina la ambigüedad post-reunión y garantiza que las decisiones se conviertan en progreso real.",
     "flow": {
         "title": "Arquitectura Reuniones 2.0",
         "nodes": [

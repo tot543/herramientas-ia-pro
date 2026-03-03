@@ -42,6 +42,7 @@
             "promptLabel": "Prompt OCR Contable"
         }
     ],
+    "conclusion": "Eliminar la fricción contable permite al equipo financiero enfocarse en el análisis y no en la transcripción. Este blueprint es el primer paso hacia una administración 100% digital y sin errores humanos.",
     "flow": {
         "title": "Automatización Contable Vision",
         "nodes": [

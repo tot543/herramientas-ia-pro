@@ -43,6 +43,7 @@
             "promptLabel": "Prompt Lead Scoring"
         }
     ],
+    "conclusion": "Implementar un calificador de leads con IA no solo ahorra tiempo al equipo comercial, sino que asegura que cada llamada agendada tenga una alta probabilidad de conversión. Es la pieza final para un embudo de ventas que realmente escala sin aumentar la fatiga del equipo.",
     "flow": {
         "title": "Embudo Calificación Automática",
         "nodes": [

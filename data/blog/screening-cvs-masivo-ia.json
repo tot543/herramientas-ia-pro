@@ -48,6 +48,7 @@
             "promptLabel": "Prompt de Reclutamiento"
         }
     ],
+    "conclusion": "El screening masivo con IA devuelve a RRHH su función más valiosa: la humana. Al filtrar lo técnico en segundos, las entrevistas se centran en el fit cultural y el potencial real, acelerando las contrataciones críticas.",
     "flow": {
         "title": "Flujo de Screening Masivo",
         "nodes": [

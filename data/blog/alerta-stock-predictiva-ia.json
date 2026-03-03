@@ -42,6 +42,7 @@
             "promptLabel": "Prompt Análisis Inventario"
         }
     ],
+    "conclusion": "La automatización del inventario no es solo comodidad, es protección de margen. Implementar este blueprint asegura que nunca pierdas una venta por falta de stock mientras optimizas el capital inmovilizado.",
     "flow": {
         "title": "Flujo Inventario Inteligente",
         "nodes": [

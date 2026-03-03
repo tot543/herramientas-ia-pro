@@ -42,6 +42,7 @@
             "promptLabel": "Prompt JD Builder"
         }
     ],
+    "conclusion": "Un generador de JDs con IA no solo ahorra horas de redacción, sino que eleva la calidad del talento atraído al hablar su mismo idioma técnico y cultural. Es la herramienta esencial para cualquier equipo de reclutamiento que busque excelencia.",
     "flow": {
         "title": "Arquitectura Job Description IA",
         "nodes": [

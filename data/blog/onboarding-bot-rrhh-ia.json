@@ -40,6 +40,7 @@
             "tip": "Incluye una instrucción de 'escalar a humano' si la pregunta es sobre temas sensibles."
         }
     ],
+    "conclusion": "Un onboarding automatizado garantiza que cada nuevo empleado reciba la misma calidad de atención y cultura desde el minuto uno. Es la inversión más rentable para reducir la rotación temprana y aumentar la productividad del equipo.",
     "flow": {
         "title": "Flujo de Onboarding Asistido",
         "nodes": [
