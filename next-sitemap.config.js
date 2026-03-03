@@ -40,7 +40,16 @@ module.exports = {
             };
         }
 
-        // Recursos (herramientas): prioridad media
+        // Recursos (herramientas): prioridad media-alta
+        if (path === "/recursos/" || path === "/recursos") {
+            return {
+                loc: path,
+                changefreq: "weekly",
+                priority: 0.8,
+                lastmod: new Date().toISOString(),
+            };
+        }
+
         if (path.startsWith("/recursos/")) {
             return {
                 loc: path,

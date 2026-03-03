@@ -1,0 +1,89 @@
+{
+    "title": "Factoría de Formación: De PDF Aburrido a Curso Interactivo en 10 Minutos",
+    "description": "Blueprint estratégico para RRHH: Cómo transformar manuales de procesos estáticos en vídeos con avatares y presentaciones interactivas usando Synthesia y Gamma.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "rrhh",
+    "tags": [
+        "L&D",
+        "formación",
+        "RRHH",
+        "Synthesia",
+        "Gamma",
+        "onboarding",
+        "AI-Video"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "10 min",
+    "featured": false,
+    "intro": "Nadie lee los manuales de 50 páginas. En la era de TikTok, la formación corporativa debe ser visual, breve y humana. En este Blueprint te enseñamos a montar una factoría de contenido educativo que toma un texto plano de Notion y lo convierte en una experiencia de aprendizaje completa con presentadores virtuales y diapositivas de diseño premium.",
+    "problem": "El conocimiento interno de las empresas muere en documentos de Word o Notion que nadie consulta. Esto genera errores operativos constantes y una curva de aprendizaje lenta para los nuevos empleados.",
+    "solution": "Un flujo de trabajo que descompone procesos complejos, utiliza Gamma para el diseño visual instantáneo y Synthesia para añadir un 'profesor' virtual que explica el contenido de forma empática y clara.",
+    "tools_used": [
+        {
+            "id": "synthesia",
+            "name": "Synthesia",
+            "reason": "Plataforma líder en avatares corporativos con soporte multi-idioma excelente."
+        },
+        {
+            "id": "gamma",
+            "name": "Gamma.app",
+            "reason": "Generador de presentaciones y sitios web a partir de texto con un diseño impecable."
+        },
+        {
+            "id": "notion",
+            "name": "Notion",
+            "reason": "Base de datos de procesos donde reside el conocimiento crudo."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Extrae el Núcleo del Proceso",
+            "content": "Toma tu documento de proceso en Notion. Pásalo por GPT-4 pidiéndole que extraiga '5 puntos clave que un humano debe entender hoy'. Este será el guion de tu vídeo y los slides de tu presentación.",
+            "tip": "Menos es más. Un vídeo de 3 minutos es más efectivo que uno de 15 que se detiene en detalles irrelevantes."
+        },
+        {
+            "title": "Genera el Deck Visual con Gamma",
+            "content": "Entra en Gamma.app y pega los 5 puntos clave. La IA generará automáticamente el diseño, las imágenes y la estructura profesional. Ajusta los colores a tu branding corporativo.",
+            "tip": "Usa la función de 'Embed' de Gamma para insertar la presentación final directamente en tu intranet."
+        },
+        {
+            "title": "Crea al Profesor Virtual en Synthesia",
+            "content": "Pega el guion en Synthesia. Elige un avatar que se ajuste a la cultura de tu empresa (formal o casual). Configura gestos de manos y expresiones de cabeza para que la comunicación sea más natural.",
+            "prompt": "Guion para el Avatar:\n\"Hola equipo, hoy vamos a ver cómo procesar una factura en 3 pasos. Primero, validamos en X herramienta. Segundo...\"\n\nInstrucciones de expresión: {emocion: profesional, ritmo: pausado}",
+            "promptLabel": "Configuración de Guion Synthesia"
+        },
+        {
+            "title": "Ensambla y Publica",
+            "content": "Inserta el vídeo de Synthesia en la primera slide de tu Gamma o en tu página de Onboarding en Notion. Ahora tienes un proceso 'vivo' que cualquier empleado puede consumir en minutos.",
+            "tip": "Añade un pequeño cuestionario al final (ej: con Typeform o Google Forms) para validar que el empleado ha entendido el proceso."
+        }
+    ],
+    "flow": {
+        "title": "Arquitectura de la Factoría Educativa",
+        "nodes": [
+            {
+                "name": "Notion (Docs)",
+                "icon": "📄"
+            },
+            {
+                "name": "OpenAI (Guion)",
+                "icon": "✍️"
+            },
+            {
+                "name": "Gamma (Visual)",
+                "icon": "🎨"
+            },
+            {
+                "name": "Synthesia (Vídeo)",
+                "icon": "🎬"
+            },
+            {
+                "name": "LMS / Intranet",
+                "icon": "🚀"
+            }
+        ]
+    },
+    "conclusion": "Transformar la formación en algo visual no es un lujo, es una necesidad operativa. Con este Blueprint, cualquier manager puede crear material de formación de nivel 'agencia' en menos de una hora.",
+    "cta": "¿Quieres ver un ejemplo real de esta formación? Suscríbete para acceder al workspace premium."
+}

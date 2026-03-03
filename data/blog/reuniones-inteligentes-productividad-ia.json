@@ -1,0 +1,89 @@
+{
+    "title": "Sistema Cero Olvidos: Reuniones Inteligentes con Fireflies y Notion",
+    "description": "Cómo transformar tus horas de reuniones en una base de datos de tareas y decisiones accionables de forma 100% automática usando IA y Make.com.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "operaciones",
+    "tags": [
+        "productividad",
+        "reuniones",
+        "Fireflies.ai",
+        "Notion",
+        "Make.com",
+        "GPT-4",
+        "operaciones"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "11 min",
+    "featured": true,
+    "intro": "El gran agujero negro de la productividad corporativa son las reuniones sin acta. Horas de discusión que terminan en el olvido. En este Blueprint vamos a construir un sistema que 'escucha' tus llamadas por ti, extrae los puntos clave y los inyecta directamente en tu gestor de proyectos como tareas pendientes.",
+    "problem": "Se pierde el 70% de la información crítica discutida en las reuniones si no hay alguien tomando notas en tiempo real. Esto genera retrabajo, olvidos de hitos clave y falta de alineación en el equipo.",
+    "solution": "Un ecosistema que utiliza Fireflies.ai para transcribir, GPT-4 para analizar la intención de los hablantes y Notion para centralizar el conocimiento y la ejecución de tareas, todo orquestado por Make.",
+    "tools_used": [
+        {
+            "id": "fireflies",
+            "name": "Fireflies.ai",
+            "reason": "El mejor agente de grabación y transcripción con integraciones nativas para Meet/Zoom."
+        },
+        {
+            "id": "openai",
+            "name": "OpenAI GPT-4",
+            "reason": "Cerebro para clasificar qué es una 'decisión' y qué es una 'tarea' a partir de texto libre."
+        },
+        {
+            "id": "notion",
+            "name": "Notion",
+            "reason": "Repositorio central para actas de reuniones y gestión de tareas de equipo."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Invita a tu Asistente a la Reunión",
+            "content": "Configura Fireflies.ai para que se una automáticamente a todas tus reuniones de calendario que tengan un link de Meet, Zoom o Teams. El bot aparecerá como un participante más y grabará todo el audio.",
+            "tip": "Cambia el nombre de tu bot en Fireflies (ej: 'Notario Blueprint Ops') para que el equipo sepa qué es y se sienta cómodo."
+        },
+        {
+            "title": "Captura el Webhook de Finalización",
+            "content": "Usa un Webhook en Make.com que escuche el evento 'Transcription Completed' de Fireflies. Esto garantiza que el proceso de análisis empiece justo cuando cierras la llamada.",
+            "tip": "Prueba el webhook primero con una reunión de 1 minuto para asegurar que los datos de la transcripción llegan correctamente."
+        },
+        {
+            "title": "Análisis de Acciones con GPT-4",
+            "content": "Pasa la transcripción completa a un módulo de OpenAI. Usa un prompt diseñado para detectar tareas (quién hace qué) y decisiones estratégicas. Pide el output en formato estructurado.",
+            "prompt": "Analiza la siguiente transcripción de reunión:\n{transcripcion}\n\nExtrae:\n1. Tareas pendientes (Nombre, Responsable, Deadline estimado).\n2. Decisiones tomadas (Breve resumen).\n3. Próxima reunión (Fecha/Hora).\n\nResponde en JSON para procesar en Notion.",
+            "promptLabel": "Prompt de Análisis de Reuniones"
+        },
+        {
+            "title": "Inyección en el Workspace de Notion",
+            "content": "Configura dos módulos de Notion en Make: uno para crear una nueva página en el 'Diario de Reuniones' y otro para añadir filas en tu base de datos de 'Tareas'. Mapea los campos de GPT-4 a Notion.",
+            "tip": "Usa el ID de la reunión de Fireflies como referencia en Notion para poder volver al audio original si hay dudas."
+        }
+    ],
+    "flow": {
+        "title": "Arquitectura Cero Olvidos",
+        "nodes": [
+            {
+                "name": "Google Meet",
+                "icon": "🎥"
+            },
+            {
+                "name": "Fireflies.ai",
+                "icon": "🖋️"
+            },
+            {
+                "name": "OpenAI",
+                "icon": "🧠"
+            },
+            {
+                "name": "Make.com",
+                "icon": "⚡"
+            },
+            {
+                "name": "Notion",
+                "icon": "📓"
+            }
+        ]
+    },
+    "conclusion": "Al implementar este sistema, liberas a tu equipo de la carga administrativa de las actas. Las reuniones se vuelven más cortas y productivas porque todos saben que la 'IA Notario' capturará cada compromiso automáticamente.",
+    "cta": "¿Quieres nuestra plantilla de Notion optimizada para este flujo? Déjanos tu email."
+}

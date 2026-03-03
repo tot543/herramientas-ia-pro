@@ -1,0 +1,88 @@
+{
+    "title": "Ventas Pro: Cómo Automatizar Vídeos de Ventas Personalizados con IA",
+    "description": "Blueprint para escalar tu prospección en frío generando vídeos personalizados para cada lead sin grabar ni una sola toma extra. Usa HeyGen y Make.com para vender mientras duermes.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "ventas",
+    "tags": [
+        "ventas",
+        "HeyGen",
+        "prospección",
+        "Make.com",
+        "video-marketing",
+        "ElevenLabs"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "14 min",
+    "featured": true,
+    "intro": "El vídeo es la herramienta de ventas más potente, pero grabarlos uno a uno para cada cliente potencial es físicamente imposible para un equipo humano. En este Blueprint, hackeamos la prospección: vamos a crear un sistema que toma los datos de tu CRM y genera automáticamente un vídeo donde tu avatar saluda al cliente, menciona su empresa y le propone una solución específica.",
+    "problem": "La prospección en frío por email tiene tasas de respuesta bajísimas. Los vídeos personalizados aumentan la conversión un 300%, pero el tiempo necesario para grabarlos impide escalar la estrategia a más de 5-10 leads al día.",
+    "solution": "Un flujo automatizado que utiliza avatares de HeyGen para clonar tu imagen y voz, permitiendo generar cientos de vídeos personalizados de alta calidad a partir de una base de datos, integrándose directamente con tu flujo de envío de emails.",
+    "tools_used": [
+        {
+            "id": "heygen",
+            "name": "HeyGen",
+            "reason": "Motor de generación de avatares con realismo cinematográfico y API robusta."
+        },
+        {
+            "id": "make",
+            "name": "Make.com",
+            "reason": "El pegamento que conecta el CRM con la generación de vídeo."
+        },
+        {
+            "id": "elevenlabs",
+            "name": "ElevenLabs",
+            "reason": "Para asegurar que la voz del avatar sea indistinguible de la tuya original."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Prepara tu Avatar y Script Base",
+            "content": "Graba un vídeo de 2 minutos sobre un fondo neutro para entrenar a tu avatar en HeyGen. En el script base, identifica las variables que quieres personalizar (ej: {nombre}, {empresa}, {interes}).",
+            "tip": "Mantén una iluminación constante; las sombras en la cara dificultan el realismo del avatar generado por IA."
+        },
+        {
+            "title": "Configura el Trigger en tu CRM",
+            "content": "En Make.com, conecta un módulo de tu CRM (Hubspot, Pipedrive o Sheets). El trigger debe dispararse cuando un lead llega a la etapa de 'Prospección'. Extrae los campos de nombre y cargo.",
+            "tip": "Asegúrate de tener un campo de 'Email' validado para evitar rebotes en el paso final."
+        },
+        {
+            "title": "Generación del Vídeo via API",
+            "content": "Usa el módulo de HeyGen en Make para enviar el script personalizado. La IA generará el vídeo en segundo plano en unos minutos. Configura la resolución a 1080p para máximo impacto profesional.",
+            "prompt": "Genera un vídeo para el lead {nombre} de la empresa {empresa}. \n\nScript:\n\"Hola {nombre}, he estado revisando lo que hacéis en {empresa} y me ha encantado vuestro enfoque en {punto_fuerte}. Creo que podríamos ayudaros a escalar vuestras operaciones usando IA. Te dejo un enlace abajo para charlar 5 min.\"",
+            "promptLabel": "Script dinámico para HeyGen API"
+        },
+        {
+            "title": "Envío Automatizado con Miniatura",
+            "content": "Una vez generado el vídeo, toma la URL y la miniatura (thumbnail) generada. Configura un módulo de Gmail o Lemlist para enviar el email al lead. El cuerpo del email debe incluir el GIF del vídeo para incentivar el clic.",
+            "tip": "Los emails que incluyen la palabra 'Vídeo' en el asunto tienen una tasa de apertura un 20% superior."
+        }
+    ],
+    "flow": {
+        "title": "Arquitectura de Ventas Pro",
+        "nodes": [
+            {
+                "name": "CRM / Leads",
+                "icon": "📁"
+            },
+            {
+                "name": "Make.com",
+                "icon": "⚡"
+            },
+            {
+                "name": "HeyGen",
+                "icon": "👤"
+            },
+            {
+                "name": "ElevenLabs",
+                "icon": "🎙️"
+            },
+            {
+                "name": "Gmail / Send",
+                "icon": "📧"
+            }
+        ]
+    },
+    "conclusion": "Con este sistema, tu equipo de ventas puede 'grabar' 100 vídeos personalizados en el tiempo que antes tardaban en tomarse un café. Es la diferencia entre disparar a ciegas y tener una conversación uno a uno con cada lead.",
+    "cta": "¿Quieres el prompt exacto de seguimiento para estos vídeos? Suscríbete y te lo enviamos."
+}
