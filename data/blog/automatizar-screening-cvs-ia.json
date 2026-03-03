@@ -68,6 +68,30 @@
             }
         ]
     },
-    "conclusion": "Con este flujo activo, cada CV que llega a tu bandeja se analiza, puntúa y clasifica automáticamente. Tu equipo de RRHH pasa de leer 200 CVs a revisar solo los 10 mejores candidatos — con un resumen ejecutivo ya preparado. El ROI es inmediato: lo que antes tomaba 2 días de trabajo ahora ocurre en tiempo real.",
+    "conclusion": "Implementar este flujo reduce el tiempo de primera revisión en un 85%. RRHH solo interviene cuando ya existe un ranking estructurado de candidatos ideales, permitiendo un reclutamiento más estratégico y menos administrativo.",
+    "problem": "El equipo de RRHH dedica más de 15 horas semanales a leer CVs manualmente, muchos de los cuales no cumplen con los requisitos mínimos. Esto retrasa la contratación de talento clave.",
+    "solution": "Un flujo automatizado que utiliza GPT-4 para analizar el contenido de los CVs adjuntos en Gmail, calificarlos según criterios personalizados y centralizar los resultados en Google Sheets con alertas en Slack.",
+    "tools_used": [
+        {
+            "id": "gmail",
+            "name": "Gmail",
+            "reason": "Puerta de entrada de las candidaturas."
+        },
+        {
+            "id": "make",
+            "name": "Make.com",
+            "reason": "Orquestador de la automatización entre servicios."
+        },
+        {
+            "id": "openai",
+            "name": "OpenAI GPT-4",
+            "reason": "Cerebro encargado del análisis cualitativo del CV."
+        },
+        {
+            "id": "google-sheets",
+            "name": "Google Sheets",
+            "reason": "Base de datos para el ranking y seguimiento."
+        }
+    ],
     "cta": "¿Quieres que te avisemos cuando publiquemos el Blueprint de Onboarding Automatizado? Suscríbete abajo."
 }

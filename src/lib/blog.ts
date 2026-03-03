@@ -34,6 +34,14 @@ export interface BlogPost {
     };
     conclusion: string;
     cta?: string;
+    // New strategic fields
+    problem?: string;
+    solution?: string;
+    tools_used?: {
+        id: string; // tool_id from tools.csv
+        name: string;
+        reason: string;
+    }[];
 }
 
 /**

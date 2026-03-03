@@ -69,6 +69,30 @@
             }
         ]
     },
-    "conclusion": "Este asistente no reemplaza la conexión humana del onboarding — la potencia. Los managers se liberan de responder las mismas preguntas 50 veces, los nuevos empleados tienen respuestas instantáneas 24/7, y RRHH tiene visibilidad total del proceso. Las empresas que implementan onboarding estructurado retienen un 82% más de talento (Gallup). Con este Blueprint, puedes tenerlo operativo en un fin de semana.",
+    "conclusion": "Este asistente no solo libera tiempo a RRHH, sino que ofrece una experiencia premium al empleado desde el minuto 1. Al automatizar las respuestas repetitivas, el equipo humano puede centrarse en la integración cultural y el bienestar del nuevo talento.",
+    "problem": "Los nuevos empleados suelen sentirse perdidos durante la primera semana, inundando a RRHH con preguntas repetitivas sobre accesos, beneficios y procesos internos.",
+    "solution": "Un bot de Slack conectado a la base de conocimientos de Notion que responde dudas frecuentes al instante y programa recordatorios automáticos de hitos de onboarding.",
+    "tools_used": [
+        {
+            "id": "slack",
+            "name": "Slack",
+            "reason": "Interfaz de comunicación con el empleado."
+        },
+        {
+            "id": "make",
+            "name": "Make.com",
+            "reason": "Automatización de mensajes y conexión de APIs."
+        },
+        {
+            "id": "notion",
+            "name": "Notion",
+            "reason": "Repositorio central de la guía de onboarding."
+        },
+        {
+            "id": "openai",
+            "name": "OpenAI GPT-4",
+            "reason": "Motor de búsqueda semántica y respuestas naturales."
+        }
+    ],
     "cta": "¿Te interesa el Blueprint de automatización de evaluaciones de desempeño? Suscríbete para recibirlo cuando lo publiquemos."
 }

@@ -155,6 +155,66 @@ export default async function BlogPostPage({ params }: PageProps) {
                     </p>
                 </div>
 
+                {/* Problem & Solution Cards */}
+                {(post.problem || post.solution) && (
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
+                        {post.problem && (
+                            <div className="bg-red-50/50 border border-red-100 rounded-3xl p-8 relative overflow-hidden group">
+                                <div className="absolute top-0 right-0 p-4 text-red-200 group-hover:text-red-300 transition-colors">
+                                    <svg className="w-12 h-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                                    </svg>
+                                </div>
+                                <h2 className="text-xl font-bold text-red-900 mb-4 flex items-center gap-2">
+                                    <span>⚠️</span> El Problema
+                                </h2>
+                                <p className="text-red-800/80 leading-relaxed text-sm">
+                                    {post.problem}
+                                </p>
+                            </div>
+                        )}
+                        {post.solution && (
+                            <div className="bg-emerald-50/50 border border-emerald-100 rounded-3xl p-8 relative overflow-hidden group">
+                                <div className="absolute top-0 right-0 p-4 text-emerald-200 group-hover:text-emerald-300 transition-colors">
+                                    <svg className="w-12 h-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.952 11.952 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                                    </svg>
+                                </div>
+                                <h2 className="text-xl font-bold text-emerald-900 mb-4 flex items-center gap-2">
+                                    <span>✅</span> La Solución
+                                </h2>
+                                <p className="text-emerald-800/80 leading-relaxed text-sm">
+                                    {post.solution}
+                                </p>
+                            </div>
+                        )}
+                    </div>
+                )}
+
+                {/* Tools Used / Tech Stack */}
+                {post.tools_used && post.tools_used.length > 0 && (
+                    <div className="mb-16">
+                        <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
+                            🛠️ Stack Tecnológico
+                        </h2>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            {post.tools_used.map((tool) => (
+                                <div key={tool.id} className="bg-white border border-gray-100 rounded-2xl p-5 hover:border-indigo-200 hover:shadow-sm transition-all flex gap-4 items-start">
+                                    <div className="w-10 h-10 rounded-xl bg-gray-50 flex items-center justify-center shrink-0 border border-gray-100">
+                                        <span className="text-xl font-bold text-indigo-400">
+                                            {tool.name.charAt(0)}
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <h3 className="font-bold text-gray-900 text-sm mb-1">{tool.name}</h3>
+                                        <p className="text-xs text-gray-500 leading-normal">{tool.reason}</p>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                )}
+
                 {/* Flow diagram (if present) */}
                 {post.flow && (
                     <FlowDiagram
