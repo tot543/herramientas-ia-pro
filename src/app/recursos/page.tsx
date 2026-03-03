@@ -55,20 +55,24 @@ export default function RecursosIndex() {
                         🛠️ Directorio de Herramientas
                     </h2>
                     <div className="grid grid-cols-1 gap-4">
-                        {tools.slice(0, 10).map((tool) => (
-                            <Link
-                                key={tool.slug}
-                                href={`/recursos/${tool.slug}/`}
-                                className="block bg-white border border-gray-200 p-5 rounded-2xl hover:border-indigo-400 hover:shadow-md transition-all group"
-                            >
-                                <h3 className="font-bold text-gray-900 group-hover:text-indigo-600 transition-colors">
-                                    {tool.nombre}
-                                </h3>
-                                <p className="text-xs text-gray-500 line-clamp-2 mt-1">
-                                    {tool.descripcion}
-                                </p>
-                            </Link>
-                        ))}
+                        {tools.length > 0 ? (
+                            tools.map((tool) => (
+                                <Link
+                                    key={tool.slug}
+                                    href={`/recursos/${tool.slug}/`}
+                                    className="block bg-white border border-gray-200 p-5 rounded-2xl hover:border-indigo-400 hover:shadow-md transition-all group"
+                                >
+                                    <h3 className="font-bold text-gray-900 group-hover:text-indigo-600 transition-colors">
+                                        {tool.nombre}
+                                    </h3>
+                                    <p className="text-xs text-gray-500 line-clamp-2 mt-1">
+                                        {tool.descripcion}
+                                    </p>
+                                </Link>
+                            ))
+                        ) : (
+                            <p className="text-gray-400 italic">Próximamente más herramientas...</p>
+                        )}
                     </div>
                 </section>
             </div>

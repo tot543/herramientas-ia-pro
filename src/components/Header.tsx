@@ -27,7 +27,7 @@ export default function Header() {
                             Blueprints
                         </Link>
                         <Link
-                            href="/recursos/mejores-ia-escritura-bloggers/"
+                            href="/recursos/"
                             className="text-sm text-gray-600 hover:text-indigo-600 font-medium transition-colors"
                         >
                             Recursos
