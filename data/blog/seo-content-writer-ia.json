@@ -1,0 +1,67 @@
+{
+    "title": "SEO Content Writer: De la Keyword al borrador maestro",
+    "description": "Blueprint de Marketing: Genera artículos de blog optimizados para SEO que no parecen escritos por un robot y que realmente posicionan.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "marketing",
+    "tags": [
+        "marketing",
+        "SEO",
+        "copywriting",
+        "IA-generativa",
+        "blogging"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "14 min",
+    "featured": false,
+    "intro": "Llenar internet de contenido basura no sirve para nada. Este flujo se centra en crear contenido de calidad, bien estructurado y con datos reales para escalar tu visibilidad orgánica.",
+    "problem": "La mayoría de escritores de IA generan contenido repetitivo, con 'alucinaciones' y sin una estructura de encabezados correcta para Google.",
+    "solution": "Uso de un enfoque de 'cadena de prompts' (chain-of-thought) que primero investiga, luego esquema y finalmente redacta sección por sección.",
+    "tools_used": [
+        {
+            "id": "openai",
+            "name": "OpenAI GPT-4o",
+            "reason": "Por su capacidad para seguir instrucciones complejas de formato."
+        },
+        {
+            "id": "ahrefs",
+            "name": "Ahrefs / Semrush",
+            "reason": "Para obtener las keywords reales y la intención de búsqueda."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Creación del Esquema Maestros",
+            "content": "No redactes de golpe. Pide a la IA que genere un índice (H2, H3) basado en las preguntas más frecuentes de los usuarios.",
+            "tip": "Incluye una sección de 'Preguntas Frecuentes' al final para capturar fragmentos destacados (featured snippets)."
+        },
+        {
+            "title": "Redacción con Voz de Marca",
+            "content": "Pasa cada encabezado uno a uno pidiendo un tono específico. Aporta datos o fuentes externas si es posible.",
+            "prompt": "Escribe la sección H2: {titulo_h2}. Usa un tono profesional pero directo. Incluye una lista de puntos clave y termina con una transición al siguiente punto.",
+            "promptLabel": "Prompt Redacción SEO"
+        }
+    ],
+    "conclusion": "Un buen contenido SEO por IA requiere supervisión humana (Human-in-the-loop). El objetivo es acelerar la redacción del primer borrador en un 80%, no eliminar al editor.",
+    "flow": {
+        "title": "Fábrica de Contenido SEO",
+        "nodes": [
+            {
+                "name": "Keyword Research",
+                "icon": "🔑"
+            },
+            {
+                "name": "Estructura H2/H3",
+                "icon": "🏗️"
+            },
+            {
+                "name": "Redacción IA",
+                "icon": "✍️"
+            },
+            {
+                "name": "Optimización On-Page",
+                "icon": "🔍"
+            }
+        ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "title": "Ghostwriter de LinkedIn: Crea autoridad personal con IA",
+    "description": "Blueprint de Productividad: Transforma tus ideas sueltas y aprendizajes diarios en posts de LinkedIn con formato viral y profesional.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "productividad",
+    "tags": [
+        "productividad",
+        "LinkedIn",
+        "marca-personal",
+        "personal-branding",
+        "copywriting"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "9 min",
+    "featured": false,
+    "intro": "Todos tenemos algo valioso que contar, pero pocos tienen el tiempo para darle el formato correcto para que LinkedIn lo premie con visibilidad.",
+    "problem": "El miedo a la 'página en blanco' y no conocer las dinámicas de engagement de LinkedIn frena el crecimiento de marca personal de muchos expertos.",
+    "solution": "Un Agente de Redacción entrenado en tu propio estilo de voz que estructura tus ideas en los formatos que mejor funcionan (listas, historias, comparativas).",
+    "tools_used": [
+        {
+            "id": "taplio",
+            "name": "Taplio / AuthoredUp",
+            "reason": "Herramientas específicas para optimizar el formato y analitica en LinkedIn."
+        },
+        {
+            "id": "openai",
+            "name": "OpenAI API",
+            "reason": "Cerebro creativo para expandir ideas base en narrativas completas."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Vaciado de Ideas (Brain-dump)",
+            "content": "Anota 3 líneas sobre algo que hayas aprendido hoy o una opinión sobre tu sector.",
+            "tip": "La autenticidad gana al algoritmo. Habla de tus errores, no solo de tus éxitos."
+        },
+        {
+            "title": "Estructuración en 'LinkedIn Format'",
+            "content": "Pide a la IA que use un 'hook' potente (gancho inicial) y deje espacios en blanco para facilitar la lectura en móvil.",
+            "prompt": "Toma esta idea: {idea}. Redacta un post de LinkedIn. Estructura: Gancho corto, 3 puntos con emojis, conclusión con pregunta para fomentar comentarios.",
+            "promptLabel": "Prompt Post Viral LinkedIn"
+        }
+    ],
+    "conclusion": "Tu marca personal es tu mayor activo profesional. Usar IA para mantener la constancia en LinkedIn es la forma más inteligente de atraer oportunidades en piloto automático.",
+    "flow": {
+        "title": "Sistema Marca Personal IA",
+        "nodes": [
+            {
+                "name": "Idea Cruda",
+                "icon": "💡"
+            },
+            {
+                "name": "IA Editora",
+                "icon": "✍️"
+            },
+            {
+                "name": "Ajuste de Tono",
+                "icon": "🎭"
+            },
+            {
+                "name": "Publicación",
+                "icon": "🚀"
+            }
+        ]
+    }
+}

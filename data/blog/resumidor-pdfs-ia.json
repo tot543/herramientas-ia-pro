@@ -1,0 +1,67 @@
+{
+    "title": "Resumidor de PDFs: Destila conocimiento de documentos densos",
+    "description": "Blueprint de Productividad: Cómo extraer los puntos clave de documentos legales, técnicos o manuales de 50+ páginas en segundos.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "productividad",
+    "tags": [
+        "productividad",
+        "aprendizaje-rapido",
+        "PDF",
+        "RAG",
+        "IA-analista"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "7 min",
+    "featured": false,
+    "intro": "Vivimos infoxicados. Este Blueprint te enseña a crear tu propio 'analista de lectura' que separa el ruido de la información valiosa en cualquier documento largo.",
+    "problem": "Leer manuales técnicos o contratos legales consume horas de concentración que el profesional moderno no siempre tiene disponible.",
+    "solution": "Uso de herramientas de lectura de documentos con IA que permiten chatear con el archivo y pedir resúmenes ejecutivos por secciones.",
+    "tools_used": [
+        {
+            "id": "chatwithpdf",
+            "name": "ChatPDF / Claude",
+            "reason": "Excelente ventana de contexto para procesar documentos largos."
+        },
+        {
+            "id": "notion",
+            "name": "Notion",
+            "reason": "Para guardar los resúmenes y crear una base de conocimiento."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Ingesta y Limpieza",
+            "content": "Sube tu archivo a una herramienta que soporte documentos extensos. Asegúrate de que el OCR sea de buena calidad si es un escaneo.",
+            "tip": "Claude 3.5 Sonnet es actualmente el mejor modelo para entender matices en documentos legales complejos."
+        },
+        {
+            "title": "Interrogación Estratégica",
+            "content": "No pidas 'un resumen'. Haz preguntas específicas: '¿Cuáles son las 3 cláusulas de riesgo?' o '¿Qué pasos técnicos requiere la instalación?'.",
+            "prompt": "Extrae los 5 puntos clave de este documento: {archivo}. Redáctalos como si fueran para un CEO con poco tiempo.",
+            "promptLabel": "Prompt Analista PDF"
+        }
+    ],
+    "conclusion": "La productividad real no es leer más rápido, es leer menos gracias a la capacidad de síntesis de la IA. Es el filtro definitivo contra la burocracia documental.",
+    "flow": {
+        "title": "Proceso de Digestión Documental",
+        "nodes": [
+            {
+                "name": "Documento Denso",
+                "icon": "📄"
+            },
+            {
+                "name": "Escaneo IA",
+                "icon": "🔍"
+            },
+            {
+                "name": "Extracción Clave",
+                "icon": "⚗️"
+            },
+            {
+                "name": "Resumen Acción",
+                "icon": "✅"
+            }
+        ]
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "title": "Resumidor de Desempeño: Evaluaciones objetivas en segundos",
+    "description": "Blueprint de RRHH: Convierte notas dispersas y feedback de reuniones en evaluaciones de desempeño profesionales y sin sesgos.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "rrhh",
+    "tags": [
+        "rrhh",
+        "evaluacion-desempeño",
+        "talent-management",
+        "IA-texto"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "9 min",
+    "featured": false,
+    "intro": "Las evaluaciones de desempeño suelen ser una carga administrativa que los managers posponen. Este flujo utiliza la IA para sintetizar meses de observaciones en un informe estructurado y constructivo.",
+    "problem": "Los managers olvidan logros clave del trimestre o redactan evaluaciones vagas que no ayudan al crecimiento del empleado.",
+    "solution": "Un Agente de Síntesis que procesa 'bullets' de notas y los transforma en párrafos narrativos alineados con las competencias de la empresa.",
+    "tools_used": [
+        {
+            "id": "openai",
+            "name": "OpenAI GPT-4",
+            "reason": "Para la redacción de informes con tono profesional y empático."
+        },
+        {
+            "id": "notion",
+            "name": "Notion",
+            "reason": "Donde se almacenan las notas de seguimiento y el feedback."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Recolección de Feedback",
+            "content": "Utiliza una base de datos en Notion para capturar 'momentos de feedback' constantes durante el año.",
+            "tip": "No esperes a la revisión anual. Anota una frase cada vez que veas un buen desempeño."
+        },
+        {
+            "title": "Generación del Informe",
+            "content": "Pasa los puntos clave al Agente de IA para que redacte el borrador final siguiendo la estructura corporativa.",
+            "prompt": "Actúa como un Manager Senior. Basado en estas notas: {notas}, redacta una evaluación de desempeño. Estructura: Logros, Áreas de mejora y Recomendación de carrera.",
+            "promptLabel": "Prompt Redacción Desempeño"
+        }
+    ],
+    "conclusion": "Automatizar la redacción de evaluaciones no solo ahorra tiempo, sino que mejora la calidad del feedback recibido por el empleado al ser más detallado y específico.",
+    "flow": {
+        "title": "Flujo Evaluación Inteligente",
+        "nodes": [
+            {
+                "name": "Notas Trimestrales",
+                "icon": "📝"
+            },
+            {
+                "name": "IA Analista",
+                "icon": "🧠"
+            },
+            {
+                "name": "Borrador Revisión",
+                "icon": "📄"
+            },
+            {
+                "name": "Reunión 1-a-1",
+                "icon": "🤝"
+            }
+        ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "title": "Auditor de Gastos: Control financiero sin micro-management",
+    "description": "Blueprint de Operaciones: Escanea tickets y gastos de empleados detectando irregularidades o fraudes de forma automática con IA Vision.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "operaciones",
+    "tags": [
+        "operaciones",
+        "finanzas",
+        "auditoria",
+        "IA-Vision",
+        "compliance"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "12 min",
+    "featured": false,
+    "intro": "Revisar cada ticket de comida o transporte es un uso ineficiente del tiempo del equipo financiero. Deja que la IA haga la auditoría de primer nivel.",
+    "problem": "El fraude accidental (gastos duplicados o fuera de política) drena capital que las empresas pequeñas no pueden permitirse perder.",
+    "solution": "Un inspector de gastos que compara cada foto de ticket con la política de gastos de la empresa y marca solo los sospechosos.",
+    "tools_used": [
+        {
+            "id": "openai",
+            "name": "GPT-4o (Vision)",
+            "reason": "Capacidad para leer fotos de tickets de baja calidad y extraer importes."
+        },
+        {
+            "id": "make",
+            "name": "Make.com",
+            "reason": "Orquestador que archiva los tickets aprobados en la nube."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Digitalización por el Empleado",
+            "content": "Define un canal de Slack o una app simple donde el empleado suba la foto del gasto al momento.",
+            "tip": "Cuanto antes se suba el ticket, menos posibilidades hay de que se pierda o deteriore."
+        },
+        {
+            "title": "Cotejo con Política Interna",
+            "content": "Pasa la imagen y los datos extraídos por el Agente Auditor. Comprueba límites de gasto y tipo de servicio.",
+            "prompt": "Extrae el total del ticket y dime si es un gasto de 'Restauración'. Si supera los 50€, márcalo como 'Revisión Manual'.",
+            "promptLabel": "Prompt Auditor Financiero"
+        }
+    ],
+    "conclusion": "La auditoría por IA actúa como un filtro preventivo que educa al empleado y libera al departamento financiero de tareas repetitivas.",
+    "flow": {
+        "title": "Flujo Auditoría Gastos",
+        "nodes": [
+            {
+                "name": "Foto Ticket",
+                "icon": "📸"
+            },
+            {
+                "name": "Lectura OCR IA",
+                "icon": "🔍"
+            },
+            {
+                "name": "Verificación Política",
+                "icon": "🛡️"
+            },
+            {
+                "name": "Aprobación / Alerta",
+                "icon": "🚩"
+            }
+        ]
+    }
+}

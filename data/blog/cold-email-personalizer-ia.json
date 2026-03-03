@@ -1,0 +1,67 @@
+{
+    "title": "Cold Email Personalizer: Escala tu prospección con alma",
+    "description": "Blueprint de Ventas: Investiga el perfil de LinkedIn de tus prospectos y redacta correos de venta únicos que no parecen spam.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "marketing",
+    "tags": [
+        "marketing",
+        "ventas",
+        "email-marketing",
+        "prospección",
+        "personalización-IA"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "11 min",
+    "featured": true,
+    "intro": "Los correos masivos de copia y pega ya no funcionan. Este Blueprint te ayuda a automatizar la parte humana del proceso: la investigación previa.",
+    "problem": "Personalizar un correo de venta lleva 15 minutos por lead. Automatizarlo sin IA lo hace sonar robótico y genérico.",
+    "solution": "Céreas un Agente de Investigación que 'lee' los últimos posts o la descripción de LinkedIn del lead para generar un rompehielo (icebreaker) genuino.",
+    "tools_used": [
+        {
+            "id": "browserless",
+            "name": "Phantombuster / Apollo",
+            "reason": "Para extraer datos de perfiles de LinkedIn de forma ética."
+        },
+        {
+            "id": "openai",
+            "name": "OpenAI GPT-4",
+            "reason": "Cerebro redactor para crear el mensaje personalizado."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Extracción de Datos de Contexto",
+            "content": "Configura una automatización que extraiga el 'Acerca de' y los últimos 3 posts de tu lista de prospectos.",
+            "tip": "Enfócate en prospectos que hayan tenido actividad reciente (menos de 30 días)."
+        },
+        {
+            "title": "Redacción del 'Rompehielo'",
+            "content": "Pide a la IA que genere una frase introductoria basada UNICAMENTE en la información extraída, evitando halagos genéricos.",
+            "prompt": "Basado en este perfil de LinkedIn: {perfil}, escribe una frase de apertura para un email comercial que mencione un logro reciente suyo. Evita sonar adulador.",
+            "promptLabel": "Prompt Icebreaker Ventas"
+        }
+    ],
+    "conclusion": "La personalización por IA permite mantener conversiones de 'artesano' con volúmenes de 'fábrica'. Es el equilibrio perfecto para ventas B2B.",
+    "flow": {
+        "title": "Embudo Prospección Hiper-Personalizada",
+        "nodes": [
+            {
+                "name": "Lista Leads",
+                "icon": "📋"
+            },
+            {
+                "name": "Scraping Perfil",
+                "icon": "🌐"
+            },
+            {
+                "name": "IA Redactora",
+                "icon": "✍️"
+            },
+            {
+                "name": "Envío Secuencia",
+                "icon": "📧"
+            }
+        ]
+    }
+}

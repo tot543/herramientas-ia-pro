@@ -1,0 +1,67 @@
+{
+    "title": "Clasificador de Tickets: Soporte al cliente en piloto automático",
+    "description": "Blueprint de Operaciones: Usa IA para etiquetar y asignar cada solicitud de soporte al departamento adecuado al instante.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "operaciones",
+    "tags": [
+        "operaciones",
+        "soporte",
+        "customer-service",
+        "clasificación-IA",
+        "eficiencia"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "10 min",
+    "featured": true,
+    "intro": "Un ticket mal asignado es un cliente que espera de más. Este sistema lee la intención del usuario y lo dirige a la persona experta sin intervención humana.",
+    "problem": "El equipo de soporte dedica la primera hora del día solo a mover tickets de una bandeja a otra.",
+    "solution": "Un Agente de Triage basado en NLP que analiza el sentimiento y la urgencia para priorizar problemas críticos.",
+    "tools_used": [
+        {
+            "id": "openai",
+            "name": "OpenAI API",
+            "reason": "Para el análisis de lenguaje natural y clasificación semántica."
+        },
+        {
+            "id": "zendesk",
+            "name": "Zendesk / Intercom",
+            "reason": "Plataforma de destino para la gestión de los tickets."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Módulo de Escucha Semántica",
+            "content": "Conecta tu entrada de tickets (email o chat) con un webhook que envíe el texto a la IA.",
+            "tip": "Crea una lista cerrada de 'Etiquetas' permitidas para que la IA no invente nuevas categorías."
+        },
+        {
+            "title": "Análisis de Urgencia e Intención",
+            "content": "Configura el prompt para que detecte si el cliente está enfadado o si es un problema técnico de bloqueo total.",
+            "prompt": "Clasifica este ticket: {texto_ticket}. Categorías: [Pago, Bug, Duda, Reclamación]. Urgencia: 1-5. Sentimiento: [Negativo, Neutro, Positivo].",
+            "promptLabel": "Prompt Triage Soporte"
+        }
+    ],
+    "conclusion": "Implementar triage automático reduce el tiempo de primera respuesta (FRT) en un 40%, mejorando directamente la satisfacción del cliente (CSAT).",
+    "flow": {
+        "title": "Arquitectura Triage IA",
+        "nodes": [
+            {
+                "name": "Ticket Entrante",
+                "icon": "📩"
+            },
+            {
+                "name": "Análisis Semántico",
+                "icon": "🔍"
+            },
+            {
+                "name": "Asignación Depto",
+                "icon": "🏷️"
+            },
+            {
+                "name": "Resolución Rápida",
+                "icon": "⚡"
+            }
+        ]
+    }
+}

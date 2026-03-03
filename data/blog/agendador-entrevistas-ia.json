@@ -1,0 +1,67 @@
+{
+    "title": "Agendador de Entrevistas: Coordinación perfecta sin fricción",
+    "description": "Blueprint de RRHH: Automatiza la agenda de entrevistas entre candidatos y múltiples managers eliminando el intercambio infinito de correos.",
+    "date": "2026-03-03",
+    "lastModified": "2026-03-03",
+    "category": "rrhh",
+    "tags": [
+        "rrhh",
+        "reclutamiento",
+        "calendario",
+        "automatización",
+        "experiencia-candidato"
+    ],
+    "author": "Blueprint Ops",
+    "readingTime": "8 min",
+    "featured": false,
+    "intro": "La rapidez en agendar marca la diferencia entre contratar al mejor talento o perderlo frente a la competencia. Este flujo garantiza una agenda inmediata.",
+    "problem": "Coordinar la agenda de tres directivos diferentes para entrevistar a un candidato puede tardar días en materializarse vía email.",
+    "solution": "Integración de calendarios compartidos con lógica de reserva automática que solo muestra huecos comunes a todos los entrevistadores.",
+    "tools_used": [
+        {
+            "id": "calendly",
+            "name": "Calendly / SavvyCal",
+            "reason": "Gestión de disponibilidad multi-usuario."
+        },
+        {
+            "id": "make",
+            "name": "Make.com",
+            "reason": "Para actualizar el estatus en el ATS al confirmar la cita."
+        }
+    ],
+    "steps": [
+        {
+            "title": "Configuración de Disponibilidad Grupal",
+            "content": "Crea un enlace de tipo 'Round Robin' o 'Collective' que verifique los calendarios de los managers implicados.",
+            "tip": "Deja huecos de 15 minutos entre entrevistas para que los managers puedan tomar notas."
+        },
+        {
+            "title": "Trigger tras Screening",
+            "content": "Cuando un candidato pasa el filtro inicial, envíale automáticamente el link de agenda personalizado.",
+            "prompt": "Genera un correo amable invitando al candidato a elegir un hueco: 'Hola {nombre}, estamos impresionados con tu CV...'",
+            "promptLabel": "Prompt Invitación Entrevista"
+        }
+    ],
+    "conclusion": "Reducir el tiempo de coordinación de días a minutos mejora drásticamente la percepción de profesionalidad de la empresa ante el candidato.",
+    "flow": {
+        "title": "Flujo de Agenda Automática",
+        "nodes": [
+            {
+                "name": "Fit Candidato",
+                "icon": "✅"
+            },
+            {
+                "name": "Envío Link Cita",
+                "icon": "📧"
+            },
+            {
+                "name": "Selección Hueco",
+                "icon": "📅"
+            },
+            {
+                "name": "Notificación Equipo",
+                "icon": "🔔"
+            }
+        ]
+    }
+}
